@@ -1,0 +1,14 @@
+Title: Sprint Makes Me Laugh
+Date: 2011-05-23 21:19
+Author: Eric
+Category: Uncategorized
+Tags: Mobile, WTH
+Slug: sprint-makes-me-laugh
+Status: published
+
+I got this flyer from Sprint. I wonder if they wrote that "protecting
+more than ever before" with a straight face or what.
+
+![Protecting more than ever before]({filename}/images/sprint-1.jpg)
+
+![New program? \$1 more!]({filename}/images/sprint-2.jpg)
