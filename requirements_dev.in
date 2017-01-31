@@ -1,0 +1,6 @@
+# These are requirements to build the site.
+invoke
+Markdown
+pelican
+pip-tools
+whoosh

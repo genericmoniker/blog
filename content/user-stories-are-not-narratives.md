@@ -17,7 +17,7 @@ definition.
 
 An example of an expert forgetting the jargon of "user story" is in a
 small section of Mike Cohn's otherwise great book [*User Stories
-Applied*](http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fproduct%2F0321205685%3Fpf%5Frd%5Fm%3DATVPDKIKX0DER%26pf%5Frd%5Fs%3Dcenter-2%26pf%5Frd%5Fr%3D05E56236CH4HNWJ1H02P%26pf%5Frd%5Ft%3D101%26pf%5Frd%5Fp%3D436518401%26pf%5Frd%5Fi%3D507846&tag=sparksfromthesmi&linkCode=ur2&camp=1789&creative=9325)![](http://www.assoc-amazon.com/e/ir?t=sparksfromthesmi&l=ur2&o=1). 
+Applied*](https://www.goodreads.com/book/show/3856.User_Stories_Applied?ac=1).
 Here, the author is talking about the benefits of user
 stories over other ways of specifying requirements:
 

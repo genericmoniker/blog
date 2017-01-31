@@ -41,7 +41,7 @@ auto-generated manifest. In the project properties, go into
 Output** and reference your manifest file in the Additional Manifest
 Files field:
 
-![Project Settings]({filename}/images/)
+![Project Settings]({filename}/images/project-settings-manifest1.jpg)
 
 Also, don't forget to call `InitCommonControls` in your application
 somewhere (preferably near the beginning!), which is declared in

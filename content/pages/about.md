@@ -29,5 +29,6 @@ using [Pelican](https://blog.getpelican.com/).
 A "smithy" is the workplace of a smith, so "esmithy" is this particular
 smith's electronic workplace.
 
-![Smithy at Cove Fort, Utah](http://esmithy.net/content/smithy.jpg)\
+![Smithy at Cove Fort, Utah]({filename}/smithy.jpg)
+
 **Smithy at Cove Fort, Utah**

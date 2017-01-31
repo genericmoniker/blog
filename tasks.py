@@ -1,28 +1,106 @@
-# -*- coding: utf-8 -*-
 import os
+import shutil
 import socketserver
 
 import sys
+from fnmatch import fnmatch
+
+import time
 from invoke import task
+from pelican import read_settings
+from pelican.readers import MarkdownReader
 
 from pelican.server import ComplexHTTPRequestHandler
 
-# Major hack. https://github.com/pyinvoke/invoke/issues/345
-CMD = r'C:\Windows\system32\cmd.EXE'
+# Note: invoke.yaml needed to work around a problem with invoke on Windows:
+# https://github.com/pyinvoke/invoke/issues/345
 
-OUTPUT = 'output'
+HERE = os.path.abspath(os.path.dirname(__file__))
+SETTINGS = os.path.join(HERE, 'pelicanconf.py')
+CONTENT = os.path.join(HERE, 'content')
+OUTPUT = os.path.join(HERE, 'output')
+INDEX = os.path.join(OUTPUT, '_search_index_')
+SITE = os.path.join(OUTPUT, '_search_index_')
 SERVE_PORT = 8000
+
+
+@task
+def requirements(ctx):
+    """Update requirements.txt from requirements.in."""
+    try:
+        os.remove(os.path.join(HERE, 'requirements.txt'))
+    except FileNotFoundError:
+        pass
+    ctx.run('pip-compile requirements.in')
+
+
+@task
+def requirements_dev(ctx):
+    """Update requirements_dev.txt from requirements_dev.in."""
+    try:
+        os.remove(os.path.join(HERE, 'requirements_dev.txt'))
+    except FileNotFoundError:
+        pass
+    ctx.run('pip-compile requirements_dev.in')
 
 
 @task
 def build(ctx):
     """Build the web site."""
-    ctx.run('pelican -D -s pelicanconf.py', color=True, shell=CMD)
+    ctx.run('pelican -s pelicanconf.py')
+
+
+@task
+def index(ctx):
+    """Build the search index."""
+    from whoosh.fields import Schema
+    from whoosh.fields import TEXT
+    from whoosh.fields import ID
+    from whoosh.index import create_in
+
+    start = time.time()
+    os.makedirs(INDEX, exist_ok=True)
+
+    schema = Schema(
+        title=TEXT(stored=True),
+        path=ID(stored=True),
+        content=TEXT)
+    ix = create_in(INDEX, schema)
+    writer = ix.writer()
+    for root, dirs, names in os.walk(CONTENT):
+        for name in names:
+            if fnmatch(name, '*.md'):
+                path = os.path.join(root, name)
+                writer.add_document(**extract_document(path))
+    writer.commit()
+    end = time.time() - start
+    print('Indexed {} documents ({:.2f} s)'.format(ix.doc_count(), end))
+
+
+def extract_document(path):
+    from pelicanconf import ARTICLE_URL
+
+    # The MarkdownReader gives the HTML and metadata, but I'm thinking the
+    # raw markdown will index better, so just using the metadata here.
+    _, metadata = MarkdownReader(read_settings(SETTINGS)).read(path)
+    url = ARTICLE_URL.format(**metadata)
+    with open(path, 'r', encoding='utf-8') as f:
+        content = f.read()
+    return dict(
+        title=metadata['title'],
+        path=url,
+        content=content)
+
+
+@task
+def clean(ctx):
+    """Clean the build output."""
+    shutil.rmtree(OUTPUT)
 
 
 @task
 def serve(ctx):
-    """Start a web server to serve up the site."""
+    """Start a web server to serve up the site (blocks)."""
     class AddressReuseTCPServer(socketserver.TCPServer):
         allow_reuse_address = True
 

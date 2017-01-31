@@ -47,14 +47,14 @@ Here's the test that we'd like to write:
 public void testFurnaceOnIfRoomNeedsHeat() 
 { 
     Set house = new HashSet(); 
-    house.add(new Room(â€œRoom needing heatâ€));    
+    house.add(new Room(€œRoom needing heat€));
 
-    // Hmmâ€¦ How do I make sure the room needs heat?    
+    // Hmm€¦ How do I make sure the room needs heat?
 
     HeatFlowRegulator regulator = new HeatFlowRegulator(house); 
     regulator.poll();    
 
-    // Hmmâ€¦ How do I know the heat is on or not? 
+    // Hmm€¦ How do I know the heat is on or not?
 }
 ```
 
@@ -69,14 +69,14 @@ Here's our test after incorporating a mock Room:
 public void testFurnaceOnIfRoomNeedsHeat() 
 { 
     Set house = new HashSet(); 
-    MockRoom room = new MockRoom(â€œRoom needing heatâ€); 
+    MockRoom room = new MockRoom(€œRoom needing heat€);
     room.alwaysNeedHeat(); 
     house.add(room);    
 
     HeatFlowRegulator regulator = new HeatFlowRegulator(house); 
     regulator.poll();    
 
-    // Hmmâ€¦ How do I know the heat is on or not? 
+    // Hmm€¦ How do I know the heat is on or not?
 }
 ```
 
@@ -133,7 +133,7 @@ The unit test can then be completed:
 public void testFurnaceOnIfRoomNeedsHeat() 
 { 
     Set house = new HashSet(); 
-    MockRoom room = new MockRoom(â€œRoom needing heatâ€); 
+    MockRoom room = new MockRoom(€œRoom needing heat€);
     room.alwaysNeedHeat(); 
     house.add(room);    
 
@@ -163,7 +163,7 @@ bolded line):
 public void testFurnaceOnIfRoomNeedsHeat() 
 { 
     Set house = new HashSet(); 
-    MockRoom room = new MockRoom(â€œRoom needing heatâ€); 
+    MockRoom room = new MockRoom(€œRoom needing heat€);
     room.alwaysNeedHeat(); 
     house.add(room);    
 
@@ -194,7 +194,7 @@ Here's the new test method:
 public void testAnyFurnaceOnIfRoomNeedsHeat() 
 { 
     Set house = new HashSet(); 
-    MockRoom room = new MockRoom(â€œRoom needing heatâ€); 
+    MockRoom room = new MockRoom(€œRoom needing heat€);
     room.alwaysNeedHeat(); 
     house.add(room);    
 

@@ -1,5 +1,9 @@
-Title: Culture Shock Date: 2007-07-20 15:31 Author: Eric Category:
-Software Development Slug: culture-shock Status: published
+Title: Culture Shock
+Date: 2007-07-20 15:31
+Author: Eric
+Category: Software Development
+Slug: culture-shock
+Status: published
 
 Over twenty years ago, I moved from Oregon to Utah to start going to
 school at BYU. As we were driving to Provo from the north, my mom, who

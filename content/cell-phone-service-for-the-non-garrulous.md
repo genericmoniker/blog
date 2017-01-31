@@ -11,9 +11,8 @@ I'm particularly quiet, I must have used them up already. I'm not sure
 if she buys the "still waters run deep" explanation, but not being much
 of a talker comes in handy for getting cheap cell phone service.
 
-<!--more-->\
 My number one [complaint about cell
-service](/2007/09/01/them-newfangled-cellphone-things/), and what kept
+service]({filename}/them-newfangled-cellphone-things.md), and what kept
 me from getting one until about a year ago, is that I couldn't see
 paying \$40 a month for something I didn't think I'd use that much. But
 then I had a look at T-Mobile's prepaid plan. I think I saw someone

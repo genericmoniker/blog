@@ -8,10 +8,7 @@ Status: published
 Wednesday was the final day of the main PyCon 2016 conference in
 Portland, Oregon.
 
-<!--more-->
-
-[![image](http://esmithy.net/content/wp-1464807459623.jpg "wp-1464807459623"){.alignnone
-.size-full}](http://esmithy.net/content/wp-1464807459623.jpg)
+![Pioneer Square]({filename}/images/pycon-pioneer.jpg)
 
 Lightning talks
 ---------------
@@ -126,8 +123,8 @@ PyInstaller for desktop (though the other usual suspects, like
 cx\_Freeze, were mentioned). Desktop platforms are on the roadmap,
 however.
 
-![IMG\_20160601\_163334](http://esmithy.net/content/IMG_20160601_163334.jpg){.aligncenter
-.size-full .wp-image-919 width="2448" height="3264"}
+![PyCon Sign]({filename}/images/pycon-oregon.jpg)
+
 
 Some PyCon facts
 ----------------

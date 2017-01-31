@@ -17,18 +17,18 @@ creating an XmlSerializer.
 
 The exception was thrown from line 5 in the code below.
 
-    #!csharp
-    public static FileTypeHandlerCatalog Load(string fileName) 
-    { 
-    using (StreamReader reader = new StreamReader(fileName)) 
-        {         
-            XmlSerializer serializer = new XmlSerializer(typeof(FileTypeHandlerCatalog));
-            FileTypeHandlerCatalog catalog = (FileTypeHandlerCatalog)serializer.Deserialize(reader); 
-            catalog.Validate(); 
-            return catalog; 
-        } 
+```csharp
+public static FileTypeHandlerCatalog Load(string fileName)
+{
+using (StreamReader reader = new StreamReader(fileName))
+    {
+        XmlSerializer serializer = new XmlSerializer(typeof(FileTypeHandlerCatalog));
+        FileTypeHandlerCatalog catalog = (FileTypeHandlerCatalog)serializer.Deserialize(reader);
+        catalog.Validate();
+        return catalog;
     }
-
+}
+```
 The exception message wasn't terribly helpful either since it was
 obviously disgorging implementation details from somewhere deep in the
 XmlSerializer class:
@@ -39,12 +39,13 @@ The stack trace led me to the
 `System.CodeDom.Compiler.Executor.ExecWaitWithCaptureUnimpersonated`
 method, which contains the following bit of code:
 
-    #!csharp
-    StringDictionary sd = new StringDictionary(); 
-    foreach (DictionaryEntry entry in Environment.GetEnvironmentVariables()) 
-    { 
-        sd.Add((string) entry.Key, (string) entry.Value);
-    }
+```csharp
+StringDictionary sd = new StringDictionary();
+foreach (DictionaryEntry entry in Environment.GetEnvironmentVariables())
+{
+    sd.Add((string) entry.Key, (string) entry.Value);
+}
+```
 
 I guess it is copying the environment variables so that it can add a new
 one related to security. The problem is that when running under Ant, for
@@ -54,15 +55,16 @@ an assortment of cases: PATH, Path and path. Looking at the
 7, it converts the key to lower case in order to add it to the hash
 table, resulting in duplicate keys.
 
-    #!csharp
-    public virtual void Add(string key, string value) 
-    { 
-        if (key == null) 
-        { 
-            throw new ArgumentNullException("key"); 
-        }     
-        this.contents.Add(key.ToLower(CultureInfo.InvariantCulture), value); 
+```csharp
+public virtual void Add(string key, string value)
+{
+    if (key == null)
+    {
+        throw new ArgumentNullException("key");
     }
+    this.contents.Add(key.ToLower(CultureInfo.InvariantCulture), value);
+}
+```
 
 So it appears to be a bug in the Executor class -- it doesn't expect to
 encounter multiple keys in the environment variable dictionary that

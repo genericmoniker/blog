@@ -1,6 +1,9 @@
-Title: Defeating Antivirus System Pro Date: 2009-12-03 22:46 Author:
-Eric Category: Misc Slug: defeating-antivirus-system-pro Status:
-published
+Title: Defeating Antivirus System Pro
+Date: 2009-12-03 22:46
+Author: Eric
+Category: Misc
+Slug: defeating-antivirus-system-pro
+Status: published
 
 Antivirus System Pro is an irksome piece of malware that holds your
 computer hostage until you pay a ransom. It is nothing short of

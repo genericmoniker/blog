@@ -6,12 +6,11 @@ Slug: guidelines-for-method-parameter-and-return-types
 Status: published
 
 I've been reading Jeffrey Richter's [*CLR via
-C\#*](http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2FCLR-via-Second-Pro-Developer%2Fdp%2F0735621632%3Fie%3DUTF8%26s%3Dbooks%26qid%3D1208924595%26sr%3D8-1&tag=sparksfromthesmi&linkCode=ur2&camp=1789&creative=9325)![](http://www.assoc-amazon.com/e/ir?t=sparksfromthesmi&l=ur2&o=1) 
-lately, and just read a section titled "Declaring a Method's
-Parameter Types". That title doesn't exactly promise a riveting read,
-but it did a nice job of articulating some guidelines for method
-parameter and return types, independent of any particular programming
-language.
+C\#*](http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2FCLR-via-Second-Pro-Developer%2Fdp%2F0735621632%3Fie%3DUTF8%26s%3Dbooks%26qid%3D1208924595%26sr%3D8-1&tag=sparksfromthesmi&linkCode=ur2&camp=1789&creative=9325)
+lately, and just read a section titled "Declaring a Method's Parameter
+Types". That title doesn't exactly promise a riveting read, but it did a
+nice job of articulating some guidelines for method parameter and return
+types, independent of any particular programming language.
 
 The guidelines are these:
 

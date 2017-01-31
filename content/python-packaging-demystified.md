@@ -8,7 +8,7 @@ Status: published
 
 **<span style="color: #ff0000;">IMPORTANT</span>**: Some of the
 information in this post is now obsolete. Please [see
-here]({filename}/python-packaging-2013.md‎).
+here]({filename}/python-packaging-2013.md).
 
 Randomly take a couple of words from the following list, put them together, and
 there's a decent chance you'll come up with something real involving Python
@@ -59,7 +59,7 @@ The [distribute](http://packages.python.org/distribute/) page cuts
 through much of the disutils, setuptools, easy\_install, soup with this
 pithy graphic:
 
-![](http://python-distribute.org/pip_distribute.png)
+![pip distribute](http://python-distribute.org/pip_distribute.png)
 
 OK, since the New Hotness sounds good, we just want
 [*distribute*](http://packages.python.org/distribute/) and

@@ -27,15 +27,13 @@ wins. The program displays the winning picture, and also keeps a running
 total of the number of generations that have happened. A generation is
 every time a pixel changes and the fitness test is done.
 
-<span
-class="caption">![Early Screen Shot]({filename}/images/by-chance1.jpg "ByChance Screen Shot (Early)")</span>
+![Early Screen Shot]({filename}/images/by-chance1.jpg "ByChance Screen Shot (Early)")
 
-<span class="caption">Early Screen Shot</span>
+_Early Screen Shot_
 
-<span
-class="caption">![Later Screen Shot]({filename}/images/by-chance2.jpg "ByChance Screen Shot")</span>
+![Later Screen Shot]({filename}/images/by-chance2.jpg "ByChance Screen Shot")
 
-<span class="caption">Later Screen Shot</span>
+_Later Screen Shot_
 
 I'm certainly not an expert in evolutionary theory, but it seems like
 the program serves as an interesting analogy. I should point out that

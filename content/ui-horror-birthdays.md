@@ -6,7 +6,7 @@ Slug: ui-horror-birthdays
 Status: published
 
 Last year I wrote about my [dislike for cell
-phones]({filename}/them-newfangle…llphone-thingsthem-newfangled-cellphone-things.md).
+phones]({filename}/them-newfangled-cellphone-things.md).
 Despite that, I actually have one now. Maybe I'll write more about that at some
 point, but I was just recently **reminded** (irony to be revealed later) of a
 particularly sloppy user experience associated with adding birthdays to

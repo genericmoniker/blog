@@ -78,7 +78,7 @@ Hmm, what if I just click "Accept All". Maybe deleting the duplicates of
 out the register is fewer clicks. Of course, then I would have to select
 every other transaction, which might offset any efficiency gain. Maybe I
 could write an [AutoIt](http://www.autoitscript.com/autoit3/) script to
-do this...Â  But that's kind of tricky when there's no keyboard
+do this...  But that's kind of tricky when there's no keyboard
 interface in the window for doing deletes. Oh, well. It's a hack, so
 relying on exact mouse click coordinates is OK.
 
