@@ -1,6 +1,7 @@
 Title: Converting from Visual Studio 2005 to Visual Studio 2008
 Date: 2008-02-15 18:12
 Author: Eric
+Category: How-To
 Tags: Visual Studio Tips
 Slug: converting-from-visual-studio-2005-to-visual-studio-2008
 Status: published
@@ -9,8 +10,6 @@ I've just finished switching over our development environment from
 Visual Studio 2005 to Visual Studio 2008 (except for a C++ solution that
 uses boost, which will take some further effort). These are the things
 that I needed to do, and the gotchas I encountered.
-
-<!--more-->
 
 1.  **Getting installed** - Aside from being a lengthy experience,
     installing VS 2008 went pretty smoothly on our machines except for

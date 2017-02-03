@@ -1,6 +1,7 @@
 Title: Getting an IStream on a File
 Date: 2007-04-28 14:03
 Author: Eric
+Category: How-To
 Tags: Windows
 Slug: getting-an-istream-on-a-file
 Status: published

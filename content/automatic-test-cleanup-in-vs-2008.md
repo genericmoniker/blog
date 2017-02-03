@@ -1,6 +1,7 @@
 Title: Automatic Test Cleanup in VS 2008
 Date: 2008-02-14 17:43
 Author: Eric
+Category: Story
 Tags: Visual Studio Tips
 Slug: automatic-test-cleanup-in-vs-2008
 Status: published

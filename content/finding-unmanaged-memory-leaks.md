@@ -1,7 +1,7 @@
 Title: Finding Unmanaged Memory Leaks
 Date: 2007-06-25 20:59
 Author: Eric
-Category: Programming
+Category: How-To
 Tags: .NET, Bafflers
 Slug: finding-unmanaged-memory-leaks
 Status: published

@@ -1,6 +1,7 @@
 Title: It's Just UI
 Date: 2010-01-30 23:41
 Author: Eric
+Category: Opinion
 Tags: User Interface
 Slug: its-just-ui
 Status: published

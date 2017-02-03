@@ -1,7 +1,7 @@
 Title: User Stories Are Not Narratives
 Date: 2008-09-27 08:40
 Author: Eric
-Category: Software Development
+Category: Opinion
 Slug: user-stories-are-not-narratives
 Status: published
 

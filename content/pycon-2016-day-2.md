@@ -1,7 +1,7 @@
 Title: PyCon 2016 - Day 2
 Date: 2016-06-01 00:30
 Author: Eric
-Category: Uncategorized
+Category: Event
 Slug: pycon-2016-day-2
 Status: published
 

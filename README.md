@@ -14,9 +14,17 @@ Tools
 MarkDown Authoring Tips
 -----------------------
 
+Pelican uses the [Markdown](http://pythonhosted.org/Markdown/) Python package.
+
 Image (put the image file in `content/images`):
 
     ![Alt Text]({filename}/images/image.jpg)
+
+YouTube video:
+
+    [![My Video](http://img.youtube.com/vi/<video_id>/0.jpg){:.vid}](https://www.youtube.com/v/<video_id>)
+
+*Note the `vid` class -- the theme uses that to overlay a play button.*
 
 Book links to GoodReads:
 
@@ -39,13 +47,23 @@ Syntax highlighting with line numbers (shebang is pulled out):
 Available highlighting lexers are documented 
 [here](http://pygments.org/docs/lexers/).
 
+Categories
+----------
+
+* Event
+* How It Works
+* How-To
+* Opinion
+* Project
+* Review
+* Story
+
 
 To Do
 -----
 
 * Clean up theme
 
-    * Clean up categories and add images
     * Center post images
 
 * Clean up content
@@ -57,3 +75,5 @@ To Do
 * Figure out comments (migration, too)
 * Full-text search ([DuckDuckGo?](https://duckduckgo.com/search_box))
 * Hosting
+* Let's Encrypt
+

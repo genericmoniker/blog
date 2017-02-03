@@ -1,7 +1,7 @@
 Title: Granular Profiling in PyCharm
 Date: 2015-12-02 19:30
 Author: Eric
-Category: Programming
+Category: How-To
 Tags: PyCharm, Python
 Slug: granular-profiling-in-pycharm
 Status: published

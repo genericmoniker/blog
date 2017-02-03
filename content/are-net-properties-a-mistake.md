@@ -1,7 +1,7 @@
 Title: Are .NET Properties a Mistake?
 Date: 2008-04-24 21:28
 Author: Eric
-Category: Programming
+Category: Opinion
 Tags: .NET
 Slug: are-net-properties-a-mistake
 Status: published

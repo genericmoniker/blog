@@ -1,7 +1,7 @@
 Title: Sprint Makes Me Laugh
 Date: 2011-05-23 21:19
 Author: Eric
-Category: Uncategorized
+Category: Review
 Tags: Mobile, WTH
 Slug: sprint-makes-me-laugh
 Status: published

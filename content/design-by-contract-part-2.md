@@ -1,7 +1,7 @@
 Title: Design by Contract Part 2
 Date: 2006-01-29 17:00
 Author: Eric
-Category: Software Development
+Category: Review
 Slug: design-by-contract-part-2
 Status: published
 

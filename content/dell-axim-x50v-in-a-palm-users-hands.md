@@ -1,7 +1,7 @@
 Title: Dell Axim X50v in a Palm User's Hands
 Date: 2005-06-25 17:00
 Author: Eric
-Category: Hardware
+Category: Review
 Slug: dell-axim-x50v-in-a-palm-users-hands
 Status: published
 

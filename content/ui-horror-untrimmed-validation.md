@@ -1,7 +1,7 @@
 Title: UI Horror: Untrimmed Validation
 Date: 2012-07-07 14:50
 Author: Eric
-Category: Programming
+Category: Opinion
 Tags: User Interface
 Slug: ui-horror-untrimmed-validation
 Status: published

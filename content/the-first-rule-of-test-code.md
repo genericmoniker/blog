@@ -1,7 +1,7 @@
 Title: The First Rule of Test Code
 Date: 2014-01-25 17:03
 Author: Eric
-Category: Software Development
+Category: Opinion
 Slug: the-first-rule-of-test-code
 Status: published
 

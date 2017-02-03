@@ -1,7 +1,7 @@
 Title: Exceptions vs Returned Error Codes
 Date: 2003-06-12 17:00
 Author: Eric
-Category: Software Development
+Category: Opinion
 Slug: exceptions-vs-returned-error-codes
 Status: published
 

@@ -1,7 +1,7 @@
 Title: Corrupt docx File After Adding Custom Properties Part
 Date: 2008-03-14 11:15
 Author: Eric
-Category: Uncategorized
+Category: How It Works
 Tags: Office
 Slug: corrupt-docx-file-after-adding-custom-properties-part
 Status: published

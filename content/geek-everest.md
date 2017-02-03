@@ -1,7 +1,7 @@
 Title: C++ Is Geek Everest
 Date: 2011-09-08 17:24
 Author: Eric
-Category: Programming
+Category: Opinion
 Slug: geek-everest
 Status: draft
 

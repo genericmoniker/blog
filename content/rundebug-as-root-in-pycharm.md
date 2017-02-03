@@ -1,7 +1,7 @@
 Title: Run/Debug as root in PyCharm
 Date: 2015-05-05 20:33
 Author: Eric
-Category: Programming, Software Development
+Category: How-To
 Tags: Linux, PyCharm, Python
 Slug: rundebug-as-root-in-pycharm
 Status: published

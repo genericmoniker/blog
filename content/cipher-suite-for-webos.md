@@ -1,7 +1,7 @@
 Title: Cipher Suite for webOS
 Date: 2010-09-30 22:26
 Author: Eric
-Category: Programming
+Category: Project
 Slug: cipher-suite-for-webos
 Status: published
 

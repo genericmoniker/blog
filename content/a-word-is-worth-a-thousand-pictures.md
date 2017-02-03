@@ -1,7 +1,7 @@
 Title: A word is worth a thousand pictures
 Date: 2013-04-01 18:05
 Author: Eric
-Category: Misc
+Category: Story
 Slug: a-word-is-worth-a-thousand-pictures
 Status: published
 

@@ -1,7 +1,7 @@
 Title: Consumed by Technology
 Date: 2010-03-01 21:19
 Author: Eric
-Category: Misc
+Category: Story
 Slug: consumed-by-technology
 Status: published
 

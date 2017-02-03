@@ -1,7 +1,7 @@
 Title: Silverlight Localization
 Date: 2009-07-08 20:00
 Author: Eric
-Category: Programming
+Category: How-To
 Tags: Silverlight
 Slug: silverlight-localization
 Status: published

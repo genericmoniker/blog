@@ -1,7 +1,7 @@
 Title: Security Camera Stills As Art
 Date: 2013-06-26 20:04
 Author: Eric
-Category: Hardware, Misc
+Category: Story
 Tags: Logitech Alert
 Slug: security-camera-stills-as-art
 Status: published

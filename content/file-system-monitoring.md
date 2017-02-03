@@ -1,6 +1,7 @@
 Title: File System Monitoring
 Date: 2006-07-21 17:00
 Author: Eric
+Category: How-To
 Tags: Windows
 Slug: file-system-monitoring
 Status: published

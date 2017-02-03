@@ -1,7 +1,8 @@
 Title: New Depths of Printer Evil
 Date: 2010-01-04 21:37
 Author: Eric
-Category: Hardware
+Category: Review
+Tags: Hardware
 Slug: new-depths-of-printer-evil
 Status: published
 

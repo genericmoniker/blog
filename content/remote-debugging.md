@@ -1,6 +1,7 @@
 Title: Remote Debugging
 Date: 2006-10-25 17:00
 Author: Eric
+Category: How-To
 Tags: Visual Studio Tips
 Slug: remote-debugging
 Status: published

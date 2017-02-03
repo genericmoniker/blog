@@ -1,7 +1,7 @@
 Title: I want my webOS
 Date: 2011-10-15 16:02
 Author: Eric
-Category: Hardware, Software Development
+Category: Review
 Tags: Mobile
 Slug: i-want-my-webos
 Status: published

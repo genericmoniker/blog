@@ -1,7 +1,7 @@
 Title: Transparent WinForms Label
 Date: 2009-11-28 12:40
 Author: Eric
-Category: Programming
+Category: How-To
 Tags: .NET, User Interface, Windows
 Slug: transparent-winforms-label
 Status: published

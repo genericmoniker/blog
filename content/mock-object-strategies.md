@@ -1,7 +1,7 @@
 Title: Mock Object Strategies
 Date: 2003-12-09 17:00
 Author: Eric
-Category: Software Development
+Category: How-To
 Slug: mock-object-strategies
 Status: published
 

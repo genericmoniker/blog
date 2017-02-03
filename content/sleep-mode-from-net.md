@@ -1,7 +1,7 @@
 Title: Sleep Mode from .NET
 Date: 2007-08-29 22:12
 Author: Eric
-Category: Programming
+Category: How-To
 Tags: .NET, Windows
 Slug: sleep-mode-from-net
 Status: published

@@ -1,7 +1,7 @@
 Title: Coding Standards and Orthography
 Date: 2012-11-06 16:30
 Author: Eric
-Category: Programming
+Category: Opinion
 Slug: coding-standards-and-orthography
 Status: published
 

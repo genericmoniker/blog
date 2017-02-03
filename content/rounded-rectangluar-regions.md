@@ -1,7 +1,7 @@
 Title: Rounded Rectangluar Regions
 Date: 2009-11-19 22:27
 Author: Eric
-Category: Programming
+Category: How-To
 Tags: .NET, Windows
 Slug: rounded-rectangluar-regions
 Status: published

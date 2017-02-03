@@ -1,7 +1,7 @@
 Title: I can't figure this one out...
 Date: 2012-05-23 21:01
 Author: Eric
-Category: Misc
+Category: Story
 Tags: WTH
 Slug: i-cant-figure-this-one-out
 Status: published

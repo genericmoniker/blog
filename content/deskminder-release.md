@@ -1,6 +1,7 @@
 Title: DeskMinder Release
 Date: 2005-06-05 17:00
 Author: Eric
+Category: Project
 Slug: deskminder-release
 Status: published
 

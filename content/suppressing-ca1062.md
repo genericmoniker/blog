@@ -1,7 +1,7 @@
 Title: Suppressing CA1062 with a Helper Function
 Date: 2011-03-15 22:32
 Author: Eric
-Category: Programming
+Category: How-To
 Tags: .NET, Visual Studio Tips
 Slug: suppressing-ca1062
 Status: published

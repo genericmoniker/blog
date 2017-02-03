@@ -1,6 +1,7 @@
 Title: Office Open XML Deep Dive
 Date: 2007-06-28 17:35
 Author: Eric
+Category: How It Works
 Tags: Office
 Slug: office-open-xml-deep-dive
 Status: published

@@ -1,6 +1,7 @@
 Title: XP Common Controls with VC++ 2005
 Date: 2006-05-09 17:00
 Author: Eric
+Category: How-To
 Tags: Visual Studio Tips
 Slug: xp-common-controls-with-vc-2005
 Status: published

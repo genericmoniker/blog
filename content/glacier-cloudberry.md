@@ -1,7 +1,7 @@
 Title: Amazon Glacier and CloudBerry Online Backup
 Date: 2013-01-07 18:13
 Author: Eric
-Category: Misc
+Category: Review
 Tags: Applications, Windows
 Slug: glacier-cloudberry
 Status: published

@@ -1,7 +1,7 @@
 Title: The Holiday Amazon Box Problem
 Date: 2011-12-26 15:45
 Author: Eric
-Category: Uncategorized
+Category: How-To
 Slug: the-holiday-amazon-box-problem
 Status: published
 

@@ -1,7 +1,7 @@
 Title: Defeating Antivirus System Pro
 Date: 2009-12-03 22:46
 Author: Eric
-Category: Misc
+Category: How-To
 Slug: defeating-antivirus-system-pro
 Status: published
 

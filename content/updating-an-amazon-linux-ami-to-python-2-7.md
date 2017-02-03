@@ -1,7 +1,7 @@
 Title: Updating an Amazon Linux AMI to Python 2.7 
 Date: 2012-01-12 10:22
 Author: Eric
-Category: Programming
+Category: How-To
 Tags: AWS, Linux, Python
 Slug: updating-an-amazon-linux-ami-to-python-2-7
 Status: published

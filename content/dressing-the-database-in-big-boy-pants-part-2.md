@@ -1,7 +1,7 @@
 Title: Dressing the Database in Big-Boy Pants, Part 2
 Date: 2013-04-13 14:45
 Author: Eric
-Category: Programming
+Category: How-To
 Tags: database
 Slug: dressing-the-database-in-big-boy-pants-part-2
 Status: published

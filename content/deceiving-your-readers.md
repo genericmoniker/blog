@@ -1,7 +1,7 @@
 Title: Deceiving Your Readers
 Date: 2013-12-28 15:56
 Author: Eric
-Category: Software Development
+Category: Opinion
 Slug: deceiving-your-readers
 Status: published
 

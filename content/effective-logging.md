@@ -1,7 +1,7 @@
 Title: Effective Logging
 Date: 2004-11-09 17:00
 Author: Eric
-Category: Software Development
+Category: How-To
 Slug: effective-logging
 Status: published
 

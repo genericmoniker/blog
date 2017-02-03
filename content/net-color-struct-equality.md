@@ -1,6 +1,7 @@
 Title: .NET Color Struct Equality 
 Date: 2009-12-16 18:47
 Author: Eric
+Category: How It Works
 Tags: .NET, Bafflers
 Slug: net-color-struct-equality
 Status: published

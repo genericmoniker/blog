@@ -1,7 +1,7 @@
 Title: .NET Cold Startup Performance: An Example
 Date: 2008-03-06 18:19
 Author: Eric
-Category: Programming
+Category: How It Works
 Tags: .NET
 Slug: net-cold-startup-performance-an-example
 Status: published

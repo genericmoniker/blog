@@ -1,7 +1,7 @@
 Title: Goodbye Money
 Date: 2008-11-08 12:51
 Author: Eric
-Category: Misc
+Category: Review
 Slug: goodbye-money
 Status: published
 

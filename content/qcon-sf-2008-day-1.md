@@ -1,7 +1,7 @@
 Title: QCon SF 2008 Day 1
 Date: 2008-11-19 23:22
 Author: Eric
-Category: Software Development
+Category: Event
 Slug: qcon-sf-2008-day-1
 Status: published
 

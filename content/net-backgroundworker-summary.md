@@ -1,7 +1,7 @@
 Title: .NET BackgroundWorker Summary
 Date: 2007-10-10 15:38
 Author: Eric
-Category: Programming
+Category: How-To
 Tags: .NET
 Slug: net-backgroundworker-summary
 Status: published
@@ -16,7 +16,7 @@ completion are marshalled back to the "main" thread. (When I say "main"
 thread, I mean the one on which `BackgroundWorker.RunWorkerAsync()` is
 called.)
 
-<!--more-->These are the steps for using `BackgroundWorker`:
+These are the steps for using `BackgroundWorker`:
 
 ### Setup
 

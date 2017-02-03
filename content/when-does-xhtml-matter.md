@@ -1,7 +1,7 @@
 Title: When Does XHTML Matter?
 Date: 2006-07-05 17:00
 Author: Eric
-Category: Software Development
+Category: Opinion
 Slug: when-does-xhtml-matter
 Status: published
 

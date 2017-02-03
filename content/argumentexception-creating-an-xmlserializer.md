@@ -1,7 +1,7 @@
 Title: ArgumentException Creating an XmlSerializer
 Date: 2007-05-26 14:00
 Author: Eric
-Category: Programming
+Category: How It Works
 Tags: .NET, Bafflers
 Slug: argumentexception-creating-an-xmlserializer
 Status: published

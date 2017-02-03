@@ -1,7 +1,7 @@
 Title: SQLAlchemy with Python 64-bit on Windows
 Date: 2013-11-06 20:12
 Author: Eric
-Category: Programming
+Category: How It Works
 Tags: Bafflers, Python, WTH
 Slug: sqlalchemy-with-python-64-bit-on-windows
 Status: published

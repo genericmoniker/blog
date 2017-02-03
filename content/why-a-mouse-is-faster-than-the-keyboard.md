@@ -1,7 +1,7 @@
 Title: Why a Mouse is Faster than the Keyboard?
 Date: 2010-10-26 20:34
 Author: Eric
-Category: Hardware
+Category: Opinion
 Tags: Mac
 Slug: why-a-mouse-is-faster-than-the-keyboard
 Status: published

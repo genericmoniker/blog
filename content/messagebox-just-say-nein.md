@@ -1,6 +1,7 @@
 Title: MessageBox: Just Say Nein
 Date: 2010-06-14 21:28
 Author: Eric
+Category: How It Works
 Tags: User Interface, Windows
 Slug: messagebox-just-say-nein
 Status: published

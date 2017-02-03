@@ -1,7 +1,7 @@
 Title: IIS Configuration with WiX and Appcmd 
 Date: 2010-07-02 14:35
 Author: Eric
-Category: Software Development
+Category: How-To
 Slug: iis-configuration-with-wix-and-appcmd
 Status: published
 

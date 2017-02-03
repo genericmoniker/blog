@@ -1,7 +1,8 @@
 Title: Them Newfangled Cellphone Things
 Date: 2007-09-01 16:08
 Author: Eric
-Category: Hardware
+Category: Opinion
+Tags: Mobile
 Slug: them-newfangled-cellphone-things
 Status: published
 

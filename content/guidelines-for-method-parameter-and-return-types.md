@@ -1,7 +1,7 @@
 Title: Guidelines for Method Parameter and Return Types
 Date: 2008-04-22 22:25
 Author: Eric
-Category: Programming
+Category: How-To
 Slug: guidelines-for-method-parameter-and-return-types
 Status: published
 
@@ -29,7 +29,7 @@ this:
 FileStream CreateFile(object fileName, object fileMode, object fileAccess);
 ```
 
-rClearly you wouldn't want the method implementation down-casting all the
+Clearly you wouldn't want the method implementation down-casting all the
 parameters in order to do something useful with them. If the method can
 actually do something useful with  plain `object` parameters, then
 that is probably the right type.

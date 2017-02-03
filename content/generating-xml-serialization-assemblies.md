@@ -1,7 +1,7 @@
 Title: Generating XML Serialization Assemblies
 Date: 2007-06-13 17:50
 Author: Eric
-Category: Programming
+Category: How-To
 Tags: .NET
 Slug: generating-xml-serialization-assemblies
 Status: published

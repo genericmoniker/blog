@@ -1,7 +1,7 @@
 Title: .NET Cold Startup Performance: More
 Date: 2008-06-03 17:36
 Author: Eric
-Category: Programming
+Category: How It Works
 Tags: .NET, Office
 Slug: net-cold-startup-performance-more
 Status: published

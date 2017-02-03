@@ -1,7 +1,7 @@
 Title: A Billion Mice
 Date: 2008-12-04 21:07
 Author: Eric
-Category: Misc
+Category: Story
 Slug: a-billion-mice
 Status: published
 
@@ -18,4 +18,4 @@ with mice.
 
 Here is my prize-winning entry:
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JqPWUZHCJbQ?rel=0" frameborder="0" allowfullscreen></iframe>
+[![A Billion Mice](http://img.youtube.com/vi/JqPWUZHCJbQ/0.jpg){:.vid}](https://www.youtube.com/v/JqPWUZHCJbQ)

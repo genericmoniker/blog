@@ -1,14 +1,12 @@
 Title: WordPress
 Date: 2007-04-28 12:06
 Author: Eric
-Category: Uncategorized
+Category: Review
 Slug: wordpress
 Status: published
 
 After years of building this site with my own custom software, I've
 decided to switch to [WordPress](http://wordpress.org "WordPress").
-
-<!--more-->
 
 My previous system started with XHTML content transformed through
 various XSLT style sheets thatproduced summaries, an RSS feed, a Google

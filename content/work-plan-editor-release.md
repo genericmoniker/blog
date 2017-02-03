@@ -1,6 +1,7 @@
 Title: Work Plan Editor Release
 Date: 2006-02-17 17:00
 Author: Eric
+Category: Project
 Slug: work-plan-editor-release
 Status: published
 

@@ -1,7 +1,7 @@
 Title: Object-Oriented vs. Database-Oriented
 Date: 2006-02-15 17:00
 Author: Eric
-Category: Software Development
+Category: Opinion
 Slug: object-oriented-vs-database-oriented
 Status: published
 

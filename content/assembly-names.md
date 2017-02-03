@@ -1,6 +1,7 @@
 Title: Assembly Names
 Date: 2007-05-07 21:21
 Author: Eric
+Category: How It Works
 Tags: .NET
 Slug: assembly-names
 Status: published

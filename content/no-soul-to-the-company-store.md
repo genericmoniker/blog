@@ -1,6 +1,7 @@
 Title: No Soul to the Company Store
 Date: 2006-04-17 17:00
 Author: Eric
+Category: Story
 Slug: no-soul-to-the-company-store
 Status: published
 

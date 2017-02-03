@@ -1,7 +1,7 @@
 Title: Ten Lessons Learned Assembling a PC
 Date: 2006-01-03 17:00
 Author: Eric
-Category: Hardware
+Category: How-To
 Slug: ten-lessons-learned-assembling-a-pc
 Status: published
 

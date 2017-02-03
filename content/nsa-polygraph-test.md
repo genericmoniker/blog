@@ -1,7 +1,7 @@
 Title: The NSA Questions My Lifestyle
 Date: 2010-06-17 20:04
 Author: Eric
-Category: Misc
+Category: Story
 Slug: nsa-polygraph-test
 Status: published
 

@@ -1,6 +1,7 @@
 Title: This solution contains a web site...
 Date: 2010-05-06 10:50
 Author: Eric
+Category: How-To
 Tags: Visual Studio Tips
 Slug: this-solution-contains-a-web-site
 Status: published

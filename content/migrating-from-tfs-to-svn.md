@@ -1,7 +1,7 @@
 Title: Migrating from TFS to SVN
 Date: 2011-02-01 20:14
 Author: Eric
-Category: Software Development
+Category: How-To
 Slug: migrating-from-tfs-to-svn
 Status: published
 

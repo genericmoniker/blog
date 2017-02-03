@@ -1,7 +1,7 @@
 Title: Review of "Don't Make Me Think"
 Date: 2017-01-21 09:55
 Author: Eric
-Category: UI
+Category: Review
 Slug: dont-make-me-think
 Status: published
 

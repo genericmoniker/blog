@@ -1,7 +1,7 @@
 Title: Three Suggestions for the Android Calendar App
 Date: 2012-07-26 21:41
 Author: Eric
-Category: Misc
+Category: Review
 Tags: Android, Mobile, User Interface
 Slug: three-suggestions-for-the-android-calendar-app
 Status: published

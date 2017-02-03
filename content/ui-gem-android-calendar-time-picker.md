@@ -1,7 +1,7 @@
 Title: UI Gem: Android Calendar Time Picker
 Date: 2013-07-21 18:39
 Author: Eric
-Category: Misc
+Category: Opinion
 Tags: Android, User Interface
 Slug: ui-gem-android-calendar-time-picker
 Status: published

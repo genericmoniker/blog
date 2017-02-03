@@ -1,6 +1,7 @@
 Title: Microsoft's CD Replacement Policy
 Date: 2005-03-03 17:00
 Author: Eric
+Category: Story
 Slug: microsofts-cd-replacement-policy
 Status: published
 

@@ -1,7 +1,7 @@
 Title: Time Warp in VirtualBox
 Date: 2016-03-05 20:26
 Author: Eric
-Category: Misc
+Category: How-To
 Tags: Virtualization
 Slug: time-warp-in-virtualbox
 Status: published

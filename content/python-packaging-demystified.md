@@ -1,7 +1,7 @@
 Title: Python Packaging Demystified
 Date: 2012-08-25 16:43
 Author: Eric
-Category: Programming
+Category: How It Works
 Tags: Python
 Slug: python-packaging-demystified
 Status: published

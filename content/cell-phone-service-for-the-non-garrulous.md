@@ -1,7 +1,7 @@
 Title: Cell Phone Service for the Non-Garrulous
 Date: 2009-02-21 17:09
 Author: Eric
-Category: Misc
+Category: Review
 Slug: cell-phone-service-for-the-non-garrulous
 Status: published
 

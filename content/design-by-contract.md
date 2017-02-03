@@ -1,7 +1,7 @@
 Title: Design by Contract
 Date: 2005-09-27 17:00
 Author: Eric
-Category: Software Development
+Category: Review
 Slug: design-by-contract
 Status: published
 

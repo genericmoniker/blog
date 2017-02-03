@@ -1,6 +1,7 @@
 Title: DRM I'm Content With
 Date: 2006-08-28 17:00
 Author: Eric
+Category: Opinion
 Slug: drm-im-content-with
 Status: published
 

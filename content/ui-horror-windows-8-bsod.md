@@ -1,7 +1,7 @@
 Title: UI Horror: Windows 8 BSOD
 Date: 2013-01-24 21:46
 Author: Eric
-Category: Uncategorized
+Category: Opinion
 Tags: User Interface, Windows
 Slug: ui-horror-windows-8-bsod
 Status: published

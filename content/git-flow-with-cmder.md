@@ -1,7 +1,7 @@
 Title: git-flow with Cmder
 Date: 2015-01-06 20:35
 Author: Eric
-Category: Software Development
+Category: How-To
 Tags: Git
 Slug: git-flow-with-cmder
 Status: published

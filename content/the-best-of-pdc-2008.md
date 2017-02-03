@@ -1,7 +1,7 @@
 Title: The Best of PDC 2008
 Date: 2009-01-17 21:45
 Author: Eric
-Category: Software Development
+Category: Event
 Tags: .NET
 Slug: the-best-of-pdc-2008
 Status: published

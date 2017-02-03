@@ -1,7 +1,7 @@
 Title: Solipsistic Backups
 Date: 2015-10-24 16:13
 Author: Eric
-Category: Misc
+Category: Opinion
 Slug: solipsistic-backups
 Status: published
 

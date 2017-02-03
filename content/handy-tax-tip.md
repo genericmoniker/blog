@@ -1,6 +1,7 @@
 Title: Handy Tax Tip
 Date: 2012-04-16 21:06
 Author: Eric
+Category: Story
 Tags: WTH
 Category: Misc
 Slug: handy-tax-tip

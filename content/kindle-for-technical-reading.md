@@ -1,7 +1,7 @@
 Title: Kindle for Technical Reading
 Date: 2012-01-24 18:21
 Author: Eric
-Category: Uncategorized
+Category: Review
 Slug: kindle-for-technical-reading
 Status: published
 

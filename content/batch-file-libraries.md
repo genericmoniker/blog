@@ -1,7 +1,7 @@
 Title: Batch File Libraries
 Date: 2011-07-12 20:19
 Author: Eric
-Category: Programming
+Category: How-To
 Tags: Windows
 Slug: batch-file-libraries
 Status: published

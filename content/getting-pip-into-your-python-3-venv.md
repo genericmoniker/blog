@@ -1,7 +1,7 @@
 Title: Getting pip into your Python 3 venv
 Date: 2013-09-20 21:22
 Author: Eric
-Category: Programming
+Category: How-To
 Tags: Python
 Slug: getting-pip-into-your-python-3-venv
 Status: published

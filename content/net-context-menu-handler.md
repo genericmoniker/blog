@@ -1,7 +1,7 @@
 Title: .NET Context Menu Handler
 Date: 2005-04-07 17:00
 Author: Eric
-Category: Programming
+Category: How-To
 Tags: .NET, Windows
 Slug: net-context-menu-handler
 Status: published

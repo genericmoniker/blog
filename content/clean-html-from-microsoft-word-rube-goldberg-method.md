@@ -1,7 +1,7 @@
 Title: Clean HTML from Microsoft Word: Rube Goldberg Method
 Date: 2012-06-06 21:52
 Author: Eric
-Category: Programming
+Category: Project
 Tags: Microsoft Office, Python
 Slug: clean-html-from-microsoft-word-rube-goldberg-method
 Status: published

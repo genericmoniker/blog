@@ -1,7 +1,7 @@
 Title: Culture Shock
 Date: 2007-07-20 15:31
 Author: Eric
-Category: Software Development
+Category: Opinion
 Slug: culture-shock
 Status: published
 

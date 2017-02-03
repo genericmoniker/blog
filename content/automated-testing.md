@@ -1,7 +1,7 @@
 Title: Automated Testing
 Date: 2003-12-03 13:42
 Author: Eric
-Category: Programming
+Category: How-To
 Slug: automated-testing
 Status: published
 
@@ -9,7 +9,7 @@ Ideally, human efforts in testing should focus on building tests --
 figuring out the strategies, test cases, and test data. From there, we'd
 rather let the computer run the tests and verify the results. If you had
 to test everything manually every day, you would either not do it, or
-really start to hate your job.<!--more-->
+really start to hate your job.
 
 There are many kinds of automated tests. Sometimes the lines between the
 types blur a little, and sometimes the vocabulary varies, but I'd like

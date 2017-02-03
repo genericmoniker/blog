@@ -1,6 +1,7 @@
 Title: InspectionPrinter Initial Release
 Date: 2005-04-26 17:00
 Author: Eric
+Category: Project
 Slug: inspectionprinter-initial-release
 Status: published
 

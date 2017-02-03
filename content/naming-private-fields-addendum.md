@@ -1,7 +1,7 @@
 Title: Naming Private Fields (Addendum)
 Date: 2007-01-30 17:00
 Author: Eric
-Category: Programming
+Category: Opinion
 Slug: naming-private-fields-addendum
 Status: published
 

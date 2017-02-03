@@ -1,7 +1,7 @@
 Title: Naming Private Fields
 Date: 2007-01-10 17:00
 Author: Eric
-Category: Programming
+Category: Opinion
 Slug: naming-private-fields
 Status: published
 

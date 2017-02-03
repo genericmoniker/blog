@@ -1,7 +1,7 @@
 Title: Time to Think
 Date: 2012-10-01 19:50
 Author: Eric
-Category: Software Development
+Category: Opinion
 Slug: time-to-think
 Status: published
 

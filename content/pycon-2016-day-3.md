@@ -1,7 +1,7 @@
 Title: PyCon 2016 - Day 3
 Date: 2016-06-01 12:51
 Author: Eric
-Category: Uncategorized
+Category: Event
 Slug: pycon-2016-day-3
 Status: published
 

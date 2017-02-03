@@ -1,7 +1,7 @@
 Title: Unicode Surprises
 Date: 2007-10-11 21:15
 Author: Eric
-Category: Programming
+Category: How It Works
 Tags: .NET, Bafflers, Windows
 Slug: unicode-surprises
 Status: published

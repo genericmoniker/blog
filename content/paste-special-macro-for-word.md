@@ -1,7 +1,7 @@
 Title: Paste Special Macro for Word
 Date: 2007-12-31 13:47
 Author: Eric
-Category: Uncategorized
+Category: How-To
 Tags: Office
 Slug: paste-special-macro-for-word
 Status: published

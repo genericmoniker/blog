@@ -1,7 +1,7 @@
 Title: Public Key Cryptography Made Easy
 Date: 2014-09-06 17:00
 Author: Eric
-Category: Software Development
+Category: How It Works
 Tags: Cryptography, Security
 Slug: public-key-cryptography-made-easy
 Status: published

@@ -1,7 +1,7 @@
 Title: Succumbing to the Smartphone Siren
 Date: 2010-01-05 21:59
 Author: Eric
-Category: Hardware
+Category: Review
 Tags: Mobile
 Slug: succumbing-to-the-smartphone-siren
 Status: published

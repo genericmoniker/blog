@@ -1,7 +1,7 @@
 Title: By Chance
 Date: 2005-10-20 17:00
 Author: Eric
-Category: Uncategorized
+Category: Project
 Slug: by-chance
 Status: published
 

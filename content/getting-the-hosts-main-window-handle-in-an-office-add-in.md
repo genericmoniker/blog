@@ -1,7 +1,7 @@
 Title: Getting the Host's Main Window Handle in an Office Add-in
 Date: 2008-01-23 15:26
 Author: Eric
-Category: Uncategorized
+Category: How-To
 Tags: .NET, Office
 Slug: getting-the-hosts-main-window-handle-in-an-office-add-in
 Status: published

@@ -1,7 +1,7 @@
 Title: Why StringComparison.Ordinal Is Usually the Right Choice
 Date: 2007-10-15 14:54
 Author: Eric
-Category: Programming
+Category: How It Works
 Tags: .NET, Windows
 Slug: why-stringcomparisonordinal-is-usually-the-right-choice
 Status: published

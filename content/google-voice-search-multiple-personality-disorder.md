@@ -1,7 +1,7 @@
 Title: Google Voice Search Multiple Personality Disorder 
 Date: 2012-07-04 17:39
 Author: Eric
-Category: Misc
+Category: Story
 Tags: Android, Mobile
 Slug: google-voice-search-multiple-personality-disorder
 Status: published

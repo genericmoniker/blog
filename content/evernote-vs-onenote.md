@@ -1,7 +1,7 @@
 Title: Evernote vs. OneNote
 Date: 2011-03-05 09:59
 Author: Eric
-Category: Uncategorized
+Category: Review
 Slug: evernote-vs-onenote
 Status: published
 

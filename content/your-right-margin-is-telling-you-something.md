@@ -1,7 +1,7 @@
 Title: Your right margin is telling you something
 Date: 2014-07-26 14:53
 Author: Eric
-Category: Programming
+Category: Opinion
 Tags: Python
 Slug: your-right-margin-is-telling-you-something
 Status: published

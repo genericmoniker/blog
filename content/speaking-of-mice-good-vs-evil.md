@@ -1,7 +1,7 @@
 Title: Speaking of Mice... Good vs. Evil
 Date: 2010-12-16 21:25
 Author: Eric
-Category: Hardware
+Category: Review
 Tags: Mac
 Slug: speaking-of-mice-good-vs-evil
 Status: published

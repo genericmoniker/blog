@@ -1,7 +1,7 @@
 Title: Python Packaging (2013 Edition)
 Date: 2013-09-21 16:33
 Author: Eric
-Category: Uncategorized
+Category: How It Works
 Tags: Python
 Slug: python-packaging-2013
 Status: published

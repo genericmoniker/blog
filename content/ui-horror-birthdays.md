@@ -1,6 +1,7 @@
 Title: UI Horror: Birthdays
 Date: 2008-06-28 21:48
 Author: Eric
+Category: Opinion
 Tags: User Interface
 Slug: ui-horror-birthdays
 Status: published

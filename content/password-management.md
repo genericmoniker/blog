@@ -1,7 +1,7 @@
 Title: Password Management
 Date: 2015-01-10 14:23
 Author: Eric
-Category: Misc
+Category: How-To
 Tags: Security
 Slug: password-management
 Status: published

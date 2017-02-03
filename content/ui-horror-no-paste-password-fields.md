@@ -1,7 +1,7 @@
 Title: UI Horror: No-Paste Password Fields 
 Date: 2012-03-17 16:09
 Author: Eric
-Category: Software Development
+Category: Opinion
 Tags: User Interface
 Slug: ui-horror-no-paste-password-fields
 Status: published

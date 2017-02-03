@@ -1,7 +1,7 @@
 Title: Self-Referential Segues
 Date: 2009-10-03 12:14
 Author: Eric
-Category: Misc
+Category: Opinion
 Tags: Pedantry
 Slug: self-referential-segues
 Status: published

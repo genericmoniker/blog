@@ -15,12 +15,13 @@ from pelican.server import ComplexHTTPRequestHandler
 # Note: invoke.yaml needed to work around a problem with invoke on Windows:
 # https://github.com/pyinvoke/invoke/issues/345
 
-HERE = os.path.abspath(os.path.dirname(__file__))
-SETTINGS = os.path.join(HERE, 'pelicanconf.py')
-CONTENT = os.path.join(HERE, 'content')
-OUTPUT = os.path.join(HERE, 'output')
-INDEX = os.path.join(OUTPUT, '_search_index_')
-SITE = os.path.join(OUTPUT, '_search_index_')
+SOURCE_DIR = os.path.abspath(os.path.dirname(__file__))
+SETTINGS = os.path.join(SOURCE_DIR, 'pelicanconf.py')
+CONTENT_DIR = os.path.join(SOURCE_DIR, 'content')
+THEME_DIR = os.path.join(SOURCE_DIR, 'theme')
+OUTPUT_DIR = os.path.join(SOURCE_DIR, 'output')
+INDEX = os.path.join(OUTPUT_DIR, '_search_index_')
+SITE = os.path.join(OUTPUT_DIR, '_search_index_')
 SERVE_PORT = 8000
 
 
@@ -28,7 +29,7 @@ SERVE_PORT = 8000
 def requirements(ctx):
     """Update requirements.txt from requirements.in."""
     try:
-        os.remove(os.path.join(HERE, 'requirements.txt'))
+        os.remove(os.path.join(SOURCE_DIR, 'requirements.txt'))
     except FileNotFoundError:
         pass
     ctx.run('pip-compile requirements.in')
@@ -38,7 +39,7 @@ def requirements(ctx):
 def requirements_dev(ctx):
     """Update requirements_dev.txt from requirements_dev.in."""
     try:
-        os.remove(os.path.join(HERE, 'requirements_dev.txt'))
+        os.remove(os.path.join(SOURCE_DIR, 'requirements_dev.txt'))
     except FileNotFoundError:
         pass
     ctx.run('pip-compile requirements_dev.in')
@@ -48,6 +49,17 @@ def requirements_dev(ctx):
 def build(ctx):
     """Build the web site."""
     ctx.run('pelican -s pelicanconf.py')
+
+
+@task
+def scss(ctx):
+    """Transpile .scss to .css"""
+    scss_file = os.path.join(THEME_DIR, 'scss', 'main.scss')
+    scss_mtime = os.stat(scss_file).st_mtime
+    css_file = os.path.join(THEME_DIR, 'static', 'css', 'main.css')
+    css_mtime = os.stat(css_file).st_mtime
+    if scss_mtime >= css_mtime:
+        ctx.run('pyScss')  # todo
 
 
 @task
@@ -67,7 +79,7 @@ def index(ctx):
         content=TEXT)
     ix = create_in(INDEX, schema)
     writer = ix.writer()
-    for root, dirs, names in os.walk(CONTENT):
+    for root, dirs, names in os.walk(CONTENT_DIR):
         for name in names:
             if fnmatch(name, '*.md'):
                 path = os.path.join(root, name)
@@ -95,7 +107,7 @@ def extract_document(path):
 @task
 def clean(ctx):
     """Clean the build output."""
-    shutil.rmtree(OUTPUT)
+    shutil.rmtree(OUTPUT_DIR)
 
 
 @task
@@ -104,7 +116,7 @@ def serve(ctx):
     class AddressReuseTCPServer(socketserver.TCPServer):
         allow_reuse_address = True
 
-    os.chdir(OUTPUT)
+    os.chdir(OUTPUT_DIR)
     server = AddressReuseTCPServer(('', SERVE_PORT), ComplexHTTPRequestHandler)
     sys.stderr.write('Serving on port {0} ...\n'.format(SERVE_PORT))
     server.serve_forever()

@@ -1,6 +1,7 @@
 Title: Packing and Alignment
 Date: 2005-06-24 17:00
 Author: Eric
+Category: How It Works
 Tags: Windows
 Slug: packing-and-alignment
 Status: published
