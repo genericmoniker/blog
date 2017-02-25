@@ -61,7 +61,6 @@ To Do
 
 * Theme
 
-    * Default main image
     * YouTube play button
     * Fix page/category links
     * Category page looks horrible (maybe need thumbnails for articles?)

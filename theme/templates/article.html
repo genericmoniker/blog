@@ -31,6 +31,20 @@
                 {% endif %}
                 </div>
             </div>
+            {% elif MEDIUS_DEFAULT_COVER %}
+            <div class="background-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url({{ MEDIUS_DEFAULT_COVER }});">
+                <img src="{{ MEDIUS_DEFAULT_COVER }}" alt="{{ article.title|striptags }}">
+                <div class="title">
+                <h1>
+                    {{ article.title }}
+                </h1>
+                {% if article.subtitle %}
+                <h2>
+                    {{ article.subtitle }}
+                </h2>
+                {% endif %}
+                </div>
+            </div>
             {% else %}
             <div class="background-image-small">
                 {% if article.thumbnail %}
