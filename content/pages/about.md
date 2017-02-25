@@ -4,7 +4,7 @@ Author: Eric
 Slug: about
 Status: published
 
-![Eric Smith Portrait]({filename}/images/eric-med.png)
+![Eric Smith Portrait]({filename}/site/eric-med.png)
 
 Hi, I'm Eric Smith. I'm a software developer, currently working for
 [StorageCraft](http://www.storagecraft.com/). I graduated from

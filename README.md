@@ -3,13 +3,14 @@ esmithy.net blog
 
 This is the project for the esmithy.net technical blog.
 
-Tools
+Setup
 -----
 
-* Python 3 - for running all the things
-* Pelican - for generating the static part of the site
-* Whoosh - for full-text search
-* Invoke - for encapsulating build/deploy commands
+1. Install Python 3.6+
+2. Make a virtualenv
+3. pip install -r requirements_dev.txt
+4. inv -l to see what you can do from there
+
 
 MarkDown Authoring Tips
 -----------------------
@@ -19,6 +20,8 @@ Pelican uses the [Markdown](http://pythonhosted.org/Markdown/) Python package.
 Image (put the image file in `content/images`):
 
     ![Alt Text]({filename}/images/image.jpg)
+
+*Site-related images go in `content/site` instead.*
 
 YouTube video:
 
@@ -47,24 +50,20 @@ Syntax highlighting with line numbers (shebang is pulled out):
 Available highlighting lexers are documented 
 [here](http://pygments.org/docs/lexers/).
 
-Categories
-----------
+Metadata
+--------
 
-* Event
-* How It Works
-* How-To
-* Opinion
-* Project
-* Review
-* Story
+Look at pelicanconf.py for the current categories.
 
 
 To Do
 -----
 
-* Clean up theme
+* Theme
 
     * Center post images
+    * YouTube play button
+    * Category page looks horrible (maybe need thumbnails for articles?)
 
 * Clean up content
 
@@ -75,5 +74,5 @@ To Do
 * Figure out comments (migration, too)
 * Full-text search ([DuckDuckGo?](https://duckduckgo.com/search_box))
 * Hosting
+* Build process (and optimize tasks)
 * Let's Encrypt
-

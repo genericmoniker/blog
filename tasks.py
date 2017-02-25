@@ -35,7 +35,7 @@ def requirements(ctx):
     ctx.run('pip-compile requirements.in')
 
 
-@task
+@task(name='requirements-dev')
 def requirements_dev(ctx):
     """Update requirements_dev.txt from requirements_dev.in."""
     try:
@@ -45,21 +45,21 @@ def requirements_dev(ctx):
     ctx.run('pip-compile requirements_dev.in')
 
 
-@task
-def build(ctx):
-    """Build the web site."""
+@task(name='build-content')
+def build_content(ctx):
+    """Build the blog content."""
     ctx.run('pelican -s pelicanconf.py')
 
 
-@task
-def scss(ctx):
-    """Transpile .scss to .css"""
+@task(name='build-theme')
+def build_theme(ctx):
+    """Build the site theme."""
     scss_file = os.path.join(THEME_DIR, 'scss', 'main.scss')
     scss_mtime = os.stat(scss_file).st_mtime
     css_file = os.path.join(THEME_DIR, 'static', 'css', 'main.css')
     css_mtime = os.stat(css_file).st_mtime
     if scss_mtime >= css_mtime:
-        ctx.run('pyScss')  # todo
+        ctx.run(f'sassc --sourcemap {scss_file} {css_file}')
 
 
 @task
@@ -102,6 +102,11 @@ def extract_document(path):
         title=metadata['title'],
         path=url,
         content=content)
+
+
+@task(pre=[build_theme, build_content])
+def build(ctx):
+    """Build everything."""
 
 
 @task
