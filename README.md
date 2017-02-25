@@ -61,8 +61,9 @@ To Do
 
 * Theme
 
-    * Center post images
+    * Default main image
     * YouTube play button
+    * Fix page/category links
     * Category page looks horrible (maybe need thumbnails for articles?)
 
 * Clean up content
