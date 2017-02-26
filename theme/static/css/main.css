@@ -20,6 +20,15 @@ html, button, input, select, textarea,
 .pure-g [class*="pure-u"] {
   font-family: "Open Sans", jaf-bernino-sans, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; }
 
+a.site-title {
+  color: rgba(0, 0, 0, 0.8);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.0785);
+  font-weight: bold;
+  padding: 10px 0 10px 0;
+  margin-bottom: 10px;
+  letter-spacing: .1em;
+  text-transform: uppercase; }
+
 div.metabar-container {
   height: 65px;
   position: absolute;
@@ -149,7 +158,7 @@ footer.index-footer {
   border-top: 1px solid rgba(0, 0, 0, 0.1); }
   footer.index-footer a {
     display: inline-block;
-    color: rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.7);
     font-size: 12px;
     margin-right: 16px;
     text-decoration: none; }
