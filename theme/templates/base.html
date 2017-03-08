@@ -37,8 +37,8 @@
 </head>
 <body>
 
-    <div class="navigation pure-menu pure-menu-horizontal">
-        <a href="{{ SITEURL }}/" class="site-title  pure-menu-link">{{ SITENAME }}</a>
+    <div class="navigation pure-menu pure-menu-horizontal" id="banner">
+        <a href="{{ SITEURL }}/" class="site-title  pure-menu-link"><img src="/site/logo.png"/>{{ SITENAME }}</a>
     </div>
     <div class="navigation pure-menu pure-menu-horizontal">
         <ul class="pure-menu-list">
@@ -51,6 +51,7 @@
             {% for p in pages %}
             <li class="pure-menu-item{% if p == page %} pure-menu-selected{% endif %}"><a href="{{ SITEURL }}/{{ p.url }}" class="pure-menu-link">{{ p.title }}</a></li>
             {% endfor %}
+            |
             {% endif %}
             {% if DISPLAY_CATEGORIES_ON_MENU %}
             {% for cat, null in categories %}

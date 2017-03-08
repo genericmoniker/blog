@@ -13,6 +13,8 @@
 $font-family-sans: 'Open Sans', jaf-bernino-sans, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
 $font-family-serif: Merriweather, freight-text-pro, Georgia, Cambria, 'Times New Roman', Times, serif;
 $font-family-mono: Consolas, 'Deja Vu Sans Mono', 'Ubuntu Mono', 'Bitstream Vera Sans Mono', Monaco, 'Courier New', monospace;
+$link-color: #C02C0E;
+$link-hover-color: #FF6D0F;
 
 
 // pure compatible media queries
@@ -39,6 +41,14 @@ body {
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
     font-family: $font-family-sans;
+}
+
+.pure-menu-selected {
+    font-weight: bold;
+}
+
+#banner {
+    padding: 0 20px 0 20px;
 }
 
 
@@ -184,7 +194,7 @@ div.main-container {
         }
 
         div.post-footer a {
-            color: #57ad68;
+            color: $link-color;
             font-size: 14px;
             line-height: 35px;
             text-decoration: none;
@@ -302,12 +312,12 @@ div.post-meta {
         }
 
         a.category {
-            color: #57ad68;
+            color: $link-color;
             font-size: 14px;
         }
 
         a.category:hover {
-            color: #468c54;
+            color: $link-hover-color;
         }
 
         a.author {
@@ -372,7 +382,7 @@ div.page-container {
                 }
 
                 a:hover {
-                    color: #57ad68;
+                    color: $link-hover-color;
                 }
             }
 
@@ -566,7 +576,7 @@ div.category-page-container {
 
     div.category-logo img {
         max-width: 440px;
-        margin: 50px 0;
+        vertical-align: middle;
     }
 
     div.category-logo h1 {
@@ -872,9 +882,9 @@ div.tags a {
 }
 
 div.tags a:hover {
-    color: #468c54;
-    border-color: #a9d8b2;
-    background: rgba(87,173,104,0.1);
+    color: $link-color;
+    border-color: $link-color;
+    background: rgba(255,109,15,0.1);
     text-decoration: none;
 }
 
