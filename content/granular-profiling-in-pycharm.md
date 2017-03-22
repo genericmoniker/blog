@@ -50,7 +50,7 @@ def profile(func):
     return wrapper
 ```
 
-Put this decorator on a function, and it will create a .pstat file in
+Put this decorator on a function, and it will create a `.pstat` file in
 your home directory named after the function it decorates. For example:
 
 ```python
@@ -59,7 +59,7 @@ def handle_get(request):
     # etc.
 ```
 
-After running the function, there would be a handle\_get.pstat file in
+After running the function, there would be a `handle_get.pstat` file in
 my home directory.
 
 Now I can use **Tools | Open CProfile snapshot** in PyCharm and analyze
