@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="WorkPlan.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <userSettings>
+        <WorkPlan.Properties.Settings>
+            <setting name="LastPlanFileName" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="MainFormSize" serializeAs="String">
+                <value>700, 480</value>
+            </setting>
+            <setting name="RecentFilesListMax" serializeAs="String">
+                <value>5</value>
+            </setting>
+            <setting name="LoadLastPlan" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="AllowLineWrap" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="EditOnEnter" serializeAs="String">
+                <value>False</value>
+            </setting>
+        </WorkPlan.Properties.Settings>
+    </userSettings>
+</configuration>

@@ -6,10 +6,9 @@ Status: published
 
 ![Eric Smith Portrait]({filename}/site/eric-med.png)
 
-Hi, I'm Eric Smith. I'm a software developer, currently working for
+Hi, I'm Eric Smith. I'm a software engineer, currently working for
 [StorageCraft](http://www.storagecraft.com/). I graduated from
-[BYU](http://byu.edu) with a degree in computer science in 1993, and have been
-working in the software industry since 1992.
+[BYU](http://byu.edu) with a degree in computer science.
 
 Professionally, I've worked in C, C++, C\#, Java, JavaScript, Python and
 probably other languages I can't recall at the moment. I've spent a lot
@@ -20,7 +19,7 @@ at Logitech.
 This blog is to communicate my thoughts in hopes that they'll be useful to
 someone -- including my future self who, strangely, tends to forget things.
 
-esmithy.net was a static web site before such things were cool, using XSLT and
+ESMITHY.NET was a static web site before such things were cool, using XSLT and
 an Ant script. For several years I switched over to use
 [WordPress](http://wordpress.org) to make posting a simpler process. But blogs
 are every programmer's place to fiddle with technologies, so I'm back to static

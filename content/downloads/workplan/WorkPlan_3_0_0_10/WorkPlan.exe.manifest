@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="WorkPlan.exe" version="3.0.0.10" publicKeyToken="31a7771072ea13ce" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="app.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WorkPlan" version="3.0.2240.26192" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WorkPlan.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Esmithy.Net.Common.dll" size="49152">
+      <assemblyIdentity name="Esmithy.Net.Common" version="1.0.2240.13630" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>vkoNXZNBcLauNdKL+pFd+IOeHZ4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WorkPlan.exe" size="135168">
+      <assemblyIdentity name="WorkPlan" version="3.0.2240.26192" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>YiNiaTJLgCZCgRkCHKxWnq1IgyA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WorkPlan.Core.dll" size="45056">
+      <assemblyIdentity name="WorkPlan.Core" version="3.0.2240.26192" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>/CAslSjbINvLh44KUBMTUSdkoO0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="app.ico" size="26694">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>x3zEe+zHzx8wUSvC1kEx2lwqXbk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WorkPlan.chm" size="18648">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>hcstY74QZoOcUBAk0NGSLaZi4XI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WorkPlan.Core.XmlSerializers.dll" size="32768">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>lih2/Nk/0d5OkB9ymcbUED340HQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WorkPlan.exe.config" size="1437">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>s5KTQ08AJ0Cswy5SLbzq4QIlL6c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WorkPlan_TemporaryKey.pfx" size="1660">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>FJITAUYfXhBC8bK7nvdnQgNMnzQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=STEALTH2\Eric" issuerKeyHash="5f3c0ec368814b4217e74f7c79eb6138dba4c6a2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>NcsTUJPu9luk12Eao+3ZWFzuhX0=</DigestValue></Reference></SignedInfo><SignatureValue>mF9HabLnFcuoYB1tyE9C9u8dNH2Hf4UjpH4KnTs8iynyFSf4FRhB7zGYReMDdRz+J0tz0iuZAiO2F7jyJx9JCZblTM3fRQygn+tFtepL8NUn1sOhElL/zPHgYjeKMd7jR7dxPOh1vmHW5vEnkaX8onfu5YvxQQxEHyRhZBUczj0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uBPuxawfUBCSU80vLzVT1awmFbHp8oRvkR2N81cOMWO9vg/PNZL5DWigHWaAfzaZq1PI+6Xswx1xkLeoUgCVks5uy7CNM/kIwd/YuZ92knKR417BnrSMNxBUVtFPpJj4OlybU2wp4/U8OC2X022IbneRqhSq7FH8szhcK7j1yNc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7d85ee5c58d9eda31a61d7a45bf6ee935013cb35" Description="" Url=""><as:assemblyIdentity name="WorkPlan.exe" version="3.0.0.10" publicKeyToken="31a7771072ea13ce" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=STEALTH2\Eric</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>QygkxQJsgBSFUOePgH18egfB8AY=</DigestValue></Reference></SignedInfo><SignatureValue>BurY1/m/26biSpSqwwxpOh0MwjofhTeNce1HZ8CXPn3rAU0OxFn/Wtrnezz+By03MGMGupPNAvaHTUcqemUUUHlq7SkWIzE75hnkNOHncspMvBHj4z/em8mESB4VHTxBkjS/67NeNhwlK0kb/qVvn87luAHSJ+1LB0RHE3zCX7I=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uBPuxawfUBCSU80vLzVT1awmFbHp8oRvkR2N81cOMWO9vg/PNZL5DWigHWaAfzaZq1PI+6Xswx1xkLeoUgCVks5uy7CNM/kIwd/YuZ92knKR417BnrSMNxBUVtFPpJj4OlybU2wp4/U8OC2X022IbneRqhSq7FH8szhcK7j1yNc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCATKgAwIBAgIQ77o1ldEuJqpNJoqeqZGZtzAJBgUrDgMCHQUAMCUxIzAhBgNVBAMeGgBTAFQARQBBAEwAVABIADIAXABFAHIAaQBjMB4XDTA2MDIxMDIwMzU0NFoXDTA3MDIxMTAyMzU0NFowJTEjMCEGA1UEAx4aAFMAVABFAEEATABUAEgAMgBcAEUAcgBpAGMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALgT7sWsH1AQklPNLy81U9WsJhWx6fKEb5EdjfNXDjFjvb4PzzWS+Q1ooB1mgH82matTyPul7MMdcZC3qFIAlZLObsuwjTP5CMHf2LmfdpJykeNewZ60jDcQVFbRT6SY+Dpcm1NsKeP1PDgtl9NtiG53kaoUquxR/LM4XCu49cjXAgMBAAEwCQYFKw4DAh0FAAOBgQCS7rY1INTkh2NtafNVgQ14DxXnBFcmXMZdwbS15TCxL9LNVAQywEa3+fl7GXUbUxeM/246XWwYZ9eoZtOSbd2qSmwt/7WIFnn3aCxhQH5pO3YsVUjURqucIw6mVXSAmvzafx4SQnBOT5bfZTr+XpHoHZjjzuRH+hdLrZjpH2rI7Q==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
