@@ -149,7 +149,7 @@ div.main-container {
   div.main-container div.heading {
     text-align: left; }
     div.main-container div.heading div.heading-prefix {
-      color: rgba(0, 0, 0, 0.3);
+      color: rgba(0, 0, 0, 0.7);
       font-size: 11px; }
     div.main-container div.heading h3 {
       font-weight: 300;
@@ -179,6 +179,14 @@ div.post-meta img.post-avatar {
   display: inline-block;
   vertical-align: middle;
   margin-right: 10px; }
+
+div.post-meta img.category-avatar {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 3px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px; }
 
 div.post-meta div.meta-data {
   letter-spacing: -0.02em;

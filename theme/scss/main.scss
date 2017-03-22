@@ -249,7 +249,7 @@ div.main-container {
         text-align: left;
 
         div.heading-prefix {
-            color: rgba(0,0,0,0.3);
+            color: rgba(0,0,0,0.7);
             font-size: 11px;
         }
 
@@ -298,6 +298,17 @@ div.post-meta {
         display: inline-block;
         vertical-align: middle;
         margin-right: 10px;
+
+    }
+
+    img.category-avatar {
+
+        max-width: 100px;
+        max-height: 100px;
+        border-radius: 3px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 20px;
 
     }
 
