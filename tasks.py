@@ -1,7 +1,8 @@
 import os
+import posixpath
 import shutil
 import socketserver
-
+import subprocess
 import sys
 from fnmatch import fnmatch
 
@@ -12,7 +13,7 @@ from pelican.readers import MarkdownReader
 
 from pelican.server import ComplexHTTPRequestHandler
 
-# Note: invoke.yaml needed to work around a problem with invoke on Windows:
+# Note: invoke.yaml is needed to work around a problem with invoke on Windows:
 # https://github.com/pyinvoke/invoke/issues/345
 
 SOURCE_DIR = os.path.abspath(os.path.dirname(__file__))
@@ -125,3 +126,35 @@ def serve(ctx):
     server = AddressReuseTCPServer(('', SERVE_PORT), ComplexHTTPRequestHandler)
     sys.stderr.write('Serving on port {0} ...\n'.format(SERVE_PORT))
     server.serve_forever()
+
+
+@task(pre=[build])
+def deploy(ctx):
+    """Deploy to production."""
+    print('Copying files...')
+    config = ssh_config()
+    source = fix_path(OUTPUT_DIR) + '/.'
+    ctx.run(f'scp -F "{config}" -r "{source}" web:/var/www/html')
+
+
+@task
+def ssh(ctx):
+    """ssh into the blog's host."""
+    config = ssh_config()
+    subprocess.run(f'ssh -F {config} web')
+
+
+def ssh_config():
+    return fix_path(os.path.join(SOURCE_DIR, 'private', 'ssh.config'))
+
+
+def fix_path(path):
+    """Convert a Windows path to a Linux path.
+    
+    D:\My\Path.txt -> /D/My/Path.txt
+    """
+    if sys.platform.startswith('win'):
+        path = posixpath.sep + path.replace(os.path.sep, posixpath.sep)
+        return path.replace(':', '')
+    else:
+        return path
