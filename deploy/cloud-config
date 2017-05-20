@@ -1,0 +1,45 @@
+#cloud-config
+
+# Logs will be at /var/log/cloud-init-output.log
+
+users:
+  - name: eric
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEApHCXRbiG6ISl1Kvn81cxROi9Y11xRRilCokXnO93cwzF1VqcEnjCuVCTA2Po7mnZzyx9A5FCoHLnZ348CCXpUZBN9AfBbdJOgIKP7/UbWX0wKke8zqgN/lJ47AKePggMen+BRPbo792eMoCkagMdzrBU/uYpU+RiyvXfEr2Bhbvwlp+4M1lR31eSO2NNMwwSHcU9Sr/UF1yPbWnsktNX3tmt305qa488f5IxsghnesE3MsX1xJbekkV7DIYwb4dQc35x6BsKr95vooVK6OphZj+8qwkgCOsL1ymXNl+eGIph4WbODJxAVa0AjjHTiszwwNYMDA6qLfdAOwkcNK5F0w== Eric@NUMERIC
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    groups: sudo, www-data
+    shell: /bin/bash
+
+package_upgrade: true
+packages:
+  - nginx
+
+write_files:
+  - path: /etc/nginx/sites-available/esmithy.net
+    content: |
+      server {
+        listen 80;
+        listen [::]:80;
+        root /var/www/html/main;
+        index index.html;
+        server_name esmithy.net;
+
+        location / {
+          try_files $uri $uri/ =404;
+        }
+      }
+
+runcmd:
+  - echo ----- Changing login permissions -----
+  - sed -i -e '/^PermitRootLogin/s/^.*$/PermitRootLogin no/' /etc/ssh/sshd_config
+  - sed -i -e '$aAllowUsers eric' /etc/ssh/sshd_config
+  - systemctl restart sshd
+  - echo ----- Updating firewall rules -----
+  - ufw allow 22
+  - ufw allow 'Nginx HTTP'
+  - echo ----- Setting web file permissions -----
+  - while \[ ! -f /var/www/html/index.nginx-debian.html \]; do sleep 2; done
+  - chown -R eric:www-data /var/www
+  - rm /etc/nginx/sites-enabled/default
+  - ln /etc/nginx/sites-available/esmithy.net /etc/nginx/sites-enabled/esmithy.net
+  - nginx -s reload

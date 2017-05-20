@@ -50,29 +50,11 @@ Syntax highlighting with line numbers (shebang is pulled out):
 Available highlighting lexers are documented 
 [here](http://pygments.org/docs/lexers/).
 
+To put a `<br>` tag at the end of a line, put two spaces at the end of the
+line.
+
 Metadata
 --------
 
 Look at pelicanconf.py for the current categories.
 
-
-To Do
------
-
-* Theme
-
-    * YouTube play button
-    * Fix page/category links
-    * Category page looks horrible (maybe need thumbnails for articles?)
-
-* Clean up content
-
-    * Filenames
-    * Images local
-    * Other content (esp. software section)
-
-* Figure out comments (migration, too)
-* Full-text search ([DuckDuckGo?](https://duckduckgo.com/search_box))
-* Hosting
-* Build process (and optimize tasks)
-* Let's Encrypt

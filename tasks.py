@@ -134,14 +134,14 @@ def deploy(ctx):
     print('Copying files...')
     config = ssh_config()
     source = fix_path(OUTPUT_DIR) + '/.'
-    ctx.run(f'scp -F "{config}" -r "{source}" web:/var/www/html')
+    ctx.run(f'scp -F "{config}" -r "{source}" web:/var/www/html/main')
 
 
-@task
-def ssh(ctx):
+@task(help={'host': 'Host from ssh.config to which to connect.'})
+def ssh(ctx, host='web'):
     """ssh into the blog's host."""
     config = ssh_config()
-    subprocess.run(f'ssh -F {config} web')
+    subprocess.run(f'ssh -F {config} {host}')
 
 
 def ssh_config():
