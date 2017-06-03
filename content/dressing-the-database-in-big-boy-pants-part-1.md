@@ -2,7 +2,7 @@ Title: Dressing the Database in Big-Boy Pants, Part 1
 Date: 2013-04-04 16:38
 Author: Eric
 Category: How-To
-Tags: database
+Tags: Database
 Slug: dressing-the-database-in-big-boy-pants-part-1
 Status: published
 
