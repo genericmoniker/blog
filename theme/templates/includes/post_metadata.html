@@ -4,7 +4,7 @@
     {% for author in article.authors %}
     <a class="author" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
     {% endfor %}
-    &mdash; <abbr title="{{ article.date.isoformat() }}">{{ article.locale_date }}</abbr>
+    &mdash; <time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
     {% if article.readtime_minutes %}
     &mdash; {{ article.readtime_minutes }} min read
     {% endif %}
