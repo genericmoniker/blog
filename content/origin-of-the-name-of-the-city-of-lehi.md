@@ -11,15 +11,16 @@ Introduction
 Most people believe that the city of Lehi, Utah was named after Lehi, the first
 prophet and patriarch of the Book of Mormon who fled Jerusalem with his family
 prior to the city falling under siege to the Babylonians around the beginning
-of the 6th century BC. Both the Wikipedia articles for "Lehi, Utah" [1](#note1)  
-and "Lehi (Book of Mormon prophet)" [2](#note2) say this is the case
-[3](#note3), and although the current official city web site doesn't mention
-the origin of the name, previous versions of the site included a summary by
-Lehi city historian Richard S. Van Wagoner saying of the name Lehi, "Like the
-Book of Mormon patriarch of the same name, the colonizers of Lehi had been
-uprooted on numerous occasions before finally settling in their promised land."
-[4](#note4) It is possible, though, that the city's name has a different
-provenance.
+of the 6th century BC. Both the Wikipedia articles for "Lehi,
+Utah"<sup>[1](#note1)</sup> and "Lehi (Book of Mormon
+prophet)"<sup>[2](#note2)</sup> say this is the case<sup>[3](#note3)</sup>, and
+although the current official city web site doesn't mention the origin of the
+name, previous versions of the site included a summary by Lehi city historian
+Richard S. Van Wagoner saying of the name Lehi, "Like the Book of Mormon
+patriarch of the same name, the colonizers of Lehi had been uprooted on
+numerous occasions before finally settling in their promised
+land."<sup>[4](#note4)</sup> It is possible, though, that the city's name has a
+different provenance.
 
 An Analogy
 ----------
@@ -40,11 +41,12 @@ when it was first being settled. David Evans, a Mormon bishop and community
 leader (and hence "Evansville"), is credited with the petition to incorporate
 the settlement into a city in 1852. Gardner's history says, "This petition was
 granted, and the city incorporated under the name of Lehi, this Book of Mormon
-appellation being suggested because the people had moved so frequently."
-[5](#note5) The act of incorporation, after specifying the proposed geography,
-simply says, "…is hereby incorporated into a city, which shall be called the
-'City of Lehi,' and the inhabitants thereof are hereby constituted a body
-corporate and politic, by the name aforesaid." [6](#note6)
+appellation being suggested because the people had moved so
+frequently."<sup>[5](#note5)</sup> The act of incorporation, after specifying
+the proposed geography, simply says, "…is hereby incorporated into a city,
+which shall be called the 'City of Lehi,' and the inhabitants thereof are
+hereby constituted a body corporate and politic, by the name
+aforesaid."<sup>[6](#note6)</sup>
 
 Despite the references to the first Book of Mormon prophet, with a couple of
 not-so-large leaps, it can be shown that the city's namesake is only
@@ -54,7 +56,7 @@ Leap 1 - Cities Named for Cities
 --------------------------------
 
 According to Wikipedia's list of cities and towns in Utah, there are five
-cities with names from the Book of Mormon: [7](#note7)
+cities with names from the Book of Mormon:<sup>[7](#note7)</sup>
 
 * Bountiful
 * Lehi
@@ -65,19 +67,19 @@ cities with names from the Book of Mormon: [7](#note7)
 The first of these named was Manti. According to the Utah state historical web
 site, "Brigham Young named the site 'Manti' in the summer of 1850, at the
 request of the local patriarch Isaac Morley. The name was derived from that
-section of the 'Book of Mormon' called Alma." [8](#note8)
+section of the 'Book of Mormon' called Alma."<sup>[8](#note8)</sup>
 
 Although there is a Nephite soldier named Manti in the Book of Mormon, a much
-more prominent usage is as a land and a city. [9](#note9) The precedent was
-therefore established of naming cities in Utah after cities in the Book of
-Mormon, rather than after people in the Book of Mormon. In fact, all of the
-names above are mentioned as cities in the Book of Mormon, even if most of them
-were originally named after people. [10](#note10)
+more prominent usage is as a land and a city.<sup>[9](#note9)</sup> The
+precedent was therefore established of naming cities in Utah after cities in
+the Book of Mormon, rather than after people in the Book of Mormon. In fact,
+all of the names above are mentioned as cities in the Book of Mormon, even if
+most of them were originally named after people.<sup>[10](#note10)</sup>
 
 David Evans might have found the name of Lehi particularly suited for his
 community since the Book of Mormon city is described as being "in the north by
-the borders of the seashore" [11](#note11) just as Lehi, Utah is on the north
-end of Utah Lake, the second largest body of water in the state.
+the borders of the seashore"<sup>[11](#note11)</sup> just as Lehi, Utah is on
+the north end of Utah Lake, the second largest body of water in the state.
 
 Leap 2 - City of Lehi's Namesake
 --------------------------------
@@ -86,24 +88,25 @@ If Lehi, Utah was named after the Book of Mormon city of Lehi, who was the Book
 of Mormon city named after?
 
 According to the *Book of Mormon Onomasticon*, there are four people named Lehi
-in the Book of Mormon. [12](#note12) The first is the prophet who fled
+in the Book of Mormon.<sup>[12](#note12)</sup> The first is the prophet who fled
 Jerusalem, while the last is the younger son of the prophet Helaman. The middle
 two are associated with the Nephite military, and it seems likely that they are
 actually the same person.
 
 The first mention (referred to as LEHI2 in the Book of Mormon index and the
-*Onomasticon*) is of the son of the Nephite chief captain, Zoram, who joined with
-his father and brother to rescue some of their people who had been captured by
-the enemy. [13](#note13)
+*Onomasticon*) is of the son of the Nephite chief captain, Zoram, who joined
+with his father and brother to rescue some of their people who had been
+captured by the enemy.<sup>[13](#note13)</sup>
 
 The next mention (LEHI3) is seven years later as leader of part of the Nephite
-army when Moroni was the chief captain. [14](#note14) This Lehi played a
-dominant role in the Nephite war against the Lamanites, such that Moroni and
-Lehi "were beloved by each other, and also beloved by all the people of Nephi."
-[15](#note15) and the Lamanites "feared Lehi exceedingly". [16](#note16)
+army when Moroni was the chief captain.<sup>[14](#note14)</sup> This Lehi
+played a dominant role in the Nephite war against the Lamanites, such that
+Moroni and Lehi "were beloved by each other, and also beloved by all the people
+of Nephi."<sup>[15](#note15)</sup> and the Lamanites "feared Lehi
+exceedingly".<sup>[16](#note16)</sup>
 
 It is during this time of warfare that the Book of Mormon tells of the
-establishment of several cities: [17](#note17)
+establishment of several cities:<sup>[17](#note17)</sup>
 
 > Thus Moroni, with his armies, which did increase daily because of the
 > assurance of protection which his works did bring forth unto them, did seek
