@@ -16,7 +16,11 @@ from pelican.server import ComplexHTTPRequestHandler
 # Note: invoke.yaml is needed to work around a problem with invoke on Windows:
 # https://github.com/pyinvoke/invoke/issues/345
 
+WINDOWS = sys.platform.startswith('win')
+
 SOURCE_DIR = os.path.abspath(os.path.dirname(__file__))
+VENV_DIR = os.path.join(SOURCE_DIR, '.env')
+BIN_DIR = os.path.join(VENV_DIR, 'Scripts' if WINDOWS else 'bin')
 SETTINGS = os.path.join(SOURCE_DIR, 'pelicanconf.py')
 CONTENT_DIR = os.path.join(SOURCE_DIR, 'content')
 THEME_DIR = os.path.join(SOURCE_DIR, 'theme')
@@ -153,7 +157,7 @@ def fix_path(path):
     
     D:\My\Path.txt -> /D/My/Path.txt
     """
-    if sys.platform.startswith('win'):
+    if WINDOWS:
         path = posixpath.sep + path.replace(os.path.sep, posixpath.sep)
         return path.replace(':', '')
     else:
