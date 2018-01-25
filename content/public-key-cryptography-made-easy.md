@@ -55,8 +55,8 @@ looks like this:
 ```python
 # encrypt
 symmetric_key = random()
+ciphertext = symmetric_encrypt(message, symmetric_key)
 encrypted_symmetric_key = encrypt(symmetric_key, public_key)
-ciphertext = symmetric_encrypt(message, encrypted_symmetric_key)
 
 # decrypt
 decrypted_symmetric_key = decrypt(encrypted_symmetric_key, private_key)
@@ -80,3 +80,6 @@ signature = encrypt(hash(message), private_key)
 # verify
 is_valid = decrypt(signature, public_key) == hash(message)
 ```
+
+**Update**: Speaking of being wrong, corrections made to the mixed
+symmetric/asymmetric example on 24 Jan 2018.
