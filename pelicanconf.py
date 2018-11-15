@@ -46,7 +46,11 @@ THEME = 'theme'  # Relative path to theme directory.
 MEDIUS_AUTHORS = {
     'Eric': {
         'description': """
-            Software architect and developer.
+            Eric Smith is a software architect and developer. He currently 
+            works for StorageCraft, and graduated with a computer science 
+            degree from Brigham Young University back when the World-Wide Web 
+            was a new thing. He is also a husband, father, and member of The
+            Church of Jesus Christ of Latter-day Saints.
         """,
         'cover': '/site/esmithy.jpg',
         'image': '/site/eric-small.png',
@@ -54,7 +58,19 @@ MEDIUS_AUTHORS = {
             ('github', 'https://github.com/genericmoniker'),
             ('envelope-square', 'mailto:eric@esmithy.net'),
         ),
-    }
+    },
+    'Ethan': {
+        'description': """
+            Ethan Smith is a computer science student at Southern Utah 
+            University and vice president of the school's Cybersecurity Club.
+        """,
+        'cover': '/site/esmithy.jpg',
+        'image': '/site/ethan-small.png',
+        'links': (
+            ('github', 'https://github.com/genericmoniker'),
+            ('envelope-square', 'mailto:ethan@esmithy.net'),
+        ),
+    },
 }
 
 MEDIUS_DEFAULT_COVER = '/site/esmithy.jpg'
