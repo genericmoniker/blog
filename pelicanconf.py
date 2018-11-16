@@ -67,7 +67,7 @@ MEDIUS_AUTHORS = {
         'cover': '/site/esmithy.jpg',
         'image': '/site/ethan-small.png',
         'links': (
-            ('github', 'https://github.com/genericmoniker'),
+            ('github', 'https://github.com/urd000med/'),
             ('envelope-square', 'mailto:ethan@esmithy.net'),
         ),
     },
