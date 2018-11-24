@@ -1,14 +1,14 @@
 esmithy.net blog
 ================
 
-This is the project for the esmithy.net technical blog.
+This is the project for the esmithy.net blog.
 
 Setup
 -----
 
 1. Install Python 3.6+
 2. Make a virtualenv
-3. pip install -r requirements_dev.txt
+3. pip install -r requirements.build.txt
 4. inv -l to see what you can do from there
 
 
@@ -19,7 +19,7 @@ Pelican uses the [Markdown](http://pythonhosted.org/Markdown/) Python package.
 
 Image (put the image file in `content/images`):
 
-    ![Alt Text]({filename}/images/image.jpg)
+    ![Alt Text]({static}/images/image.jpg)
 
 *Site-related images go in `content/site` instead.*
 

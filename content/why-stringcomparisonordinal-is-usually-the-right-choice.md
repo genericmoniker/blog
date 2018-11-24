@@ -75,7 +75,7 @@ But for most other day-to-day string manipulations within code, such as
 comparing file names for equivalence, you should use one of the Ordinal
 values.
 
-![Both filenames are valid]({filename}/images/greetings.jpg)
+![Both filenames are valid]({static}/images/greetings.jpg)
 
 Both are valid (and distinct) file names, after all, which is not
 discernible using either CurrentCulture or InvariantCulture.

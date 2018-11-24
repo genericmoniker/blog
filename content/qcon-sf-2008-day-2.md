@@ -7,7 +7,7 @@ Status: published
 
 It's another day of industry stand-outs at QCon.
 
-![San Francisco]({filename}/images/qcon-4.jpg)
+![San Francisco]({static}/images/qcon-4.jpg)
 
 Shifting Storage (Tim Bray)
 ---------------------------
@@ -70,7 +70,7 @@ Mark also spoke briefly about what might be expected for the future of
 HTTP, like a standard set of conformance tests, better authentication,
 transport over SCTP instead of TCP, and others.
 
-![Moscone]({filename}/images/qcon-5.jpg)
+![Moscone]({static}/images/qcon-5.jpg)
 
 Joys and Pains of Long-Lived Code (Jeremy Miller)
 -------------------------------------------------
@@ -100,7 +100,7 @@ past: they have a constructor injected set of dependencies and try to
 reconfigure the container to inject mocks. Just pass the mocks in the
 constructor!
 
-![San Francisco]({filename}/images/qcon-6.jpg)
+![San Francisco]({static}/images/qcon-6.jpg)
 
 F\# (Don Syme)
 --------------
@@ -142,7 +142,7 @@ the code verifier will complain. So you almost *can't* write those
 tests, and therefore contracts push you toward testing the meaningful
 behavior of the code.
 
-![Statue]({filename}/images/qcon-7.jpg)
+![Statue]({static}/images/qcon-7.jpg)
 
 Democratizing the Cloud - MS Volta (Erik Meijer)
 ------------------------------------------------

@@ -15,4 +15,4 @@ For all of you folks out there that file fraudulent returns -- if you
 want to do it strictly by the book, you ought to hang on to that return
 indefinitely. You know, just to comply with IRS recommendations:
 
-[![Tax Records]({filename}/images/tax-records.png)
+[![Tax Records]({static}/images/tax-records.png)

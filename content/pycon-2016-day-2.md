@@ -9,7 +9,7 @@ Today's PyCon was a lot about meeting people. I hadn't really
 anticipated that, but it was a nice surprise nonetheless. But first
 things first...
 
-![Convention Center]({filename}/images/pycon-conv-center.jpg)
+![Convention Center]({static}/images/pycon-conv-center.jpg)
 
 Lightning talks (AM)
 --------------------
@@ -87,7 +87,7 @@ mention (and some strong audience support) for
 standard ArgParse module. I'm interested in taking a look at that as
 well.
 
-![Roses]({filename}/images/pycon-roses.jpg)
+![Roses]({static}/images/pycon-roses.jpg)
 
 
 Podcast Open Space
@@ -155,7 +155,7 @@ to think programming is kind of a boy thing. Guido said that what I
 needed to do was to absolutely forbid her from doing any programming,
 and that would pretty much seal the deal of her getting interested.
 
-![Guido van Rossum]({filename}/images/pycon-guido.jpg)
+![Guido van Rossum]({static}/images/pycon-guido.jpg)
 
 Also in that little group of people was Luciano Ramalho, author of
 *[Fluent

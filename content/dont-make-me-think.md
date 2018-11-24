@@ -9,7 +9,7 @@ Status: published
 Steve Krug's *Don't Make Me Think* is a quick, easy to read introduction to
 usability, especially as it relates to web design.
 
-![Book Cover]({filename}/images/dont-make-me-think.jpg)
+![Book Cover]({static}/images/dont-make-me-think.jpg)
 
 Some sections are very web-specific, but you'll also find plenty of things that
 apply to any kind of user interface. He also doesn't try to be comprehensive,

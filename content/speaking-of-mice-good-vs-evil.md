@@ -6,7 +6,7 @@ Tags: Mac
 Slug: speaking-of-mice-good-vs-evil
 Status: published
 
-![Logitech vs. Apple mouse]({filename}/images/mice.jpg "Good vs. Evil")
+![Logitech vs. Apple mouse]({static}/images/mice.jpg "Good vs. Evil")
 
 I finally had to throw the shiny white excuse for a mouse into the
 drawer and pull out a trusty VX Nano. The Apple mouse suffers from the

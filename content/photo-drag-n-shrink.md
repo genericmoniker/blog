@@ -25,7 +25,7 @@ About
 -----
 
 ![Screen
-Shot]({filename}/images/drag-shrink-screen-shot.png "Screen Shot")
+Shot]({static}/images/drag-shrink-screen-shot.png "Screen Shot")
 
 Photo Drag 'n Shrink is a simple utility for resizing images. This is
 handy if you've got a lot of pictures that you want to resize for faster

@@ -16,5 +16,5 @@ or cute emoticon?
 
 Thanks for that.
 
-![bsod]({filename}/images/bsod.jpg)
+![bsod]({static}/images/bsod.jpg)
 

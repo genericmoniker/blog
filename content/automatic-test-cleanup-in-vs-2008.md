@@ -9,7 +9,7 @@ Status: published
 I'm working on switching from VS 2005 to VS 2008. I just tried running
 some unit tests and got the following dialog:
 
-![clean-up-tests.jpg]({filename}/images/clean-up-tests.jpg)
+![clean-up-tests.jpg]({static}/images/clean-up-tests.jpg)
 
 Hooray! I've been trying to figure out how to implement automatic test
 cleanup myself, but I (fortunately) hadn't had time to devote serious

@@ -7,11 +7,11 @@ Status: published
 
 I found this sticker inside one of a pair of new shoes:
 
-![First Picture]({filename}/images/shoe-1.jpg)
+![First Picture]({static}/images/shoe-1.jpg)
 
 I didn't have any idea what this was saying. My wife suggested it meant
 that I ought to watch out for diamonds... and maybe nets.
 
 I found this sticker in the other shoe. I think it means the same thing:
 
-![Second Picture]({filename}/images/shoe-2.jpg)
+![Second Picture]({static}/images/shoe-2.jpg)

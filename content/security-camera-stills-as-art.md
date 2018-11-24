@@ -13,20 +13,20 @@ some serendipitous art.
 
 Color Variance Triptisch
 
-![Color Variance Triptisch]({filename}/images/triptisch.jpg)
+![Color Variance Triptisch]({static}/images/triptisch.jpg)
 
 Bleak Winter
 
-![Bleak Winter]({filename}/images/bleak-winter.jpg)
+![Bleak Winter]({static}/images/bleak-winter.jpg)
 
 Darn Suction Cups
 
-![Darn Suction Cups]({filename}/images/suction-cups.jpg)
+![Darn Suction Cups]({static}/images/suction-cups.jpg)
 
 Watcher
 
-![Watcher]({filename}/images/watcher.jpg)
+![Watcher]({static}/images/watcher.jpg)
 
 Flight
 
-![Flight]({filename}/images/flight.jpg)
+![Flight]({static}/images/flight.jpg)

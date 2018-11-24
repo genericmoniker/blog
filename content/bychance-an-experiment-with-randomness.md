@@ -25,7 +25,7 @@ randomness in biological evolution. For more background, please see
 
 Note: The worker thread in this program will use all the CPU you can give it.
 
-![Screen Shot]({filename}/images/by-chance2.jpg)
+![Screen Shot]({static}/images/by-chance2.jpg)
 
 License
 -------

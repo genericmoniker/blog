@@ -43,28 +43,28 @@ If your corner radius is sufficiently large, you might not notice
 anything wrong with the result. With a value of 3, it is pretty obvious:
 
 ![Not-so-rounded
-rectangle]({filename}/images/rect-bad.png "Not-so-rounded rectangle")
+rectangle]({static}/images/rect-bad.png "Not-so-rounded rectangle")
 
 The top left corner looks perfect:
 
-![Top-left]({filename}/images/rect-topleft.png "Top-left")
+![Top-left]({static}/images/rect-topleft.png "Top-left")
 
 The bottom right corner is decidedly un-round:
 
-![Bottom-right]({filename}/images/rect-bottomright1.png "Bottom-right")
+![Bottom-right]({static}/images/rect-bottomright1.png "Bottom-right")
 
 I started to wonder if all those round rectangle functions were wrong,
 but drawing the GraphicsPath itself shows that the code is correct:
 
 ![Graphics
-Path]({filename}/images/rect-path.png "Graphics Path")
+Path]({static}/images/rect-path.png "Graphics Path")
 
 The problem is that when converting the GraphicsPath to a Region, it
 uses the *inside* of the GraphicsPath, so you lose the outside pixels on
 the sides, which you can see when drawing the path and then filling the
 region:
 
-![rect-detail]({filename}/images/rect-detail.png "Missing pixels in the region")
+![rect-detail]({static}/images/rect-detail.png "Missing pixels in the region")
 
 It turns out to be a whole lot easier and effective to do a little
 p/invoke here:
@@ -80,7 +80,7 @@ e.Graphics.FillRegion(Brushes.Orange, region);
 Here's the output from that code:
 
 ![Good
-Region]({filename}/images/rect-good.png "Good Region")
+Region]({static}/images/rect-good.png "Good Region")
 
 It looks like a little larger corner radius is needed to get the same
 rounding, but otherwise it is perfect.

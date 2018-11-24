@@ -6,7 +6,7 @@ Tags: Applications, Windows
 Slug: glacier-cloudberry
 Status: published
 
-![checkbox-0]({filename}/images/checkbox-0.png) Offsite backup for critical files
+![checkbox-0]({static}/images/checkbox-0.png) Offsite backup for critical files
 
 This task has been lingering undone on my to-do list for months. I
 imagined that I'd figure out some way to use Dropbox, Google Drive, Sky
@@ -75,6 +75,6 @@ application, so there are a few rough edges.
 
 Overall, though, I'm happy to call it good.
 
-![checkbox-1]({filename}/images/checkbox-1.png) Offsite backup for critical files
+![checkbox-1]({static}/images/checkbox-1.png) Offsite backup for critical files
 
 P.S. I paid for my own copy.

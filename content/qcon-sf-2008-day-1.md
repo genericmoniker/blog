@@ -11,7 +11,7 @@ QCon is a software development conference sponsored by the
 and here is a summary and some thoughts on the first day's sessions I
 was able to attend.
 
-![San Francisco Buildings]({filename}/images/qcon-3.jpg)
+![San Francisco Buildings]({static}/images/qcon-3.jpg)
 
 Agilists and Architects (Martin Fowler & Rebecca Parsons)
 ---------------------------------------------------------
@@ -75,7 +75,7 @@ model of the provider (eBay wants to optimize adding listings since
 that's how they make money) and should be easy to access both in terms
 of openness and the developer support provided.
 
-![San Francisco Buildings]({filename}/images/qcon-1.jpg)
+![San Francisco Buildings]({static}/images/qcon-1.jpg)
 
 Hard Rock: Silverlight 2 (Scott Stanfield)
 ------------------------------------------
@@ -151,7 +151,7 @@ which was "Our lawyers say we can't use any open source software", which
 led to Neal having to buy a "license" for CruiseControl (written by
 Neal's employer, ThoughtWorks) so he could use it with a client.
 
-![San Francisco]({filename}/images/qcon-2.jpg)
+![San Francisco]({static}/images/qcon-2.jpg)
 
 Real World GWT (Alex Moffat)
 ----------------------------

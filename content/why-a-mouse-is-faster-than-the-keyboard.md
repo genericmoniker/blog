@@ -19,7 +19,7 @@ understand.
 When doing shortcut keys on a Mac, you typically use the Command key,
 which is right next to the spacebar.
 
-![Mac Keyboard]({filename}/images/mac-keyboard.jpg)
+![Mac Keyboard]({static}/images/mac-keyboard.jpg)
 
 The trouble I have is that I don’t know which finger to use to push the
 Command key. No matter which finger you pick, you’re guaranteed to have

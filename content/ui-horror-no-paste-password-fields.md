@@ -17,5 +17,5 @@ In the case of TurboTax, it diminishes the value of data import if I
 have to type more characters for my password than there are numbers on
 the form to input.
 
-![TurboTax's castrated password field]({filename}/images/no-paste-password.png)
+![TurboTax's castrated password field]({static}/images/no-paste-password.png)
 

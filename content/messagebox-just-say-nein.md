@@ -14,7 +14,7 @@ you're building an application that is intended to be localized, you
 invariably end up with something that looks like a bug.
 
 <!--more-->
-![German messagebox with English buttons]({filename}/images/messagebox.png "Semi-Translated MessageBox")
+![German messagebox with English buttons]({static}/images/messagebox.png "Semi-Translated MessageBox")
 
 You're pretty much guaranteed to get an entry in the bug database for
 this. My typical response, over many years of writing Windows apps, is

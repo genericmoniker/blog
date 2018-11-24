@@ -23,11 +23,11 @@ example) would mean less spinning.
 Instead, the Android UI designers introduced a clock control that looks
 like this:
 
-![Hour Picker]({filename}/images/hour-picker.png)
+![Hour Picker]({static}/images/hour-picker.png)
 
 After picking the hour, you're moved automatically to pick the minute:
 
-![Minute Picker]({filename}/images/minute-picker.png)
+![Minute Picker]({static}/images/minute-picker.png)
 
 This interaction has three huge benefits:
 

@@ -7,7 +7,7 @@ Status: published
 
 Friday was the third and final day of the QCon conference.
 
-![Cable car]({filename}/images/qcon-11.jpg)
+![Cable car]({static}/images/qcon-11.jpg)
 
 Frameworks and DDD (Tim McCarthy)
 ---------------------------------
@@ -93,7 +93,7 @@ associated with that particular kind of string or int, encapsulating
 that logic into a slightly more specialized object can result in simpler
 entities.
 
-![Skyline]({filename}/images/qcon-9.jpg)
+![Skyline]({static}/images/qcon-9.jpg)
 
 Facebook Architecture (Aditya Agarwal)
 --------------------------------------
@@ -122,7 +122,7 @@ part of me thought, that'd be an interesting way to keep from having to
 share GPL changes: saying, "Naw, you wouldn't really want this hacked up
 stuff..."
 
-![Fountain]({filename}/images/qcon-8.jpg)
+![Fountain]({static}/images/qcon-8.jpg)
 
 Strategic Design (Eric Evans)
 -----------------------------
@@ -196,7 +196,7 @@ but being toward the end, some people don't, uh, quite make it that far.
 Guilty as charged. Well, although I've got the book, I haven't really
 made a serious effort to read it yet. Maybe it's time to fix that.
 
-![Buildings]({filename}/images/qcon-10.jpg)
+![Buildings]({static}/images/qcon-10.jpg)
 
 Publishing and Protecting the Model (David Laribee)
 ---------------------------------------------------

@@ -37,7 +37,7 @@ The project structure looks like this:
 
 If you write up a simple unit test, it will compile, run, and pass.
 
-![Woohoo -- passing test]({filename}/images/test-passed.jpg)
+![Woohoo -- passing test]({static}/images/test-passed.jpg)
 
 **Problem \#1**
 

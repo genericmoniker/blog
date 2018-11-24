@@ -19,7 +19,7 @@ born) is _The Impossible World_ by
 that Eando is a pen name for two brothers, Earl and Otto Binder, and that Otto
 went on to write for Captain Marvel and Superman comics.
 
-![Book Cover]({filename}/images/the-impossible-world.jpg)
+![Book Cover]({static}/images/the-impossible-world.jpg)
 
 The cover blurb for _The Impossible World_ says, "A science fiction adventure
 about the incredible theft of Pluto and Neptune's Moon... a motorized

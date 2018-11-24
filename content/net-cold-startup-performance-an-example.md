@@ -38,7 +38,7 @@ optimization. In my case, I added the .NET CLR Loading object's "Total
 Assemblies" and "Total Classes Loaded" counters for WINWORD:
 
 ![Performance Counters
-Dialog]({filename}/images/cold-start-add-counters.jpg)
+Dialog]({static}/images/cold-start-add-counters.jpg)
 
 "Report" view is best for these. It just shows the plain numeric values
 of the counters. I discovered that I had 19 assemblies and 517 classes

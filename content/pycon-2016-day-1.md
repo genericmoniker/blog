@@ -10,7 +10,7 @@ accessible to me than eastern Canada (the previous location), but also
 the area where most of my extended family lives. Those facts combined to
 make it a great time to attend for the first time.
 
-![Willamette River]({filename}/images/pycon-willamette.jpg)
+![Willamette River]({static}/images/pycon-willamette.jpg)
 
 In a way, I feel like I've been to PyCon already. At work, we've been
 watching videos from previous years in a weekly "lunch and learn", so I
@@ -95,7 +95,7 @@ breaking something prevent us from making the code great.
 He then covered some specific refactoring techniques, including ways of
 making changes without having to break all the existing callers.
 
-![Steel Bridge]({filename}/images/pycon-steel-bridge.jpg)
+![Steel Bridge]({static}/images/pycon-steel-bridge.jpg)
 
 
 Code Unto Others - Nathaniel Manista, Augie Fackler
@@ -164,7 +164,7 @@ PYTHON
 
 That got some laughs.
 
-![Pendulum]({filename}/images/pycon-pendulum.jpg)
+![Pendulum]({static}/images/pycon-pendulum.jpg)
 
 Pythons in a container - Lessons learned Dockerizing Python micro-services - Dorian Pula
 ----------------------------------------------------------------------------------------

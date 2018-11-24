@@ -83,7 +83,7 @@ Here's a copy of the official polygraph report, which I got by filing a
 FOIA request several years later (gray redactions mine, black redactions
 theirs):
 
-[![Polygraph report]({filename}/images/polygraph-small.jpg)]({filename}/images/polygraph.jpg)
+[![Polygraph report]({static}/images/polygraph-small.jpg)]({static}/images/polygraph.jpg)
 
 In the end, I didn't get the job. Maybe it was because I had lived at 15
 different addresses in three countries over the previous five years,

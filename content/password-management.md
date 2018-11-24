@@ -26,7 +26,7 @@ place to store all of my passwords, encrypted with a single master
 password. I only have to memorize the master password, and can use
 strong, random passwords for everything else.
 
-![keepass]({filename}/images/keepass.png)
+![keepass]({static}/images/keepass.png)
 
 There are a few tricks of using it that tip the never-ending conflict of
 security vs. convenience toward the convenience side.
@@ -86,7 +86,7 @@ Beyond having a master password, you can also require that another file
 be present in order to unlock your database. This is an option that you
 select when you create your database (highlighted area):
 
-![keepass]({filename}/images/keepass2.png)
+![keepass]({static}/images/keepass2.png)
 
 If you
 choose "Create...", it will save an XML document with some random data

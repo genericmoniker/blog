@@ -35,6 +35,6 @@ Update version 0.9.3 (08 Jun 2010) - Added support for Google Calendar
 Here's a screen shot:
 
 ![Coming Up Gadget Screen
-Shot]({filename}/images/coming-up-screenshot.jpg)
+Shot]({static}/images/coming-up-screenshot.jpg)
 
 Let me know if you find this useful or have other comments. Thanks.

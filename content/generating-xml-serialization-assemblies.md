@@ -52,7 +52,7 @@ step like mine above. For the install project, you can add the project
 output group for XML Serialization Assemblies:
 
 ![Project Output
-Dialog]({filename}/images/project-output-group-dialog.jpg)
+Dialog]({static}/images/project-output-group-dialog.jpg)
 
 If you don't have the "Generate serialization assemblies" option set to
 "On" in your main project, then the install project won't pick up the

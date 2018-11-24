@@ -29,7 +29,7 @@ garbage collection. You can close that window. Instead, go to the main
 menu and pick **View** &gt; **Assembly Graph**. You'll see something
 like this:
 
- [![Assembly Graph Window]({filename}/images/assembly-graph-300x181.png)]({filename}/images/assembly-graph.png)
+ [![Assembly Graph Window]({static}/images/assembly-graph-300x181.png)]({static}/images/assembly-graph.png)
 
 Assembly Graph Window (click for larger image)
 

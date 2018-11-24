@@ -73,7 +73,7 @@ Also, when adding the shell script as an interpreter, PyCharm apparently
 executes it multiple times because the terminal is spammed with password
 prompts.
 
-![pass-spam]({filename}/images/pass-spam.png)
+![pass-spam]({static}/images/pass-spam.png)
 
 PyCharm isn't very patient in waiting for some of those executions, so even if
 you enter your password, its call to figure out the Python interpreter's

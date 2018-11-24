@@ -1,11 +1,24 @@
+AUTHOR = 'Eric'
 SITENAME = 'ESMITHY.NET'
 SITEURL = ''
-AUTHOR = 'Eric'
+
+PATH = 'content'
+
+TIMEZONE = 'America/Denver'
+
+DEFAULT_LANG = 'English'
+
+# Feed generation is usually not desired when developing
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
+
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 RELATIVE_URLS = True
 
-PATH = 'content'
 STATIC_PATHS = ['downloads', 'extra', 'images', 'site']
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'},
@@ -17,19 +30,7 @@ EXTRA_PATH_METADATA = {
         {'path': 'downloads/workplan/publish.htm'},
 }
 
-
-TIMEZONE = 'America/Denver'
-
-DEFAULT_LANG = 'en'
-
 DISPLAY_PAGES_ON_MENU = True
-
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
 
 # Blogroll - These would show at the bottom of the page in my current theme.
 # LINKS = (('Pelican', 'http://getpelican.com/'),)
@@ -39,6 +40,7 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
+
 
 # Theme settings - theme is a fork of the Medius theme.
 

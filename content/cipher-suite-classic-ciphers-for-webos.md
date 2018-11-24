@@ -5,7 +5,7 @@ Category: Project
 Slug: cipher-suite-classic-ciphers-for-webos
 Status: published
 
-![Icon]({filename}/images/cipher-suite-icon.png "splashicon")
+![Icon]({static}/images/cipher-suite-icon.png "splashicon")
 
 Cipher Suite is now available in the official Palm App Catalog.
 

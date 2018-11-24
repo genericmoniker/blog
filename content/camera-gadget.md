@@ -9,7 +9,7 @@ Status: published
 Download
 --------
 
-[Download Gadget]({filename}/downloads/AlertCamera.gadget)  
+[Download Gadget]({static}/downloads/AlertCamera.gadget)  
 Version 0.8.0 (beta)  
 26 Sep 2012  
 Around 74 KB
@@ -39,7 +39,7 @@ supported by Logitech in any way.
 
 -   Clicking on a snapshot takes you to alert.logitech.com.
 
-![Screen Shot]({filename}/images/AlertCamera.gadget.01.png)
+![Screen Shot]({static}/images/AlertCamera.gadget.01.png)
 
 Installation
 ------------

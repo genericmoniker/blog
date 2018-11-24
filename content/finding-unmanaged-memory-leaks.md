@@ -52,7 +52,7 @@ managed heaps in the process. I also scaled the private bytes to match
 the scaling of the managed heaps. Here is the resulting graph, where the
 blue line is private bytes, and the yellow line is managed bytes:
 
-![Memory Leak]({filename}/images/leaks1.png)
+![Memory Leak]({static}/images/leaks1.png)
 
 It's obvious that the leak is, in fact, in unmanaged memory. The first
 jump is due to loading in some native DLLs, but the steady climb from

@@ -12,7 +12,7 @@ Unleashed series. [Rob Bagby](http://blogs.msdn.com/bags/), developer
 evangelist, came to Salt Lake City to present and give updates about new
 and upcoming technologies for developers.
 
-![Microsoft\'s Salt Lake City Office]({filename}/images/microsoft-slc.jpg "Microsoft\'s Salt Lake City Office")
+![Microsoft\'s Salt Lake City Office]({static}/images/microsoft-slc.jpg "Microsoft\'s Salt Lake City Office")
 
 <!--more-->
 

@@ -8,7 +8,7 @@ Status: published
 
 Hmm... this zip code looks pretty good to me.
 
-![Validation Error]({filename}/images/validation.png)
+![Validation Error]({static}/images/validation.png)
 
 This was on the Discount Tire mobile site. It's awesome that you can
 schedule a service appointment on the web using your mobile phone. It's

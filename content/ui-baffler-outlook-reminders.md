@@ -9,7 +9,7 @@ Status: published
 Why is it that in the Outlook reminders dialog, the "Dismiss All" button is
 disabled if there are no reminder items selected?
 
-![Dismiss All disabled]({filename}/images/outlook1.png)
+![Dismiss All disabled]({static}/images/outlook1.png)
 
 Well clearly it is because that button is supposed to dismiss all of the
 *selected* reminders, right?
@@ -17,6 +17,6 @@ Well clearly it is because that button is supposed to dismiss all of the
 No, because if there is *any* selected reminder, clicking "Dismiss All" will
 dismiss *all* of the reminders.
 
-![Dismiss All disabled]({filename}/images/outlook2.png)
+![Dismiss All disabled]({static}/images/outlook2.png)
 
 I'm really curious as to how the developers arrived at that interaction.

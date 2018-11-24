@@ -27,11 +27,11 @@ wins. The program displays the winning picture, and also keeps a running
 total of the number of generations that have happened. A generation is
 every time a pixel changes and the fitness test is done.
 
-![Early Screen Shot]({filename}/images/by-chance1.jpg "ByChance Screen Shot (Early)")
+![Early Screen Shot]({static}/images/by-chance1.jpg "ByChance Screen Shot (Early)")
 
 _Early Screen Shot_
 
-![Later Screen Shot]({filename}/images/by-chance2.jpg "ByChance Screen Shot")
+![Later Screen Shot]({static}/images/by-chance2.jpg "ByChance Screen Shot")
 
 _Later Screen Shot_
 

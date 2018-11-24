@@ -16,7 +16,7 @@ application's support team for more information." I suspected our
 support team wasn't going to be much help on this one. The Visual C++
 2005 runtime library configuration strikes again.<!--more-->
 
-![Runtime Error]({filename}/images/runtime-error1.jpg)
+![Runtime Error]({static}/images/runtime-error1.jpg)
 
 Previous versions of Visual Studio and Visual C++ let you install the
 runtime libraries by simply copying them to a directory where your
@@ -42,7 +42,7 @@ auto-generated manifest. In the project properties, go into
 Output** and reference your manifest file in the Additional Manifest
 Files field:
 
-![Project Settings]({filename}/images/project-settings-manifest1.jpg)
+![Project Settings]({static}/images/project-settings-manifest1.jpg)
 
 Also, don't forget to call `InitCommonControls` in your application
 somewhere (preferably near the beginning!), which is declared in

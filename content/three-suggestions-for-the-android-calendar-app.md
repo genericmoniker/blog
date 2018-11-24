@@ -33,7 +33,7 @@ OK, this is kind of picky, but shouldn't the current month be white
 while the previous and next months are gray? The current scheme is
 opposite that and my brain struggled with it.
 
-![ICS Calendar]({filename}/images/ics-calendar.png)
+![ICS Calendar]({static}/images/ics-calendar.png)
 
 3\. Combined day and agenda view
 --------------------------------
@@ -43,4 +43,4 @@ view. It lets you see all of your appointments without huge swaths of
 blank screen pushing them out of view, but still makes it easy to add a
 new appointment at any time of day by tapping the accordion section.
 
-![WebOS Calendar]({filename}/images/webos-calendar.png)
+![WebOS Calendar]({static}/images/webos-calendar.png)

@@ -94,7 +94,7 @@ To reference the symbols from Visual Studio, go to the Debugging Options
 and add a reference. In this case, the build server's symbol share is at
 \\\\nplab078\\Symbols:
 
-![Debug Options Dialog]({filename}/images/debug-options.jpg)
+![Debug Options Dialog]({static}/images/debug-options.jpg)
 
 The other symbol file location above is [Microsoft's public symbol
 server](http://www.microsoft.com/whdc/devtools/debugging/debugstart.mspx).
