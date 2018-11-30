@@ -1,3 +1,4 @@
+import contextlib
 import os
 import shutil
 import subprocess
@@ -65,16 +66,16 @@ def serve(ctx):
     ctx.run(f'{BIN_DIR / "pelican"} --listen --port {SERVE_PORT}')
 
 
-@task(pre=[build])
+@task
 def deploy(ctx):
-    """Deploy to production."""
+    """Deploy latest build to production."""
     print('Copying files...')
     source = str(OUTPUT_DIR) + '/.'
     if WINDOWS:
         ctx.run(f'scp -F "{SSH_CONFIG}" -r "{source}" web:{DEPLOY_PATH}')
     else:
         ctx.run(
-            f'rsync -F "{SSH_CONFIG}" --delete -pthrvz -c '
+            f'rsync -F "{SSH_CONFIG}" --delete --stats -pthrvz -c '
             f'{source} web:{DEPLOY_PATH}'
         )
 
@@ -83,4 +84,15 @@ def deploy(ctx):
 def ssh(_ctx, host='web'):
     """ssh into the blog's host."""
     config = SSH_CONFIG
-    subprocess.run(f'ssh -F {config} {host}')
+    with chdir(ROOT_DIR):
+        subprocess.run(f'ssh -F {config} {host}')
+
+
+@contextlib.contextmanager
+def chdir(path):
+    old = os.getcwd()
+    os.chdir(path)
+    try:
+        yield
+    finally:
+        os.chdir(old)
