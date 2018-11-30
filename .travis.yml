@@ -2,10 +2,8 @@ language: python
 python:
   - '3.6'
 before_install:
-  - openssl aes-256-cbc -K $encrypted_4adb8935bf7b_key -iv $encrypted_4adb8935bf7b_iv
-  -in private/ssh.config.enc -out private/ssh.config -d
-  - openssl aes-256-cbc -K $encrypted_4adb8935bf7b_key -iv $encrypted_4adb8935bf7b_iv
-  -in private/id_rsa.enc -out private/id_rsa -d
+  - openssl aes-256-cbc -K $encrypted_4adb8935bf7b_key -iv $encrypted_4adb8935bf7b_iv -in private/ssh.config.enc -out private/ssh.config -d
+  - openssl aes-256-cbc -K $encrypted_4adb8935bf7b_key -iv $encrypted_4adb8935bf7b_iv -in private/id_rsa.enc -out private/id_rsa -d
 install: pip install -r requirements.build.txt
 script: inv build
 deploy:
