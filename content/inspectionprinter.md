@@ -12,7 +12,7 @@ Download
 --------
 
 **[Install via
-"ClickOnce"]({filename}/downloads/inspection-printer/InspectionPrinter.application)**  
+"ClickOnce"]({static}/downloads/inspection-printer/InspectionPrinter.application)**  
 Version 1.1.2326.36040  
 15 May 2006  
 Around 1.7 MB
@@ -41,11 +41,11 @@ print anything. Instead, it creates a PDF file that can be sent to
 reviewers. The PDF contains a cover sheet, a table of contents, and
 source files with monochrome syntax highlighting. Highlighting is
 supported for C++, C\# and Java. Here is a sample output file:
-**[sample.pdf]({filename}/downloads/inspection-printer/sample.pdf "Sample Output")**
+**[sample.pdf]({static}/downloads/inspection-printer/sample.pdf "Sample Output")**
 
 _Screen Shot_
 
-![Screen Shot]({filename}/downloads/inspection-printer/screen-shot.gif "InspectionPrinter Screen Shot")
+![Screen Shot]({static}/downloads/inspection-printer/screen-shot.gif "InspectionPrinter Screen Shot")
 
 ### Features
 

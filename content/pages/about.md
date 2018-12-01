@@ -4,7 +4,7 @@ Author: Eric
 Slug: about
 Status: published
 
-![Smithy]({filename}/site/esmithy-med.jpg)
+![Smithy]({static}/site/esmithy-med.jpg)
 
 Welcome to esmithy.net. A "smithy" is the workplace of a smith, so "esmithy" is
 the electronic parallel, where bits of code, ideas, thoughts and opinions are

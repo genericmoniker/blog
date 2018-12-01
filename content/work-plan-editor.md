@@ -5,7 +5,7 @@ Category: Project
 Slug: work-plan-editor
 Status: published
 
-**[Install via "ClickOnce"]({filename}/downloads/workplan/WorkPlan.application)**  
+**[Install via "ClickOnce"]({static}/downloads/workplan/WorkPlan.application)**  
 Version 3.0.2641.36770  
 25 Mar 2007  
 Around 300 KB
@@ -37,9 +37,9 @@ your original plan.
 
 Work Plan Editor is more focused than an Excel spreadsheet, but simpler than
 Microsoft Project. You can read more about the motivation behind it in
-[this blog article]({filename}/work-plan-editor-release.md).
+[this blog article]({static}/work-plan-editor-release.md).
 
-![Screen Shot]({filename}/downloads/workplan/screen-shot.jpg)
+![Screen Shot]({static}/downloads/workplan/screen-shot.jpg)
 
 ### Known Issues
 

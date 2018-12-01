@@ -8,7 +8,7 @@ Status: published
 Download
 --------
 
-**[ByChance.exe]({filename}/downloads/ByChance.exe)**  
+**[ByChance.exe]({static}/downloads/ByChance.exe)**  
 Version 1.0.0.28867  
 21 Sep 2005  
 84 KB

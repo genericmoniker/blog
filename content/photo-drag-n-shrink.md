@@ -11,7 +11,7 @@ less space and can be transferred quicker.
 Download
 --------
 
-**[DragShrink.exe]({filename}/downloads/DragShrink.exe)**  
+**[DragShrink.exe]({static}/downloads/DragShrink.exe)**  
 Version 1.0  
 11 Nov 2009  
 Around 49 KB

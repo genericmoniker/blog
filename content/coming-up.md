@@ -8,7 +8,7 @@ Status: published
 Download
 --------
 
-**[Download Gadget]({filename}/downloads/ComingUp.gadget)**  
+**[Download Gadget]({static}/downloads/ComingUp.gadget)**  
 Version 0.9.3  
 08 Jun 2010  
 Around 20 KB
