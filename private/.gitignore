@@ -3,5 +3,4 @@
 
 # Except this file and encrypted files:
 !.gitignore
-!id_rsa.enc
-!ssh.config.enc
+!private.tar.enc
