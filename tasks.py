@@ -11,11 +11,12 @@ from invoke import task
 
 WINDOWS = sys.platform.startswith('win')
 ROOT_DIR = Path(__file__).parent
-BIN_DIR = ROOT_DIR / '.venv' / 'Scripts' if WINDOWS else 'bin'
+BIN_DIR = Path(sys.executable).parent
 THEME_DIR = ROOT_DIR / 'theme'
 OUTPUT_DIR = ROOT_DIR / 'output'
 SERVE_PORT = 8000
 SSH_CONFIG = ROOT_DIR / 'private' / 'ssh.config'
+SSH_KEY = ROOT_DIR / 'private' / 'id_rsa'
 DEPLOY_PATH = '/var/www/html/main/'
 
 
@@ -75,7 +76,8 @@ def deploy(ctx):
         ctx.run(f'scp -F "{SSH_CONFIG}" -r "{source}" web:{DEPLOY_PATH}')
     else:
         ctx.run(
-            f'rsync -F "{SSH_CONFIG}" --delete --stats -pthrvz -c '
+            'rsync --delete --stats -pthrz -c '
+            f'-e "ssh -F {SSH_CONFIG}" '  # Explicit ssh to use config file.
             f'{source} web:{DEPLOY_PATH}'
         )
 
@@ -83,9 +85,12 @@ def deploy(ctx):
 @task(help={'host': 'Host from ssh.config to which to connect.'})
 def ssh(_ctx, host='web'):
     """ssh into the blog's host."""
-    config = SSH_CONFIG
+    user_ssh_dir = Path.home() / '.ssh'  # Ensure .ssh dir exists.
+    user_ssh_dir.mkdir(mode=0o700, exist_ok=True)
     with chdir(ROOT_DIR):
-        subprocess.run(f'ssh -F {config} {host}')
+        command = ['ssh', '-F', f'{SSH_CONFIG}', f'{host}']
+        print(' '.join(command))
+        subprocess.run(command)
 
 
 @contextlib.contextmanager
