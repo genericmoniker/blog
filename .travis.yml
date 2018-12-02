@@ -8,6 +8,7 @@ install: pip install -r requirements.build.txt
 script: inv build
 deploy:
   - provider: script
+    skip_cleanup: true
     script: inv deploy
     on:
       branch: master
