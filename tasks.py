@@ -77,7 +77,7 @@ def deploy(ctx):
     else:
         ctx.run(
             'rsync --delete --stats -pthrz -c '
-            f'-e "ssh -F {SSH_CONFIG}" '  # Explicit ssh to use config file.
+            f'-e "ssh -F {SSH_CONFIG} -oStrictHostKeyChecking=no" '  
             f'{source} web:{DEPLOY_PATH}'
         )
 
