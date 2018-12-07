@@ -56,8 +56,9 @@ def build(_ctx):
 @task
 def clean(_ctx):
     """Clean the build output."""
-    shutil.rmtree(OUTPUT_DIR)
-    OUTPUT_DIR.makedir()
+    with contextlib.suppress(FileNotFoundError):
+        shutil.rmtree(OUTPUT_DIR)
+    OUTPUT_DIR.mkdir()
 
 
 @task
@@ -76,7 +77,7 @@ def deploy(ctx):
         ctx.run(f'scp -F "{SSH_CONFIG}" -r "{source}" web:{DEPLOY_PATH}')
     else:
         ctx.run(
-            'rsync --delete --stats -pthrz -c '
+            'rsync --delete --stats -pthrzv -c '
             f'-e "ssh -F {SSH_CONFIG} -oStrictHostKeyChecking=no" '  
             f'{source} web:{DEPLOY_PATH}'
         )
