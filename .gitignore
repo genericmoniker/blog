@@ -1,2 +1,7 @@
 __pycache__
 output
+.idea
+.venv
+.venv-linux
+legacy
+migration
