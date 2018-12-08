@@ -7,7 +7,7 @@ Setup
 -----
 
 1. Install Python 3.6+
-2. Make a virtualenv
+2. Make and activate a virtualenv
 3. pip install -r requirements.build.txt
 4. inv -l to see what you can do from there
 
