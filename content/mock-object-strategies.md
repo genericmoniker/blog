@@ -4,6 +4,7 @@ Author: Eric
 Category: How-To
 Slug: mock-object-strategies
 Status: published
+Tags: Testing
 
 How do you get your production code to use real objects and your test
 code to use mock objects?<!--more-->

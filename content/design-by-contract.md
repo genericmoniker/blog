@@ -1,4 +1,4 @@
-Title: Design by Contract
+Title: Design by Contract: An Alternative to Testing for Code Quality 
 Date: 2005-09-27 17:00
 Author: Eric
 Category: Review

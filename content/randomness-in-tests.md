@@ -4,7 +4,7 @@ Author: Eric
 Category: How-To
 Slug: randomness-in-tests
 Status: published
-
+Tags: Testing
 
 Wouldn't it be cool if a few uses of the `random` module in your unit tests
 could discover bugs in your code? Meh.

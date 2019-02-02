@@ -1,4 +1,4 @@
-Title: Deceiving Your Readers
+Title: Bad APIs: Deceiving Your Readers
 Date: 2013-12-28 15:56
 Author: Eric
 Category: Opinion

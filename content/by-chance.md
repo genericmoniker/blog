@@ -1,4 +1,4 @@
-Title: By Chance
+Title: By Chance - Can Order Come Out of Randomness?
 Date: 2005-10-20 17:00
 Author: Eric
 Category: Project

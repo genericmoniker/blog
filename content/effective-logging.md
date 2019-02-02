@@ -1,4 +1,4 @@
-Title: Effective Logging
+Title: Techniques for Effective Logging
 Date: 2004-11-09 17:00
 Author: Eric
 Category: How-To

@@ -17,7 +17,9 @@ But...
 * How much time has been spent trying to optimize performance?
 * Which is currently more important, raw execution speed or time to create features?
 * Is Python fast enough for the project?
-* It is an often used strategy to write performance critical code in C or Cython
+* It is an often used strategy to write performance critical code in C or
+  Cython -- and no, that's not cheating, it's how the language is meant to be
+  used. 
 * Maybe PyPy?
 * [It really doesn't matter](https://hackernoon.com/yes-python-is-slow-and-i-dont-care-13763980b5a1)
 
@@ -31,7 +33,7 @@ program anyway, and it worked." -- [Eric Raymond](http://www.linuxjournal.com/ar
 
 * Python threads are real, operating system threads
 * The GIL limits thread effectiveness (see the item about multiple cores)
-* Multiprocessing, bits of native code are some work-arounds
+* Multiprocessing and bits of native code are some work-arounds
 * [Threads are evil anyway](https://www.google.com/search?q=threads+are+evil) ;-)
 
 **Python can't take advantage of multiple cores**
@@ -72,8 +74,8 @@ program anyway, and it worked." -- [Eric Raymond](http://www.linuxjournal.com/ar
 * You could look into type annotations if you want (but duck typing is pretty
   cool)
 * If you want to know about problems as soon as possible… In some situations it
-  can take less time to run a Python unit test suite than it would to compile
-  equivalent code in a different language
+  can take less time to run a comprehensive Python unit test suite than it
+  would to *compile* equivalent code in a different language
 	
 **Python code reveals its implementation**
 

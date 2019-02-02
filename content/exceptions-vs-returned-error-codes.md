@@ -1,4 +1,4 @@
-Title: Exceptions vs Returned Error Codes
+Title: Why Exceptions Are Better Than Returned Error Codes
 Date: 2003-06-12 17:00
 Author: Eric
 Category: Opinion

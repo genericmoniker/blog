@@ -1,9 +1,10 @@
-Title: Automated Testing
+Title: Testing Styles: Favor Unit Testing
 Date: 2003-12-03 13:42
 Author: Eric
 Category: How-To
 Slug: automated-testing
 Status: published
+Tags: Testing
 
 Ideally, human efforts in testing should focus on building tests --
 figuring out the strategies, test cases, and test data. From there, we'd

@@ -1,4 +1,4 @@
-Title: Coding Standards and Orthography
+Title: Write Your Code for Humans
 Date: 2012-11-06 16:30
 Author: Eric
 Category: Opinion

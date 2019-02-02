@@ -2,7 +2,7 @@ Title: Unit Testing Silverlight View Models
 Date: 2009-06-08 09:16
 Author: Eric
 Category: How-To
-Tags: Silverlight
+Tags: Silverlight, Testing
 Slug: unit-testing-silverlight-view-models
 Status: published
 

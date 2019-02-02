@@ -4,6 +4,7 @@ Author: Eric
 Category: Opinion
 Slug: the-first-rule-of-test-code
 Status: published
+Tags: Testing
 
 Software is kind of cool in that you can write programs that verify that
 your other programs work correctly. These testing "meta programs" tend

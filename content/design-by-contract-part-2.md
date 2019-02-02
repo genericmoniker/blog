@@ -1,4 +1,4 @@
-Title: Design by Contract Part 2
+Title: Design by Contract: Is It Worth It Without Language Support?
 Date: 2006-01-29 17:00
 Author: Eric
 Category: Review
