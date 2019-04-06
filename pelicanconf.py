@@ -51,8 +51,7 @@ MEDIUS_AUTHORS = {
             Eric Smith is a software architect and developer. He currently 
             works for StorageCraft, and graduated with a computer science 
             degree from Brigham Young University back when the World-Wide Web 
-            was a new thing. He is also a husband, father, and member of The
-            Church of Jesus Christ of Latter-day Saints.
+            was a new thing.
         """,
         'cover': '/site/esmithy.jpg',
         'image': '/site/eric-small.png',
