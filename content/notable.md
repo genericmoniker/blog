@@ -22,8 +22,13 @@ is more semantic rather than just formatting.
 I had a work-specific notebook that synchronized with my work Microsoft
 account, and a more general programming notebook that synchronized with my
 personal Microsoft account. A few months ago, this synchronization split
-stopped working, and after hours of trying to get it to work again, it seemed
-like a good time to survey the current note taking landscape.
+stopped working, and after hours of trying to get it to work again, I gave up.
+
+Finally, if you want to use OneNote on Linux, you'll need to use the web
+version, and search is fairly worthless there because it isn't currently 
+possible to search an entire notebook.
+
+With these issues, it seemed like a good time to survey the current note taking landscape.
 
 ## Boostnote
 
@@ -70,8 +75,9 @@ biased, but it can give a sense of what is considered important.
 Features I'd *really* like are:
 
 * [Add attachments via copy/paste](https://github.com/notable/notable/issues/26)
-* [Highlight text matching search query](https://github.com/notable/notable/issues/243)
 * Screen "Snipping" functionality like OneNote
+* [Highlight text matching search query](https://github.com/notable/notable/issues/243)
+* Improved searching -- such as being able to search for an exact string.
 
 So far it is working out well, and the nice thing about open formats like
 Markdown is that it is pretty easy to convert to something else if needed.
