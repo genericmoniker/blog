@@ -79,37 +79,37 @@ MEDIUS_DEFAULT_COVER = '/site/esmithy.jpg'
 MEDIUS_CATEGORIES = {
     'Event': {
         'description': 'Conferences and other happenings',
-        'logo': '/site/cat-event-thumb.png',
-        'thumbnail': '/site/cat-event-thumb.png'
+        'logo': '/site/cat-event.svg',
+        'thumbnail': '/site/cat-event.svg'
     },
     'How It Works': {
         'description': 'The inner workings',
-        'logo': '/site/cat-how-it-works-thumb.png',
-        'thumbnail': '/site/cat-how-it-works-thumb.png'
+        'logo': '/site/cat-how-it-works.svg',
+        'thumbnail': '/site/cat-how-it-works.svg'
     },
     'How-To': {
         'description': 'How to do something',
-        'logo': '/site/cat-how-to-thumb.png',
-        'thumbnail': '/site/cat-how-to-thumb.png'
+        'logo': '/site/cat-how-to.svg',
+        'thumbnail': '/site/cat-how-to.svg'
     },
     'Opinion': {
         'description': 'General thoughts and opinions',
-        'logo': '/site/cat-opinion-thumb.png',
-        'thumbnail': '/site/cat-opinion-thumb.png'
+        'logo': '/site/cat-opinion.svg',
+        'thumbnail': '/site/cat-opinion.svg'
     },
     'Project': {
         'description': 'Things I\'ve built',
-        'logo': '/site/cat-project-thumb.png',
-        'thumbnail': '/site/cat-project-thumb.png'
+        'logo': '/site/cat-project.svg',
+        'thumbnail': '/site/cat-project.svg'
     },
     'Review': {
         'description': 'Thoughts on things other people did',
-        'logo': '/site/cat-review-thumb.png',
-        'thumbnail': '/site/cat-review-thumb.png'
+        'logo': '/site/cat-review.svg',
+        'thumbnail': '/site/cat-review.svg'
     },
     'Story': {
         'description': 'Episodes from life and programming',
-        'logo': '/site/cat-story-thumb.png',
-        'thumbnail': '/site/cat-story-thumb.png'
+        'logo': '/site/cat-story.svg',
+        'thumbnail': '/site/cat-story.svg'
     },
 }

@@ -173,16 +173,16 @@ footer.index-footer {
     color: rgba(0, 0, 0, 0.6); }
 
 div.post-meta img.post-avatar {
-  max-width: 36px;
-  max-height: 36px;
+  width: 50px;
+  height: 50px;
   border-radius: 3px;
   display: inline-block;
   vertical-align: middle;
   margin-right: 10px; }
 
 div.post-meta img.category-avatar {
-  max-width: 100px;
-  max-height: 100px;
+  width: 100px;
+  height: 100px;
   border-radius: 3px;
   display: inline-block;
   vertical-align: middle;
@@ -251,6 +251,13 @@ div.page-container {
           max-width: 60px;
           border-radius: 100%;
           margin-right: 10px; }
+      div.page-container footer div.post-footer img.category-avatar {
+        width: 60px;
+        height: 60px;
+        border-radius: 3px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px; }
       div.page-container footer div.post-footer div.post-category-info {
         margin-top: 20px; }
         div.page-container footer div.post-footer div.post-category-info img {

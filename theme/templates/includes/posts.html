@@ -4,7 +4,7 @@
 
         {% if article.category|string in MEDIUS_CATEGORIES %}
         <div class="pure-u">
-            <img src="{{ MEDIUS_CATEGORIES.get(article.category|string).thumbnail }}" class="post-avatar" alt="{{ article.category|striptags }}">
+            <a href="{{ SITEURL }}/{{ article.category.url }}"><img src="{{ MEDIUS_CATEGORIES.get(article.category|string).thumbnail }}" class="post-avatar" alt="{{ article.category|striptags }}"></a>
         </div>
         {% endif %}
 

@@ -102,7 +102,7 @@
 
                 <div class="pure-g post-category-info">
                     <div class="pure-u">
-                        <a href="{{ SITEURL }}/{{ article.category.url }}"><img src="{{ MEDIUS_CATEGORIES.get(article.category|string).thumbnail }}" alt=""></a>
+                        <a href="{{ SITEURL }}/{{ article.category.url }}"><img class="category-avatar" src="{{ MEDIUS_CATEGORIES.get(article.category|string).thumbnail }}" alt=""></a>
                     </div>
                     <div class="pure-u-3-4">
                         <h3 class="author-name"><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></h3>
