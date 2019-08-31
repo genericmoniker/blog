@@ -35,18 +35,20 @@ alternative origin. The origin of Lehi could be a similar situation.
 The City of Lehi
 ----------------
 
-According to History of Lehi Including a Biographical Section, by Hamilton
+According to *History of Lehi Including a Biographical Section*, by Hamilton
 Gardner, Lehi was variously called Sulphur Springs, Dry Creek, and Evansville
-when it was first being settled. David Evans, a Mormon bishop and community
+when it was first being settled. David Evans, a bishop in the Church of Jesus
+Christ of Latter-day Saints and community
 leader (and hence "Evansville"), is credited with the petition to incorporate
 the settlement into a city in 1852. Gardner's history says, "This petition was
 granted, and the city incorporated under the name of Lehi, this Book of Mormon
 appellation being suggested because the people had moved so
-frequently."<sup>[5](#note5)</sup> The act of incorporation, after specifying
-the proposed geography, simply says, "…is hereby incorporated into a city,
-which shall be called the 'City of Lehi,' and the inhabitants thereof are
-hereby constituted a body corporate and politic, by the name
-aforesaid."<sup>[6](#note6)</sup>
+frequently."<sup>[5](#note5)</sup> The act of incorporation itself, however,
+after specifying the proposed geography, simply says, "…is hereby incorporated
+into a city, which shall be called the 'City of Lehi,' and the inhabitants
+thereof are hereby constituted a body corporate and politic, by the name
+aforesaid."<sup>[6](#note6)</sup> There is no mention of *why* the name was
+chosen. 
 
 Despite the references to the first Book of Mormon prophet, with a couple of
 not-so-large leaps, it can be shown that the city's namesake is only
@@ -64,10 +66,11 @@ cities with names from the Book of Mormon:<sup>[7](#note7)</sup>
 * Moroni
 * Nephi
 
-The first of these named was Manti. According to the Utah state historical web
-site, "Brigham Young named the site 'Manti' in the summer of 1850, at the
-request of the local patriarch Isaac Morley. The name was derived from that
-section of the 'Book of Mormon' called Alma."<sup>[8](#note8)</sup>
+Chronologically, the first of these named was Manti. According to the Utah
+state historical web site, "Brigham Young named the site 'Manti' in the summer
+of 1850, at the request of the local patriarch Isaac Morley. The name was
+derived from that section of the 'Book of Mormon' called
+Alma."<sup>[8](#note8)</sup> 
 
 Although there is a Nephite soldier named Manti in the Book of Mormon, a much
 more prominent usage is as a land and a city.<sup>[9](#note9)</sup> The
@@ -79,7 +82,7 @@ most of them were originally named after people.<sup>[10](#note10)</sup>
 David Evans might have found the name of Lehi particularly suited for his
 community since the Book of Mormon city is described as being "in the north by
 the borders of the seashore"<sup>[11](#note11)</sup> just as Lehi, Utah is on
-the north end of Utah Lake, the second largest body of water in the state.
+the north end of Utah Lake, the third largest body of water in the state.
 
 Leap 2 - City of Lehi's Namesake
 --------------------------------
@@ -102,8 +105,8 @@ The next mention (LEHI3) is seven years later as leader of part of the Nephite
 army when Moroni was the chief captain.<sup>[14](#note14)</sup> This Lehi
 played a dominant role in the Nephite war against the Lamanites, such that
 Moroni and Lehi "were beloved by each other, and also beloved by all the people
-of Nephi."<sup>[15](#note15)</sup> and the Lamanites "feared Lehi
-exceedingly".<sup>[16](#note16)</sup>
+of Nephi."<sup>[15](#note15)</sup> and the Lamanites, the opposing forces,
+"feared Lehi exceedingly".<sup>[16](#note16)</sup>
 
 It is during this time of warfare that the Book of Mormon tells of the
 establishment of several cities:<sup>[17](#note17)</sup>
