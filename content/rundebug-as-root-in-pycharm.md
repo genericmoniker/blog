@@ -29,15 +29,21 @@ way. More detailed explanations are lower on the page.
 
 ### Don't require a password running sudo python
 
-    sudo visudo -f /etc/sudoers.d/python
+```
+sudo visudo -f /etc/sudoers.d/python
+```
 
 Add a line of the form:
 
-    <user> <host> = (root) NOPASSWD: <full path to python>
+```
+<user> <host> = (root) NOPASSWD: <full path to python>
+```
 
 For example:
 
-    eric V-LU-ERSM = (root) NOPASSWD: /home/eric/Envs/my-project/bin/python
+```
+eric V-LU-ERSM = (root) NOPASSWD: /home/eric/Envs/my-project/bin/python
+```
 
 ### Create a sudo script
 
@@ -53,11 +59,10 @@ Be sure to make the script executable:
 
 ### Use the script as your Python interpreter
 
-In PyCharm, go to Settings &gt; Project Interpreter. Click the gear icon
-by the current Project Interpreter drop-down, and choose "More…". Then
-click the green plus icon to add a new interpreter (Add Local). Browse
-to python-sudo.sh and select it, and set it as the interpreter for the
-project.
+In PyCharm, go to **Settings** > **Project Interpreter**. Click the gear icon
+by the current Project Interpreter drop-down, and choose "Add…". Then
+choose **Existing environment**. Browse to python-sudo.sh and select it, and
+set it as the interpreter for the project.
 
 Now when you run or debug, the code will run as root.
 
