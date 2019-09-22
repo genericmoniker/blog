@@ -72,7 +72,7 @@ def serve(ctx):
 def deploy(ctx):
     """Deploy latest build to production."""
     print('Copying files...')
-    source = str(OUTPUT_DIR) + '/.'
+    source = str(OUTPUT_DIR) + '/*'
     if WINDOWS:
         ctx.run(f'scp -F "{SSH_CONFIG}" -r "{source}" web:{DEPLOY_PATH}')
     else:
