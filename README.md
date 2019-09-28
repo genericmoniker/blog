@@ -23,6 +23,10 @@ Image (put the image file in `content/images`):
 
 *Site-related images go in `content/site` instead.*
 
+Setting attributes (like image size):
+
+    ![Alt Text](http://some.image.jpg){: height="100" }
+
 YouTube video:
 
     [![My Video](http://img.youtube.com/vi/<video_id>/0.jpg){:.vid}](https://www.youtube.com/v/<video_id>)
