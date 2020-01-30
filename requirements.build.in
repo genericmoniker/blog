@@ -2,7 +2,7 @@
 invoke==1.2.0
 libsass==0.16.0   # for building the theme
 Markdown==3.0.1   # required for Pelican to support Markdown content
-pelican==4.0.0
+pelican==4.2.0
 pip-tools==3.1.0
 
 
