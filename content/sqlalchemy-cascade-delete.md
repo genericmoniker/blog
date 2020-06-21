@@ -1,7 +1,7 @@
 Title: SQLAlchemy Cascade Delete: Clarity through Examples
 Date: 2020-06-20 18:00
 Author: Eric
-Category: How-It-Works
+Category: How It Works
 Slug: sqlalchemy-cascade-delete
 Status: published
 
