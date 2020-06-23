@@ -2,6 +2,7 @@ Title: SQLAlchemy Cascade Delete: Clarity through Examples
 Date: 2020-06-20 18:00
 Author: Eric
 Category: How It Works
+Tags: Python, Database
 Slug: sqlalchemy-cascade-delete
 Status: published
 
@@ -285,11 +286,14 @@ cascades? A few reasons I thought of are:
 
 1. Maybe you have an existing schema that you're not free to change for some
    reason, but you still want automatic cascade deletes in your code.
-2. Some databases don't support (or don't support by default) FOREIGN KEY, and
+2. One of the models you'd like to cascade uses [joined table
+   inheritance](https://docs.sqlalchemy.org/en/13/orm/inheritance.html#joined-table-inheritance)
+   and you want to avoid a "half deleted" object.
+3. Some databases don't support (or don't support by default) FOREIGN KEY, and
    therefore ON DELETE CASCADE.
-3. Maybe delete was added for completeness along with the other cascade
+4. Maybe delete was added for completeness along with the other cascade
    behaviors that only make sense in the context of an ORM.
-4. Other ORMs do it, so there is precedence.
+5. Other ORMs do it, so there is precedence.
 
 ## Summary
 
