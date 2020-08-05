@@ -1,5 +1,6 @@
-Title: When to Give Up
+Title: When to Give Up - Retrying Failures
 Date: 2020-03-28 09:16
+Modified: 2020-08-04 19:55
 Author: Eric
 Category: How-To
 Tags: Design

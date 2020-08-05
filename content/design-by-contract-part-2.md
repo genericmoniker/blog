@@ -2,6 +2,7 @@ Title: Design by Contract: Is It Worth It Without Language Support?
 Date: 2006-01-29 17:00
 Author: Eric
 Category: Review
+Tags: Design
 Slug: design-by-contract-part-2
 Status: published
 
@@ -92,20 +93,20 @@ preconditions and postconditions to methods and invariants to classes
 and namespaces. Here is an example from the proposal:
 
 ```cpp
-int factorial( int n ) 
-precondition 
-{ 
-    0 <= n && n <= 12; 
-} 
-postcondition( result ) 
-{ 
-    result >= 1; 
-} 
-{ 
-    if ( n < 2 ) 
-        return 1; 
-    else 
-        return n * factorial( n - 1 ); 
+int factorial( int n )
+precondition
+{
+    0 <= n && n <= 12;
+}
+postcondition( result )
+{
+    result >= 1;
+}
+{
+    if ( n < 2 )
+        return 1;
+    else
+        return n * factorial( n - 1 );
 }
 ```
 
@@ -132,12 +133,12 @@ preconditions is that some argument is not null. Spec\# expresses this
 with a single character, an exclamation point:
 
 ```csharp
-public static void Clear(int[]! xs) 
-{ 
-  for (int i = 0; i < xs.Length; i++) 
-  { 
-    xs[i] = 0; 
-  } 
+public static void Clear(int[]! xs)
+{
+  for (int i = 0; i < xs.Length; i++)
+  {
+    xs[i] = 0;
+  }
 }
 ```
 
@@ -151,14 +152,14 @@ imperative `require` and `ensure`. Here's the C++ example from above
 translated to Spec\# (possibly even correctly?):
 
 ```csharp
-public static int factorial( int n ) 
-  requires 0 <= n && n <= 12; 
-  ensures result >= 1; 
-{ 
-    if ( n < 2 ) 
-        return 1; 
-    else 
-        return n * factorial( n - 1 ); 
+public static int factorial( int n )
+  requires 0 <= n && n <= 12;
+  ensures result >= 1;
+{
+    if ( n < 2 )
+        return 1;
+    else
+        return n * factorial( n - 1 );
 }
 ```
 

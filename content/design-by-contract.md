@@ -1,7 +1,8 @@
-Title: Design by Contract: An Alternative to Testing for Code Quality 
+Title: Design by Contract: An Alternative to Testing for Code Quality
 Date: 2005-09-27 17:00
 Author: Eric
 Category: Review
+Tags: Design
 Slug: design-by-contract
 Status: published
 
@@ -71,16 +72,16 @@ Here's an example of a contract for a generic "add to a list" method
 using Eiffel syntax:
 
 ```eiffel
-add(new_item : ITEM) 
-  -- Adds an item to the list 
-  require 
-    item_not_already_added: 
-      not has_item(new_item)  
+add(new_item : ITEM)
+  -- Adds an item to the list
+  require
+    item_not_already_added:
+      not has_item(new_item)
 
-  ensure 
-    item_count_increased: 
-      count = old count + 1 
-    item_added: 
+  ensure
+    item_count_increased:
+      count = old count + 1
+    item_added:
        has_item(new_item)
 ```
 
