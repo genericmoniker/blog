@@ -66,6 +66,15 @@
     </div>
 
     <footer>
+        {% if article.modified %}
+        <div class="pure-u-3-4 meta-data">
+            <div class='last-modified'>
+                Article last modified
+                <time datetime="{{ article.modified.isoformat()
+                }}">{{article.locale_modified }}</time>
+            </div>
+        </div>
+        {% endif %}
         {% if article.tags %}
         <div class="tags">
             {% for tag in article.tags %}
