@@ -1,5 +1,6 @@
 Title: SQLAlchemy Cascade Delete: Clarity through Examples
 Date: 2020-06-20 18:00
+Modified: 2020-10-31 21:42
 Author: Eric
 Category: How It Works
 Tags: Python, Database
@@ -74,6 +75,7 @@ require that a `project_id` be set by adding `nullable=False`:
 
 Note: If you're following along, remember that to change the schema, you'll
 want to re-create the database by running `dropdb cascade; createdb cascade`.
+Or you could put in a call to `Base.metadata.drop_all(engine)`.
 
 Running the updated code results in an exception:
 
