@@ -1,5 +1,6 @@
 Title: Run/Debug as root in PyCharm
 Date: 2015-05-05 20:33
+Modified: 2021-01-30 10:09
 Author: Eric
 Category: How-To
 Tags: Linux, PyCharm, Python
@@ -66,6 +67,10 @@ set it as the interpreter for the project.
 
 Now when you run or debug, the code will run as root.
 
+**Update**: Sam Mayer created a [sample workspace on
+GitHub](https://github.com/samayer12/sudome) that uses this strategy, which you
+might find helpful.
+
 More details
 ------------
 
@@ -123,4 +128,3 @@ to know what to kill.
     privileges?](http://stackoverflow.com/questions/14299509/debugging-in-pycharm-with-sudo-privileges)
 -   [How do I run specific sudo commands without a
     password?](http://askubuntu.com/questions/159007/how-do-i-run-specific-sudo-commands-without-a-password)
-
