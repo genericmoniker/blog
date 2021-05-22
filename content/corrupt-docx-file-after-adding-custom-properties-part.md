@@ -2,7 +2,7 @@ Title: Corrupt docx File After Adding Custom Properties Part
 Date: 2008-03-14 11:15
 Author: Eric
 Category: How It Works
-Tags: Office
+Tags: Microsoft Office
 Slug: corrupt-docx-file-after-adding-custom-properties-part
 Status: published
 
@@ -30,7 +30,7 @@ public void CanOpenStamped()
  {
     IStampable stampable = handler.GetStampable(s);
     stampable.StampNew(Identifier.Generate(), "test server");
- }  
+ }
 
  Word.Application wordApp = null;
  Word.Document wordDoc = null;

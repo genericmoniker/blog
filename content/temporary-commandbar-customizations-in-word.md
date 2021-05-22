@@ -2,7 +2,7 @@ Title: Temporary CommandBar Customizations in Word
 Date: 2007-09-04 17:00
 Author: Eric
 Category: How-To
-Tags: Office
+Tags: Microsoft Office
 Slug: temporary-commandbar-customizations-in-word
 Status: published
 
