@@ -2,6 +2,7 @@ Title: Why Exceptions Are Better Than Returned Error Codes
 Date: 2003-06-12 17:00
 Author: Eric
 Category: Opinion
+Tags: Error Handling
 Slug: exceptions-vs-returned-error-codes
 Status: published
 
@@ -40,10 +41,10 @@ RealignUniverse(errorTracker.GetRequiredAdjustment());
 Output Parameters
 
 ```cpp
-long requiredAdjustment; 
-if (SUCCEEDED(errorTracker.GetRequiredAdjustment(&requiredAdjustment))) 
-{ 
-    RealignUniverse(requiredAdjustment); 
+long requiredAdjustment;
+if (SUCCEEDED(errorTracker.GetRequiredAdjustment(&requiredAdjustment)))
+{
+    RealignUniverse(requiredAdjustment);
 }
 ```
 
@@ -54,23 +55,23 @@ success handling. When you do error handling with return codes, you
 start to get code like this:
 
 ```cpp
-if (SUCCEEDED(Operation1())) 
-{ 
-    if (SUCCEEDED(Operation2())) 
-    { 
-        if (FAILED(Operation3())) 
-        { 
-             Log.ReportError("Failed doing 3"); 
-        } 
-    } 
-    else 
-    { 
-        Log.ReportError("Failed doing 2"); 
-    } 
-} 
-else 
-{ 
-    Log.ReportError("Failed doing 1"); 
+if (SUCCEEDED(Operation1()))
+{
+    if (SUCCEEDED(Operation2()))
+    {
+        if (FAILED(Operation3()))
+        {
+             Log.ReportError("Failed doing 3");
+        }
+    }
+    else
+    {
+        Log.ReportError("Failed doing 2");
+    }
+}
+else
+{
+    Log.ReportError("Failed doing 1");
 }
 ```
 
@@ -80,15 +81,15 @@ infamous RETURNIFFAILED macro, but even with that strategy error
 handling obscures the program flow compared to the exception approach:
 
 ```cpp
-try 
-{ 
-    Operation1(); 
-    Operation2(); 
-    Operation3(); 
-} 
-catch (OperationException ex) 
-{ 
-    Log.ReportError(ex); 
+try
+{
+    Operation1();
+    Operation2();
+    Operation3();
+}
+catch (OperationException ex)
+{
+    Log.ReportError(ex);
 }
 ```
 
