@@ -13,6 +13,11 @@ This is the project for the esmithy.net blog.
 
 Pelican uses the [Markdown](http://pythonhosted.org/Markdown/) Python package.
 
+Link to another post:
+
+    [Why Exceptions Are Better Than
+    Returned Error Codes]({filename}/exceptions-vs-returned-error-codes.md)
+
 Image (put the image file in `content/images`):
 
     ![Alt Text]({static}/images/image.jpg)
