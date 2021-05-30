@@ -36,6 +36,6 @@ You can add this to Normal.dot by clicking the **Macros** button on Word
 Then I customized Word to bind the macro to Ctrl+Shift+V. In Word 2007,
 you do this by clicking the Office Menu, then **Word Options**, select
 the **Customize** category, click the **Customize...** button by
-**Keyboard shortucts**, which finally brings up the **Customize
+**Keyboard shortcuts**, which finally brings up the **Customize
 Keyboard** dialog. Pick Macros from the **Categories** list to see the
 macro, then you can associate a new shortcut key.
