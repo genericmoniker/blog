@@ -28,6 +28,7 @@ jobs:
       run: |
         echo "$IDENTITY" >> private/id_rsa
         echo "$CONFIG" >> private/ssh.config
+        chmod g=,o= private/id_rsa
       env:
         IDENTITY: ${{secrets.IDENTITY}}
         CONFIG: ${{secrets.CONFIG}}
