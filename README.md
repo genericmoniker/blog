@@ -1,6 +1,6 @@
 # esmithy.net blog
 
-This is the project for the esmithy.net blog.
+This is the project for the [esmithy.net blog](https://esmithy.net).
 
 ## Setup
 

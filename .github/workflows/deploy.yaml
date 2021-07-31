@@ -1,0 +1,36 @@
+name: esmithy.net build and deploy
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.build.txt
+
+    - name: Build
+      run: inv build
+
+    - name: Extract secrets
+      run: |
+        echo $IDENTITY >> private/id_rsa
+        echo $CONFIG >> private/ssh.config
+      env:
+        IDENTITY: ${{secrets.IDENTITY}}
+        CONFIG: ${{secrets.CONFIG}}
+
+    - name: Deploy
+      run: inv deploy
