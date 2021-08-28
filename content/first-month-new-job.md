@@ -8,7 +8,7 @@ Tags: Career
 
 Congratulations on getting your new job as a software engineer! Your employer
 and team are happy to have you join them. Here are some tips for the first few
-weeks to help them feel like they made the right choice in hiring you. 
+weeks to help them feel like they made the right choice in hiring you.
 
 Work hours
 ----------
@@ -56,8 +56,8 @@ progress. Balance wrestling with the problem against being stuck for a long
 time. You don't want to run to your teammates or mentor with every challenge,
 but you also don't want to spend hours on something that could be resolved with
 a little help. Have you Googled for a solution? Read any documentation there
-might be? Clearly articulated the problem to yourself (or your rubber duck)?Experimented with some possibilities? If you're still stuck, get some
-help.
+might be? Clearly articulated the problem to yourself (or your rubber duck)?
+Experimented with some possibilities? If you're still stuck, get some help.
 
 Someone else may be better suited to do a task than you are, but don't be too
 quick to give up and go looking for something else. If you can work through a

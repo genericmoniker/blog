@@ -1,4 +1,4 @@
-Title: UI Horror: No-Paste Password Fields 
+Title: UI Horror: No-Paste Password Fields
 Date: 2012-03-17 16:09
 Author: Eric
 Category: Opinion
@@ -18,4 +18,3 @@ have to type more characters for my password than there are numbers on
 the form to input.
 
 ![TurboTax's castrated password field]({static}/images/no-paste-password.png)
-
