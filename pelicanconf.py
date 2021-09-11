@@ -12,6 +12,8 @@ PLUGINS = [
     'readtime',
 ]
 
+FORMATTED_FIELDS = ['title']
+
 READTIME_WPM = 180  # for the readtime plugin
 
 # Following items are often useful when publishing
