@@ -2,6 +2,7 @@ Title: PyCon US 2022
 Date: 2022-05-01 19:35
 Author: Eric
 Category: Event
+Tags: Python
 Slug: pycon-2022
 Status: published
 

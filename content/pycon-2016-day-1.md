@@ -2,6 +2,7 @@ Title: PyCon 2016 - Day 1
 Date: 2016-05-30 23:56
 Author: Eric
 Category: Event
+Tags: Python
 Slug: pycon-2016-day-1
 Status: published
 
