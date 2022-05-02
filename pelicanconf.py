@@ -60,7 +60,7 @@ MEDIUS_AUTHORS = {
     'Eric': {
         'description': """
             Eric Smith is a software architect and developer. He currently
-            works for StorageCraft, and graduated with a computer science
+            works for Arcserve, and graduated with a computer science
             degree from Brigham Young University back when the World-Wide Web
             was a new thing.
         """,
@@ -73,8 +73,8 @@ MEDIUS_AUTHORS = {
     },
     'Ethan': {
         'description': """
-            Ethan Smith is a computer science student at Southern Utah
-            University and vice president of the school's Cybersecurity Club.
+            Ethan Smith is a computer science graduate from Southern Utah
+            University.
         """,
         'cover': '/site/esmithy.jpg',
         'image': '/site/ethan-small.png',
