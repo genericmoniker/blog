@@ -1,5 +1,6 @@
 Title: Functions Returning True on Success
 Date: 2021-05-22 08:20
+Modified: 2022-05-02 18:33
 Author: Eric
 Category: Opinion
 Tags: Error Handling
@@ -105,3 +106,9 @@ If `do_something` can add valuable information to the exception raised by
 `do_some_internal_thing`, then it can catch it and *put the valuable
 information into a new exception* so that it is available to the caller should
 it choose to log it. Otherwise, just let the underlying exception through.
+
+Notice that the [Python Logging HOWTO
+page](https://docs.python.org/3/howto/logging.html#when-to-use-logging) says
+that the `error()`, `exception()` and `critical()` logging functions are the
+best tool to "Report **suppression of an error** without raising an exception"
+(emphasis added).
