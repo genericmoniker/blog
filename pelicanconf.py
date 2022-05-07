@@ -10,11 +10,17 @@ DEFAULT_LANG = 'en'
 
 PLUGINS = [
     'readtime',
+    'sitemap',
 ]
 
 FORMATTED_FIELDS = ['title']
 
 READTIME_WPM = 180  # for the readtime plugin
+
+SITEMAP = {
+    "format": "xml",
+    "exclude": ["tag/", "category/"],
+}
 
 # Following items are often useful when publishing
 #DISQUS_SITENAME = ""
