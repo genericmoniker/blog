@@ -47,7 +47,7 @@ locally on your machine and publish straight to your hard drive!
 **Update 10 Jun 2012**: The script outputs UTF-8 now.
 
 ```python
-# mwl.py - by Eric Smith - http://esmithy.net
+# mwl.py - by Eric Smith - https://esmithy.net
 
 from SimpleXMLRPCServer import SimpleXMLRPCServer
 import os.path
@@ -58,7 +58,7 @@ HTML = u'{0}{1}'
 
 def get_user_blogs(key, username, password):
     return [{'url':BLOG_URL, 'blogid':'1', 'blogName':'Save HTML'}]
-    
+
 def new_post(blogid, username, password, struct, publish):
     filename = _get_filename(struct['title'])
     _write_html(filename, struct['title'], struct['description'])
@@ -79,7 +79,7 @@ def edit_post(postid, username, password, struct, publish):
 
 def _get_filename(n):
     return os.path.expanduser('~/Documents/{0}.html'.format(n))
-    
+
 def _write_html(filename, title, body):
     print 'Saving HTML to ' + filename
     with open(filename, 'w') as f:

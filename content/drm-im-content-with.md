@@ -66,7 +66,7 @@ My city's library has an arrangement with
 physical library, I can download audio books for free. The books have
 DRM that expires the content after the check-out period is up. I
 downloaded a Pimsleur language course audio book so I could brush up on
-my Portuguese. Foi difÃ­cil? Claro que nÃ£o! It works just like a
+my Portuguese. Foi difí­cil? Claro que não! It works just like a
 library, but a lot more convenient. And if it takes DRM for that to be
 workable, well I can live with that.
 
@@ -74,20 +74,12 @@ I had a little trouble with my hard drive a couple of weeks ago. Some
 kind of fairly serious hiccup. It is limping along reasonably well
 again, but there have been a few files damaged. I just went to play some
 [Ryan Shupe and the Rubberband](http://www.ryanshupe.com/) and
-discovered a bit of a problem:
-
-![Windows Media Player
-Error](http://esmithy.net/content/wmp-error1.jpg)\
-<span class="caption">WMP Can't Play</span>
+discovered that it wouldn't play because of a licensing problem.
 
 Probably another casualty of the hard drive problems. No worries,
 though, because of course I backed up the license files. I navigate the
 UI and click on the Manage Licenses dialog's **Restore Now...** button.
-Time to worry:
-
-![Windows Media Player
-Error](http://esmithy.net/content/wmp-error1.jpg)\
-<span class="caption">WMP Can't Restore Backed-up Licenses Either</span>
+Time to worry. WMP can't restore backed-up licenses either.
 
 If I had bought this music as a download, I'd be pretty much outta luck.
 I got it courtesy of a Capitol Records CD, though, just one that

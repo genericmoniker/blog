@@ -6,7 +6,7 @@ Slug: naming-private-fields-addendum
 Status: published
 
 This is just a quick addition to the [previous
-posting](http://esmithy.net/2007/01/10/naming-private-fields/),
+posting]({filename}/naming-private-fields.md),
 confirming the alleged use of `m_` by Microsoft in their own
 code.<!--more-->
 
@@ -38,4 +38,3 @@ field names, though there aren't as many in this category:
 -   System.Collections.ArrayList
 -   System.Delegate
 -   System.TimeSpan
-

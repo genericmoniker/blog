@@ -9,7 +9,7 @@ After years of building this site with my own custom software, I've
 decided to switch to [WordPress](http://wordpress.org "WordPress").
 
 My previous system started with XHTML content transformed through
-various XSLT style sheets thatproduced summaries, an RSS feed, a Google
+various XSLT style sheets that produced summaries, an RSS feed, a Google
 sitemap, and a common appearance across all the pages. The whole process
 was driven by an Ant script, and required no server-side code except for
 a comments form. It worked pretty well except for a few things:

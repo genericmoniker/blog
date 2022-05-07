@@ -182,10 +182,6 @@ general cases to verify that the whole system hangs together.
 References and Resources
 ------------------------
 
--   [Testing
-    Strategies](http://esmithy.net/wp-admin/not-by-me/TestingStrategies.doc).
-    This is a nice summary of different testing types, done by Chip
-    Whitmer when he was trying to get things organized here at NextPage.
 -   [GuiTesting](http://c2.com/cgi/wiki?GuiTesting). Cunningham &
     Cunningham XP Wiki site. Talks about the technical and sometimes
     political challenges of GUI testing.
@@ -195,22 +191,17 @@ References and Resources
     Aim](http://computer.org/software/homepage/2001/05Design/index.htm).
     Kent Beck, *IEEE Software*. Unit testing as a design methodology
     rather than a testing methodology.
--   [Design Principles in Test First
-    Coding](http://hammersmith/articles/not-by-me/TestFirstDesign.pdf).
-    Erik Meade. More on how unit testing improves design.
+-   Design Principles in Test First Coding. Erik Meade. More on how unit
+    testing improves design.
 -   [Testing, fun?
     Really?](http://www-106.ibm.com/developerworks/library/j-test.html)
     Jeff Canna. Why you need both unit and integration tests.
 -   [JUnit Articles](http://www.junit.org/news/article/index.htm). Lots
     of very interesting articles about automated testing (not all
     strictly conforming to my unit test definition).
--   [Unit Testing with
-    JUnit](http://esmithy.net/wp-admin/unit-testing/index.htm). My
-    presentation about unit testing.
 -   [Use your singletons
     wisely](http://www-106.ibm.com/developerworks/webservices/library/co-single.html). J.
     B. Rainsberger. Coupling effects of singletons on testing.
 -   [Mock Objects
     Papers](http://www.mockobjects.com/wiki/MocksObjectsPaper). "Mock
     Objects" is a more formalized approach to using stubs.
-

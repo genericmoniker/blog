@@ -61,4 +61,4 @@ things.
     for, but I expect it would take a really, *really* long time.
 
 If you would like to run ByChance, you can [download it from
-here](http://esmithy.net/software/bychance-an-experiment-with-randomness/).
+here](https://esmithy.net/software/bychance-an-experiment-with-randomness/).
