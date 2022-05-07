@@ -5,9 +5,9 @@ Category: Project
 Slug: work-plan-editor
 Status: published
 
-**[Install via "ClickOnce"]({static}/downloads/workplan/WorkPlan.application)**  
-Version 3.0.2641.36770  
-25 Mar 2007  
+**[Install via "ClickOnce"]({static}/downloads/workplan/WorkPlan.application)**
+Version 3.0.2641.36770
+25 Mar 2007
 Around 300 KB
 
 Work Plan Editor depends on the Microsoft .NET Framework 2.0, which can
@@ -37,7 +37,7 @@ your original plan.
 
 Work Plan Editor is more focused than an Excel spreadsheet, but simpler than
 Microsoft Project. You can read more about the motivation behind it in
-[this blog article]({static}/work-plan-editor-release.md).
+[this blog article]({filename}/work-plan-editor-release.md).
 
 ![Screen Shot]({static}/downloads/workplan/screen-shot.jpg)
 
@@ -77,4 +77,3 @@ Report a Bug** menu item to let me know about it.\
 -   Fixed broken Cut menu
 -   Fixed broken Redo menu
 -   Several other small user interaction and bug fixes
-
