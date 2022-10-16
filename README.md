@@ -75,3 +75,10 @@ Tags: Design
 Slug: when-to-give-up
 Status: published
 ```
+
+### Drafts
+
+Drafts (`Status: draft`) get built to the output directory and copied to the
+web server but not linked from anywhere. The idea is you can have someone read
+a draft if you share the URL. Just be aware that they are up there and visible
+to anyone with the URL.
