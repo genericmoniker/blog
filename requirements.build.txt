@@ -71,7 +71,7 @@ tomli==2.0.1
     #   pep517
 unidecode==1.3.4
     # via pelican
-wheel==0.37.1
+wheel==0.38.1
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
