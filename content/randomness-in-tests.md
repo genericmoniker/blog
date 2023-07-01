@@ -1,6 +1,6 @@
 Title: Randomness in Tests
 Date: 2018-11-14 21:49
-Modified: 2023-04-22 11:10
+Modified: 2023-07-01 09:14
 Author: Eric
 Category: How-To
 Slug: randomness-in-tests
@@ -98,7 +98,7 @@ So here are some guidelines for randomness:
    that they'll expose a bug.
 2. You have to be able to reproduce the random values later on the off chance
    that a random value causes a test to fail. This could be as simple as
-   logging all the random values used.
+   logging all the random values used or using a fixed seed.
 3. If a random value causes a test failure, add an explicit test with that
    value, and make it pass.
 
