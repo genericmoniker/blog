@@ -30,6 +30,11 @@ Setting attributes (like image size):
 
 YouTube video:
 
+On the video, choose Share > Embed and paste in the iframe code. See the
+"a-billion-mice.md" for an example.
+
+Or, this sort of works...
+
     [![My Video](http://img.youtube.com/vi/<video_id>/0.jpg){:.vid}](https://www.youtube.com/v/<video_id>)
 
 *Note the `vid` class -- the theme uses that to overlay a play button.*

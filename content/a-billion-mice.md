@@ -4,6 +4,7 @@ Author: Eric
 Category: Story
 Slug: a-billion-mice
 Status: published
+Tags: Hardware
 
 On December 3, 2008, Logitech (my employer)
 [announced](http://blog.logitech.com/2008/12/03/one-billion-logitech-mice/)
@@ -18,4 +19,4 @@ with mice.
 
 Here is my prize-winning entry:
 
-[![A Billion Mice](http://img.youtube.com/vi/JqPWUZHCJbQ/0.jpg){:.vid}](https://www.youtube.com/v/JqPWUZHCJbQ)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JqPWUZHCJbQ?si=_-5nGIz67NjmAMnN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
