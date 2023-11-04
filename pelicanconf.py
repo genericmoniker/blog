@@ -10,6 +10,7 @@ DEFAULT_LANG = 'en'
 
 PLUGINS = [
     'readtime',
+    'search',
     'sitemap',
 ]
 
@@ -129,4 +130,9 @@ MEDIUS_CATEGORIES = {
         'logo': '/site/cat-story.svg',
         'thumbnail': '/site/cat-story.svg'
     },
+}
+
+# Stork search settings
+STORK_INPUT_OPTIONS = {
+    'base_directory': 'output',
 }

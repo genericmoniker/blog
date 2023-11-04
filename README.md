@@ -9,6 +9,13 @@ This is the project for the [esmithy.net blog](https://esmithy.net).
 3. pip install -r requirements.build.txt
 4. inv -l to see what you can do from there
 
+### Search
+
+Search uses the [search](https://github.com/pelican-plugins/search) plugin, which
+requires a separate install of [stork-search](https://stork-search.net/docs/install). I
+used the `cargo` install method in WSL, which required also installing some other
+packages, like openssl (the cargo errors will guide you).
+
 ## MarkDown Authoring Tips
 
 Pelican uses the [Markdown](http://pythonhosted.org/Markdown/) Python package.

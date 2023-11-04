@@ -35,7 +35,8 @@ def requirements(ctx):
 def build_content(ctx):
     """Build the site content."""
     ctx.run(
-        f'{BIN_DIR / "pelican"} --fatal warnings ' f'-s {ROOT_DIR / "pelicanconf.py"}'
+        f'{BIN_DIR / "pelican"} --fatal warnings ' f'-s {ROOT_DIR / "pelicanconf.py"}',
+        pty=True,  # Hangs w/o this with the search plugin.
     )
 
 

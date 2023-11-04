@@ -5,6 +5,7 @@ libsass==0.21.0   # for building the theme
 Markdown==3.3.7   # required for Pelican to support Markdown content
 pelican==4.7.2
 pelican-readtime==0.2.0
+pelican-search
 pelican-sitemap==1.0.2
 pip-tools==6.6.0
 

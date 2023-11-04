@@ -11,6 +11,13 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    - name: Install stork-search from crates.io
+      uses: baptiste0928/cargo-install@v2
+      with:
+        crate: stork-search
+        version: "v1.6.0"
+        locked: true
+
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
