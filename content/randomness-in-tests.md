@@ -59,7 +59,7 @@ test with **all** of the enum values](https://docs.pytest.org/en/latest/parametr
 So no randomness **at all** in tests?
 
 Well, sometimes it is really convenient to use randomness. For example, if you
-have database models with UUIDs as primary keys, it gets awkward if aren't
+have database models with UUIDs as primary keys, it gets awkward if you aren't
 allowed to generate random IDs for test objects.
 
 Or maybe you're using something like
