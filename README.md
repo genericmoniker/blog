@@ -4,9 +4,9 @@ This is the project for the [esmithy.net blog](https://esmithy.net).
 
 ## Setup
 
-1. Install Python 3.6+
+1. Install Python 3.8+
 2. Make and activate a virtualenv
-3. pip install -r requirements.build.txt
+3. pip install -r requirements.txt
 4. inv -l to see what you can do from there
 
 ### Search
