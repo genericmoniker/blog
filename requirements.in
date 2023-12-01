@@ -1,0 +1,9 @@
+# These are requirements to build the site.
+black
+invoke
+Markdown   # required for Pelican to support Markdown content
+pelican
+pelican-readtime
+pelican-search
+pelican-sitemap
+pip-tools
