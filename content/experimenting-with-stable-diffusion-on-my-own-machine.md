@@ -38,7 +38,7 @@ more out. But at least I was in business:
 One feature I was especially interested in was the ability to generate images from an
 existing image, so I scanned a drawing I'd done many years ago as my source:
 
-![My original drawing]({static}/images/drawing.jpg)
+![My original drawing]({static}/images/drawing.jpg){: width="500"}
 
 For the text prompt, I basically tried to describe the image, like "leather armor,
 sword, fantasy warrior".

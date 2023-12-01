@@ -36,12 +36,12 @@ of tests and controlling the various output options.
 
 For strategy, Brian provides a simple framework for figuring out what tests to write:
 
-> - Start with a non-trivial, "happy path" test case.
-> - Then look at test cases that represent
->     - interesting sets of input,
->     - interesting starting states,
->     - interesting end states, or
->     - all possible error states.
+- Start with a non-trivial, "happy path" test case.
+- Then look at test cases that represent
+    - interesting sets of input,
+    - interesting starting states,
+    - interesting end states, or
+    - all possible error states.
 
 Other advice resonates with my own hard-won experience:
 
