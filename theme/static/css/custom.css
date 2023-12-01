@@ -1,0 +1,206 @@
+/* Global CSS variables */
+:root {
+    --font-family: Merriweather, Georgia, Cambria, "Times New Roman", Times, serif;
+    --font-size: 16px;
+    --font-weight: 200;
+    --border-radius: 0;
+    --code-block-color: #FFFFFFff;
+    --code-block-background-color: rgb(53, 55, 60);
+}
+
+/* (Default) */
+/* Can be forced with data-theme="light" */
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+    --color: #2A221Dff;
+    --color-filter: invert(6%) sepia(5%) saturate(4763%) hue-rotate(340deg) brightness(94%) contrast(82%);
+    --code-color: #2A221Dff;
+    --code-background-color: #FAF9EEff;
+    --primary: #64270Aff;
+    --primary-hover: #843612ff;
+    --primary-focus: rgba(244, 81, 30, 0.25);
+    --primary-inverse: #FEFDF3ff;
+    --background-color: #FEFDF3ff;
+    --card-sectionning-background-color: #FFD186ff;
+    --card-background-color: #FEFDF3ff;
+    --blockquote-border-color: #EFBC66ff;
+}
+
+/* (Auto) */
+/* Automatically enabled if user has Dark mode enabled */
+@media only screen and (prefers-color-scheme: dark) {
+    :root:not([data-theme]) {
+        --color: #FEFDF3ff;
+        --color-filter: invert(93%) sepia(2%) saturate(1024%) hue-rotate(5deg) brightness(107%) contrast(99%);
+        --code-color: #FFFFFFff;
+        --code-background-color: rgb(53, 55, 60);
+        --primary: #EFBC66ff;
+        --primary-hover: #FEFDF3ff;
+        --primary-focus: rgba(244, 81, 30, 0.25);
+        --primary-inverse: #FEFDF3ff;
+        --background-color: #444C4Eff;
+        --card-sectionning-background-color: #2A221Dff;
+        --card-background-color: #111317ff;
+        --blockquote-border-color: #2A221Dff;
+    }
+}
+
+/* (Forced) */
+/* Enabled if forced with data-theme="dark" */
+[data-theme="dark"] {
+    --color: #FEFDF3ff;
+    --color-filter: invert(93%) sepia(2%) saturate(1024%) hue-rotate(5deg) brightness(107%) contrast(99%);
+    --code-color: #FFFFFFff;
+    --code-background-color: rgb(53, 55, 60);
+    --primary: #EFBC66ff;
+    --primary-hover: #FEFDF3ff;
+    --primary-focus: rgba(244, 81, 30, 0.25);
+    --primary-inverse: #FEFDF3ff;
+    --background-color: #444C4Eff;
+    --card-sectionning-background-color: #2A221Dff;
+    --card-background-color: #111317ff;
+    --blockquote-border-color: #2A221Dff;
+}
+
+
+body>main {
+    padding: 0;
+}
+
+/* Typography */
+h2,
+h3,
+hgroup> :last-child {
+    font-family: "Merriweather Sans", sans-serif;
+    font-weight: 100;
+    color: var(--color);
+}
+
+b, strong { font-weight: bold; }
+
+small {
+    color: var(--muted-color);
+}
+
+/* Header */
+.hero {
+    /* background-image is set in the template */
+    background-color: #394046;
+    background-position: center;
+    background-size: cover;
+    min-height: 250px;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+#logo {
+    height: 3rem;
+}
+
+header {
+    padding: 0;
+}
+
+header hgroup> :last-child {
+    color: var(--h3-color);
+}
+
+header hgroup {
+    margin-bottom: 0;
+}
+
+/* Nav */
+summary[role="link"].contrast:is([aria-current], :hover, :active, :focus) {
+    background-color: transparent;
+    color: var(--contrast-hover);
+}
+
+/* Main */
+@media (min-width: 992px) {
+    main .grid {
+        grid-column-gap: var(--spacing-company);
+        grid-template-columns: auto 25%;
+    }
+}
+
+code {
+    padding: 0;
+}
+
+pre>code {
+    color: var(--code-block-color);
+    background-color: var(--code-block-background-color);
+}
+
+article {
+    padding-bottom: 0.1rem;
+}
+
+blockquote>p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Author footer */
+.author {
+    display: flex;
+}
+
+.author figure {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+.author-description {
+    margin-left: 2rem;
+}
+
+.author-link-icon {
+    filter: var(--color-filter);
+}
+
+/* Stork search */
+.stork-wrapper {
+    position: relative;
+}
+
+.stork-close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+}
+
+.stork-close-button>svg {
+    filter: brightness(0%);
+}
+
+.stork-result {
+    list-style-type: none;
+    background-color: var(--card-sectionning-background-color);
+    box-shadow: var(--card-box-shadow);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.stork-title p {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 1.5rem;
+    color: #FEFDF3ff;
+    padding-top: 1rem;
+}
+
+.stork-result a {
+    color: var(--color);
+    text-decoration: none;
+}
+
+.stork-result a:hover {
+    color: var(--color);
+    text-decoration: none;
+}
+
+.stork-attribution {
+    color: var(--muted-color);
+    font-size: 0.875em;
+}

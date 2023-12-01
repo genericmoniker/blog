@@ -30,6 +30,7 @@ tweaked slightly.
 3.  Clone the gitflow repo:
 
     `λ git clone --recursive git://github.com/nvie/gitflow.git`
+
 4.  Run the install script, specifying the right directory (notice that
     'bin' is not included):
 

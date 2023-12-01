@@ -4,14 +4,14 @@ Author: Eric
 Slug: about
 Status: published
 
-![Smithy]({static}/site/smithy-nauvoo.jpg)
+![Smithy]({static}/site/smithy-nauvoo.jpg){: height="400", width="400" }
 
 **Welcome, imaginary reader, to esmithy.net!**
 
 A site you've miraculously found without any SEO whatsoever.
 
 A "smithy" is the workplace of a smith, so "esmithy" is
-the electronic parallel, where bits of code, ideas, thoughts and opinions are
+the electronic parallel, where bits of code, thoughts and opinions are
 hammered out. The metaphors pretty much end there, thankfully.
 
 

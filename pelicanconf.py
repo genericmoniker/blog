@@ -59,11 +59,14 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = 10
 
+STYLESHEET_URL = "/theme/css/custom.css"
+HERO_IMAGE_URL = "/site/esmithy.jpg"
+LOGO_URL = "/site/esmithy-dark.svg"
 
 # Theme settings - theme is a fork of the Medius theme.
 
 THEME = 'theme'  # Relative path to theme directory.
-MEDIUS_AUTHORS = {
+AUTHORS = {
     'Eric': {
         'description': """
             Eric Smith is a software architect and developer. He currently
@@ -75,7 +78,7 @@ MEDIUS_AUTHORS = {
         'image': '/site/eric-small.png',
         'links': (
             ('github', 'https://github.com/genericmoniker'),
-            ('envelope-square', 'mailto:eric@esmithy.net'),
+            ('mail', 'mailto:eric@esmithy.net'),
         ),
     },
     'Ethan': {
@@ -87,10 +90,12 @@ MEDIUS_AUTHORS = {
         'image': '/site/ethan-small.png',
         'links': (
             ('github', 'https://github.com/urd000med/'),
-            ('envelope-square', 'mailto:ethan@esmithy.net'),
+            ('mail', 'mailto:ethan@esmithy.net'),
         ),
     },
 }
+
+# MEDIUS theme settings (obsolete)
 
 MEDIUS_DEFAULT_COVER = '/site/esmithy.jpg'
 

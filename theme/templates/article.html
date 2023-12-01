@@ -1,149 +1,83 @@
 {% extends "base.html" %}
-{% block title %}{{ article.title|striptags }}{% endblock %}
+{% block html_lang %}{{ article.lang }}{% endblock %}
+
+{% block title %}{{ SITENAME|striptags }} - {{ article.title|striptags }}{% endblock %}
+
+{% block head %}
+{{ super() }}
+
+{% import 'translations.html' as translations with context %}
+{% if translations.entry_hreflang(article) %}
+{{ translations.entry_hreflang(article) }}
+{% endif %}
+
+{% if article.description %}
+<meta name="description" content="{{article.description}}" />
+{% endif %}
+
+{% for tag in article.tags %}
+<meta name="tags" content="{{tag}}" />
+{% endfor %}
+
+{% endblock %}
+
 {% block content %}
-<div class="page-container">
-    <div class="entry-content">
-        <div class="post-meta pure-g">
-            {% if article.category|string in MEDIUS_CATEGORIES %}
-            <div class="pure-u">
-                <a href="{{ SITEURL }}/{{ article.category.url }}"><img src="{{ MEDIUS_CATEGORIES.get(article.category|string).thumbnail }} " class="post-avatar" alt="{{ article.category|striptags }}"></a>
-            </div>
-            {% endif %}
-            {% include "includes/post_metadata.html" %}
-        </div>
-    </div>
-
-    <div class="article-header-container">
-        <div class="background-image-container">
-
-            {# title with big background image #}
-            {% if article.cover %}
-            <div class="background-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url({{ article.cover }});">
-                <img src="{{ article.cover }}" alt="{{ article.title|striptags }}">
-                <div class="title">
-                <h1>
-                    {{ article.title }}
-                </h1>
-                {% if article.subtitle %}
-                <h2>
-                    {{ article.subtitle }}
-                </h2>
-                {% endif %}
-                </div>
-            </div>
-            {% elif MEDIUS_DEFAULT_COVER %}
-            <div class="background-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url({{ MEDIUS_DEFAULT_COVER }});">
-                <img src="{{ MEDIUS_DEFAULT_COVER }}" alt="{{ article.title|striptags }}">
-                <div class="title">
-                <h1>
-                    {{ article.title }}
-                </h1>
-                {% if article.subtitle %}
-                <h2>
-                    {{ article.subtitle }}
-                </h2>
-                {% endif %}
-                </div>
-            </div>
-            {% else %}
-            <div class="background-image-small">
-                {% if article.thumbnail %}
-                <img src="{{ article.thumbnail }}" alt="{{ article.title|striptags }}">
-                {% endif %}
-                <div class="title-container">
-                    <h1>{{ article.title }}</h1>
-                    {% if article.subtitle %}
-                    <h4>{{ article.subtitle }}</h4>
-                    {% endif %}
-                </div>
-            </div>
-            {% endif %}
-        </div>
-    </div>
-
-    <div class="entry-content">
-        {{ article.content }}
-    </div>
-
+<article>
+    <header>
+        <h2>{{ article.title|striptags }}</h2>
+        By {% for author in article.authors %}
+        <a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
+        {% endfor %}
+        &mdash;
+        <time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}
+        </time>
+        {% if article.readtime %}
+        &mdash;
+        {{ article.readtime }} minute read
+        {% endif %}
+        {% import 'translations.html' as translations with context %}
+        {{ translations.translations_for(article) }}
+    </header>
+    {{ article.content }}
     <footer>
-        {% if article.modified %}
-        <div class="pure-u-3-4 meta-data">
-            <div class='last-modified'>
-                Article last modified
-                <time datetime="{{ article.modified.isoformat()
-                }}">{{article.locale_modified }}</time>
-            </div>
+        {% if article.authors %}
+        {% for author in article.authors %}
+        <div class="author">
+            <figure>
+                <a href="{{ SITEURL }}/{{ author.url }}"><img src="{{ AUTHORS.get(author|string).image }}" alt=""></a>
+                <figcaption><a href="{{ SITEURL }}/{{ author.url }}">{{
+                        author }}</a></figcaption>
+            </figure>
+            <p class="author-description">
+                {% if AUTHORS %}
+                {{ AUTHORS.get(author|string).description }}
+                {% endif %}
+                {% for icon, link in AUTHORS.get(author|string).links %}
+                &nbsp;<a href="{{ link }}"><img class="author-link-icon" width="16" src="/theme/img/{{ icon }}.svg"/></a>
+                {% endfor %}
+            </p>
         </div>
+        {% endfor %}
+        {% endif %}
+
+        {% if article.modified %}
+        <p>Last updated: <time datetime="{{ article.modified.isoformat() }}">
+                {{ article.locale_modified }}
+            </time></p>
+        {% endif %}
+        {% if article.category %}
+        <p>
+            Category: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+        </p>
         {% endif %}
         {% if article.tags %}
-        <div class="tags">
+        <p>
+            Tags:
             {% for tag in article.tags %}
-            <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag | escape }}</a>
+            <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{{ ", " if not loop.last else "" }}
             {% endfor %}
-        </div>
+        </p>
         {% endif %}
-        <div class="pure-g post-footer">
-            {% if article.authors %}
-            <div class="pure-u-1 pure-u-md-1-2">
-                {% for author in article.authors %}
-                <div class="pure-g poster-info">
-                    {% if author|string in MEDIUS_AUTHORS %}
-                    <div class="pure-u">
-                        <a href="{{ SITEURL }}/{{ author.url }}"><img src="{{ MEDIUS_AUTHORS.get(author|string).image }}" alt=""></a>
-                    </div>
-                    {% endif %}
-                    <div class="pure-u-3-4">
-                        <h3 class="author-name"><a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a></h3>
-                        <p class="author-description">
-                          {% if MEDIUS_AUTHORS %}
-                          {{ MEDIUS_AUTHORS.get(author|string).description }}
-                          {% endif %}
-                        </p>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-            {% endif %}
-
-
-            {% if article.category|string in MEDIUS_CATEGORIES %}
-            <div class="pure-u-1 pure-u-md-1-2">
-
-                <div class="pure-g post-category-info">
-                    <div class="pure-u">
-                        <a href="{{ SITEURL }}/{{ article.category.url }}"><img class="category-avatar" src="{{ MEDIUS_CATEGORIES.get(article.category|string).thumbnail }}" alt=""></a>
-                    </div>
-                    <div class="pure-u-3-4">
-                        <h3 class="author-name"><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></h3>
-                        <p class="author-description">
-                          {{ MEDIUS_CATEGORIES.get(article.category|string).description }}
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-            {% endif %}
-
-        </div>
-
-
     </footer>
-
-    {% if DISQUS_SITENAME %}
-    <div class="entry-content">
-        <div id="disqus_thread"></div>
-        <script type="text/javascript">
-            var disqus_shortname = '{{ DISQUS_SITENAME }}';
-            (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-    </div>
-    {% endif %}
-
-</div>
-
+</article>
 {% endblock %}

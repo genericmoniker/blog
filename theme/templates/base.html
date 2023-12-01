@@ -1,105 +1,135 @@
 <!DOCTYPE html>
-<html lang="{{ DEFAULT_LANG }}">
+<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
+
 <head>
-        {% block head %}
-        <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" />
-        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{CSS_FILE }}" />
-        <link rel="stylesheet" href="https://files.stork-search.net/releases/v1.6.0/basic.css" />
-        {% if FEED_ALL_ATOM %}
-        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
-        {% endif %}
-        {% if FEED_ALL_RSS %}
-        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Full RSS Feed" />
-        {% endif %}
-        {% if FEED_ATOM %}
-        <link href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
-        {% endif %}
-        {% if FEED_RSS %}
-        <link href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
-        {% endif %}
-        {% if CATEGORY_FEED_ATOM and category %}
-        <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM|format(category.slug) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Categories Atom Feed" />
-        {% endif %}
-        {% if CATEGORY_FEED_RSS and category %}
-        <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_RSS|format(category.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Categories RSS Feed" />
-        {% endif %}
-        {% if TAG_FEED_ATOM and tag %}
-        <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_ATOM|format(tag.slug) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Tags Atom Feed" />
-        {% endif %}
-        {% if TAG_FEED_RSS and tag %}
-        <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(tag.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
-        {% endif %}
-        {% endblock head %}
+   {% block head %}
+   <title>{% block title %}{{ SITENAME|striptags }}{% endblock title %}</title>
+   <meta charset="utf-8" />
+   <meta name="generator" content="Pelican" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   {% if SITESUBTITLE %}
+   <meta name="description" content="{{ SITESUBTITLE }}" />
+   {% endif %}
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+   <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+   <link href='https://fonts.googleapis.com/css?family=Merriweather Sans' rel='stylesheet'>
+   <link rel="stylesheet" href="/theme/css/pygment.css" />
+   {% if STYLESHEET_URL %}
+   <link rel="stylesheet" type="text/css" href="{{ STYLESHEET_URL }}" />
+   {% endif %}
+   {% if FEED_ALL_ATOM %}
+   <link
+      href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}"
+      type="application/atom+xml" rel="alternate" title="{{ SITENAME|striptags }} Full Atom Feed" />
+   {% endif %}
+   {% if FEED_ALL_RSS %}
+   <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}"
+      type="application/rss+xml" rel="alternate" title="{{ SITENAME|striptags }} Full RSS Feed" />
+   {% endif %}
+   {% if FEED_ATOM %}
+   <link href="{{ FEED_DOMAIN }}/{%if FEED_ATOM_URL %}{{ FEED_ATOM_URL }}{% else %}{{ FEED_ATOM }}{% endif %}"
+      type="application/atom+xml" rel="alternate" title="{{ SITENAME|striptags }} Atom Feed" />
+   {% endif %}
+   {% if FEED_RSS %}
+   <link href="{{ FEED_DOMAIN }}/{% if FEED_RSS_URL %}{{ FEED_RSS_URL }}{% else %}{{ FEED_RSS }}{% endif %}"
+      type="application/rss+xml" rel="alternate" title="{{ SITENAME|striptags }} RSS Feed" />
+   {% endif %}
+   {% if CATEGORY_FEED_ATOM and category %}
+   <link
+      href="{{ FEED_DOMAIN }}/{% if CATEGORY_FEED_ATOM_URL %}{{ CATEGORY_FEED_ATOM_URL.format(slug=category.slug) }}{% else %}{{ CATEGORY_FEED_ATOM.format(slug=category.slug) }}{% endif %}"
+      type="application/atom+xml" rel="alternate" title="{{ SITENAME|striptags }} Categories Atom Feed" />
+   {% endif %}
+   {% if CATEGORY_FEED_RSS and category %}
+   <link
+      href="{{ FEED_DOMAIN }}/{% if CATEGORY_FEED_RSS_URL %}{{ CATEGORY_FEED_RSS_URL.format(slug=category.slug) }}{% else %}{{ CATEGORY_FEED_RSS.format(slug=category.slug) }}{% endif %}"
+      type="application/rss+xml" rel="alternate" title="{{ SITENAME|striptags }} Categories RSS Feed" />
+   {% endif %}
+   {% if TAG_FEED_ATOM and tag %}
+   <link
+      href="{{ FEED_DOMAIN }}/{% if TAG_FEED_ATOM_URL %}{{ TAG_FEED_ATOM_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_ATOM.format(slug=tag.slug) }}{% endif %}"
+      type="application/atom+xml" rel="alternate" title="{{ SITENAME|striptags }} Tags Atom Feed" />
+   {% endif %}
+   {% if TAG_FEED_RSS and tag %}
+   <link
+      href="{{ FEED_DOMAIN }}/{% if TAG_FEED_RSS_URL %}{{ TAG_FEED_RSS_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_RSS.format(slug=tag.slug) }}{% endif %}"
+      type="application/rss+xml" rel="alternate" title="{{ SITENAME|striptags }} Tags RSS Feed" />
+   {% endif %}
+   {% endblock head %}
 </head>
-<body>
 
-    <div class="navigation pure-menu pure-menu-horizontal" id="banner">
-        <a href="{{ SITEURL }}/" class="site-title  pure-menu-link"><img src="/site/logo.png"/>{{ SITENAME }}</a>
-    </div>
-    <div class="navigation pure-menu pure-menu-horizontal">
-        <ul class="pure-menu-list">
-            <li class="pure-menu-item"></li>
-            {% for title, link in MENUITEMS %}
-            <li class="pure-menu-item"><a href="{{ link }}" class="pure-menu-link">{{ title }}</a></li>
-            {% endfor %}
+<body class="container">
+   <script>0</script> {# Workaround for FOUC: https://stackoverflow.com/a/57888310/86356 #}
 
-            {% if DISPLAY_PAGES_ON_MENU %}
-            {% for p in pages %}
-            <li class="pure-menu-item{% if p == page %} pure-menu-selected{% endif %}"><a href="{{ SITEURL }}/{{ p.url }}" class="pure-menu-link">{{ p.title }}</a></li>
-            {% endfor %}
-            |
-            {% endif %}
-            {% if DISPLAY_CATEGORIES_ON_MENU %}
-            {% for cat, null in categories %}
-            <li class="pure-menu-item{% if cat == category %} pure-menu-selected{% endif %}"><a href="{{ SITEURL }}/{{ cat.url }}" class="pure-menu-link">{{ cat }}</a></li>
-            {% endfor %}
-            {% endif %}
-        </ul>
+   {# Hero #}
+   <div class="hero" data-theme="dark" style="background-image: url({{HERO_IMAGE_URL}});">
+      <nav class="container-fluid">
+         <ul>
+            <li><strong><a href="{{ SITEURL }}/" class="contrast"><img src="{{LOGO_URL}}" id="logo" /> {{ SITENAME
+                     }}</a></strong>
+            </li>
+         </ul>
+         <ul>
+            <li>
+               <details role="list" dir="rtl">
+                  <summary aria-haspopup="listbox" role="link" class="contrast"><img
+                        src="/theme/img/hamburger-menu.svg" /></summary>
+                  <ul role="listbox">
+                     {% for title, link in MENUITEMS %}
+                     <li><a href="{{ link }}">{{ title }}</a></li>
+                     {% endfor %}
+                     {% if DISPLAY_PAGES_ON_MENU %}
+                     {% for p in pages %}
+                     <li><a href="{{ SITEURL }}/{{ p.url }}" {% if p==page %} aria-current="page" {% endif %}>{{
+                           p.title|striptags }}</a>
+                     </li>
+                     {% endfor %}
+                     {% endif %}
+                     {% if DISPLAY_CATEGORIES_ON_MENU %}
+                     {% for cat, null in categories %}
+                     <li><a href="{{ SITEURL }}/{{ cat.url }}" {% if cat==category %} aria-current="page" {% endif %}>{{
+                           cat}}</a></li>
+                     {% endfor %}
+                     {% endif %}
+                  </ul>
+               </details>
+            </li>
+            <li>
+               <details role="list" dir="rtl">
+                  <summary aria-haspopup="listbox" role="link" class="contrast"><img
+                        src="/theme/img/theme-switch.svg" /></summary>
+                  <ul role="listbox">
+                     <li><a href="#" data-theme-switcher="auto">Auto</a></li>
+                     <li><a href="#" data-theme-switcher="light">Light</a></li>
+                     <li><a href="#" data-theme-switcher="dark">Dark</a></li>
+                  </ul>
+               </details>
+            </li>
+         </ul>
+      </nav>
+   </div>
+   {# /Hero #}
 
-        <div class="stork-wrapper">
-            <input placeholder="Search" data-stork="sitesearch" class="stork-input" />
-            <div data-stork="sitesearch-output" class="stork-output"></div>
-        </div>
-    </div>
+   <div class="stork-wrapper">
+      <input placeholder="Search" data-stork="sitesearch" class="stork-input" />
+      <div data-stork="sitesearch-output" class="stork-output"></div>
+   </div>
 
-    <main>
-        {% block content %}
-        {% endblock %}
-    </main>
+   <main>
+      {% block content %}
+      {% endblock %}
+   </main>
 
-    <footer class="index-footer">
-
-        <a href="{{ SITEURL }}/" title="{{ SITENAME|striptags }}">{{ SITENAME }}</a>
-        {% for title, link in MENUITEMS %}
-        <a href="{{ link }}">{{ title }}</a></li>
-        {% endfor %}
-        {% if DISPLAY_PAGES_ON_MENU %}
-        {% for p in PAGES %}
-        <a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
-        {% endfor %}
-        {% endif %}
-        {% if DISPLAY_CATEGORIES_ON_MENU %}
-        {% for cat, null in categories %}
-        <a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a>
-        {% endfor %}
-        {% endif %}
-        {% for title, link in LINKS %}
-        <a href="{{ link }}">{{ title }}</a>
-        {% endfor %}
-
-    </footer>
-
-    {% include "analytics.html" %}
-
-    <script src="https://files.stork-search.net/releases/v1.5.0/stork.js"></script>
-    <script>
-        stork.register("sitesearch", "{{ SITEURL }}/search-index.st");
-    </script>
-
+   <footer>
+      <small>
+         Powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a> and <a rel="nofollow"
+            href="https://www.python.org/">Python</a>.
+      </small>
+   </footer>
+   <script src="https://files.stork-search.net/releases/v1.5.0/stork.js"></script>
+   <script>
+      stork.register("sitesearch", "{{ SITEURL }}/search-index.st");
+   </script>
+   <script src="/theme/js/minimal-theme-switcher.js"></script>
 </body>
+
 </html>
