@@ -12,48 +12,19 @@ from invoke import task
 WINDOWS = sys.platform.startswith("win")
 ROOT_DIR = Path(__file__).parent
 BIN_DIR = Path(sys.executable).parent
-THEME_DIR = ROOT_DIR / "theme"
 OUTPUT_DIR = ROOT_DIR / "output"
 SERVE_PORT = 8000
 SSH_CONFIG = ROOT_DIR / "private" / "ssh.config"
-SSH_KEY = ROOT_DIR / "private" / "id_rsa"
 DEPLOY_PATH = "/var/www/html/main/"
 
 
 @task
-def requirements(ctx):
-    """Update requirements*.txt from requirements*.in."""
-    in_files = ROOT_DIR.glob("requirements*.in")
-    for in_file in in_files:
-        ctx.run(
-            f'{BIN_DIR / "pip-compile"} {in_file}',
-            env={"CUSTOM_COMPILE_COMMAND": "inv requirements"},
-        )
-
-
-@task
-def build_content(ctx):
-    """Build the site content."""
+def build(ctx):
+    """Build the site."""
     ctx.run(
         f'{BIN_DIR / "pelican"} --fatal warnings ' f'-s {ROOT_DIR / "pelicanconf.py"}',
         pty=True,  # Hangs w/o this with the search plugin.
     )
-
-
-@task
-def build_theme(ctx):
-    """Build the site theme."""
-    scss_file = ROOT_DIR / "theme" / "scss" / "main.scss"
-    scss_mtime = os.stat(scss_file).st_mtime
-    css_file = ROOT_DIR / "theme" / "static" / "css" / "main.css"
-    css_mtime = os.stat(css_file).st_mtime
-    if scss_mtime >= css_mtime:
-        ctx.run(f'{BIN_DIR / "pysassc"} --sourcemap {scss_file} {css_file}')
-
-
-@task(pre=[build_theme, build_content])
-def build(_ctx):
-    """Build everything."""
 
 
 @task
@@ -69,6 +40,17 @@ def serve(ctx):
     """Start a web server to serve up the site (blocks)."""
     print("Serving on http://localhost:", SERVE_PORT, sep="")
     ctx.run(f'{BIN_DIR / "pelican"} --listen --port {SERVE_PORT}')
+
+
+@task
+def watch(ctx):
+    """Serve the site and rebuild when changes are detected (blocks)."""
+    ctx.run(
+        f'{BIN_DIR / "pelican"} '
+        f'-s {ROOT_DIR / "pelicanconf.py"} --autoreload '
+        f'--listen --port {SERVE_PORT}',
+        pty=True,
+    )
 
 
 @task
