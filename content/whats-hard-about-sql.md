@@ -5,6 +5,10 @@ Category: Opinion
 Slug: sql-hard
 Status: published
 
+![SQL can be hard]({static}/images/sql-hard.png)
+
+<small>*Image credit: Stable Diffusion*</small>
+
 These are some things that I find difficult about SQL.
 
 ## Leaky abstraction
