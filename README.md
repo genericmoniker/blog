@@ -38,7 +38,7 @@ Setting attributes (like image size):
 YouTube video:
 
 On the video, choose Share > Embed and paste in the iframe code. See the
-"a-billion-mice.md" for an example.
+"a-billion-mice.md" for an example. You might want to wrap the iframe in a `<p>` tag.
 
 Or, this sort of works...
 
