@@ -9,8 +9,7 @@ Status: published
 
 <small>*Image credit: Stable Diffusion*</small>
 
-While reading an interview with Guido van Rossum a while back, I encountered the
-following quote by Clive Thompson:
+I encountered the following quote by Clive Thompson a while back:
 
 > When you meet a coder, you're meeting someone whose core daily experience is of
 > unending failure and grinding frustration.
