@@ -6,7 +6,7 @@
 #
 anyio==4.1.0
     # via watchfiles
-black==23.11.0
+black==24.3.0
     # via -r requirements.in
 blinker==1.7.0
     # via pelican
