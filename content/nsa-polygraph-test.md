@@ -75,7 +75,7 @@ times, starts to sound like an accusation. It's like, "I don't believe
 your last response, so let me give you another chance. The truth this
 time!" Did I have some kind of physiological response on that one? I'm
 surprised the machine didn't burst into flames like in *[The
-Simpsons](http://www.youtube.com/watch?v=bjyCY7Qi8ic)*. Even though I'm
+Simpsons](https://www.youtube.com/watch?v=Or2iZ-mOvf8)*. Even though I'm
 not secretly/openly/questionably gay, I'm sure there was a big spike on
 the chart when I suddenly thought that *he* thought I was lying.
 
