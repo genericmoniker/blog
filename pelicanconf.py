@@ -69,16 +69,16 @@ THEME = 'theme'  # Relative path to theme directory.
 AUTHORS = {
     'Eric': {
         'description': """
-            Eric Smith is a software architect and developer. He currently
-            works for Arcserve, and graduated with a computer science
-            degree from Brigham Young University back when the World-Wide Web
-            was a new thing.
+            Eric Smith is a software architect and developer. He's still working despite
+            having graduated with a computer science degree from Brigham Young
+            University back when the World-Wide Web was a new thing. You can email him
+            at eric@esmithy.net.
         """,
         'cover': '/site/esmithy.jpg',
         'image': '/site/eric-small.png',
         'links': (
-            ('github', 'https://github.com/genericmoniker'),
             ('mail', 'mailto:eric@esmithy.net'),
+            ('github', 'https://github.com/genericmoniker'),
         ),
     },
     'Ethan': {
@@ -89,8 +89,8 @@ AUTHORS = {
         'cover': '/site/esmithy.jpg',
         'image': '/site/ethan-small.png',
         'links': (
-            ('github', 'https://github.com/urd000med/'),
             ('mail', 'mailto:ethan@esmithy.net'),
+            ('github', 'https://github.com/urd000med/'),
         ),
     },
 }
