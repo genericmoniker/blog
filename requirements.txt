@@ -22,7 +22,7 @@ exceptiongroup==1.2.0
     # via anyio
 feedgenerator==2.1.0
     # via pelican
-idna==3.5
+idna==3.7
     # via anyio
 invoke==2.2.0
     # via -r requirements.in
