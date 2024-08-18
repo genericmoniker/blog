@@ -25,7 +25,7 @@ different provenance.
 An Analogy
 ----------
 
-Suppose there was a contemporary man named George Washington who made
+Suppose there was a present-day man named George Washington who made
 outstanding contributions to education in his community throughout his
 lifetime. Because of this, the local school board decided to name a new
 elementary school after him. Imagine how difficult it could be to preserve the
