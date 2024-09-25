@@ -1,5 +1,6 @@
 Title: Thoughts on *A Philosophy of Software Design*
 Date: 2024-04-20 10:54
+Modified: 2024-09-24 20:06
 Author: Eric
 Category: Review
 Slug: philosophy-of-software-design
@@ -30,6 +31,8 @@ failure was unmitigated complexity. In particular, the book's description of
 > There's no way your schedule can tolerate that kind of delay and fixing one or
 > two of the problems doesn't seem like it will make much difference, so you
 > just keep programming tactically.
+
+## Patching over design flaws
 
 In my project, after hard work to get a v1 of the product out, I breathed a sigh
 of relief that we'd finally have a little time to go back and fix some things.
@@ -80,6 +83,8 @@ In my project, we *were* doing agile development, and I agree with the feature
 emphasis, but I don't understand what it means to do increments of abstractions.
 I'd love to understand that better.
 
+## Low effort changes
+
 Another example from my failed project relates to the developer mindset the book
 describes as "what is the smallest possible change I can make that does what I
 need?" (p.137) That mindset is not presented as a virtue, by the way, but some
@@ -97,6 +102,8 @@ was left in that original directory so that while it seemed to be part of the
 gRPC service, it no longer had a relationship whatsoever except that it *used*
 to be part of it.
 
+## Naming things
+
 The book has a whole chapter dedicated to choosing names. I love a good name and
 the "ubiquitous language" idea from Domain Driven Design. In the failed project,
 I created and tried to maintain a glossary when domain concepts needed naming.
@@ -113,6 +120,8 @@ of thinking about a more complex underlying entity. Like other forms of
 abstraction, the best names are those that focus attention on what is most
 important about the underlying entity while omitting details that are less
 important." (p.123)
+
+## Consistency
 
 In the chapter on consistency, this part hurt a bit:
 
@@ -141,6 +150,8 @@ sense of "this doesn't seem quite right" into a clear design that should replace
 it. I think we even had conversations among the team about it, but some people
 didn't feel like it was a big deal, making it even harder to put on the brakes
 and get to a better design.
+
+## Comments
 
 The book has two entire chapters devoted to code comments, and I realize how
 influenced I've been by Kent Beck, Robert Martin, and others with a deprecatory
@@ -185,6 +196,8 @@ One of the book's strongest assertions about comments is:
 > that presents good abstractions, you must document those abstractions with
 > comments.** (p.110)
 
+## Method factoring
+
 Another area where the book challenged my opinion is on breaking up methods. It
 says:
 
@@ -222,6 +235,8 @@ child.
 The book does say that splitting out a fairly general-purpose subtask method is
 appropriate if the overall complexity of the system is reduced as a result, so
 I'm not *entirely* sure if I'm disagreeing with the author's opinion here.
+
+## Conclusion
 
 To wrap up, I found the book very thought provoking and well worth the read. The
 last few sentences were relvant to both my recent project failure and my
