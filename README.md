@@ -8,6 +8,7 @@ This is the project for the [esmithy.net blog](https://esmithy.net).
 2. Make and activate a virtualenv
 3. pip install -r requirements.txt
 4. inv -l to see what you can do from there
+5. Install pre-commit, then the pre-commit hook with `pre-commit install`
 
 ### Search
 
