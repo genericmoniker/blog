@@ -1,6 +1,6 @@
 Title: Thoughts on *A Philosophy of Software Design*
 Date: 2024-04-20 10:54
-Modified: 2024-09-24 20:06
+Modified: 2025-03-01 16:35
 Author: Eric
 Category: Review
 Slug: philosophy-of-software-design
@@ -239,10 +239,25 @@ I'm not *entirely* sure if I'm disagreeing with the author's opinion here.
 ## Conclusion
 
 To wrap up, I found the book very thought provoking and well worth the read. The
-last few sentences were relvant to both my recent project failure and my
+last few sentences were relevant to both my recent project failure and my
 [previous blog post]({filename}/happy-coder.md):
 
 > Poor designers spend most of their time chasing bugs in complicated and
 > brittle code. If you improve your design skills, not only will you produce
 > higher quality software more quickly, but the software development process
 > will be more enjoyable. (p.176)
+
+## Addendum - March 1, 2025
+
+John Osterhout recently sent a message to his mailing list saying:
+
+> As many of you may know, I have significant disagreements with the software
+> design advice given by Robert "Uncle Bob" Martin in his book "Clean Code".
+> Over the last several months he and I have been discussing our disagreements
+> and we have recorded the discussion in a document on GitHub:
+>
+> https://github.com/johnousterhout/aposd-vs-clean-code/blob/main/README.md
+
+That is, in the face of disagreement, they talked to each other. In doing so
+they found areas where they could agree, but also stood firm on where they
+disagree.
