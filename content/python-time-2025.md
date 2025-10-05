@@ -1,5 +1,6 @@
 Title: Python Time 2025
 Date: 2025-05-11 20:20
+Modified: 2025-10-05 11:59
 Author: Eric
 Category: How It Works
 Slug: python-time-2025
@@ -30,7 +31,7 @@ Also note:
 >
 > New in version 3.11.
 
-## Get the current time in the local timezone
+## Get the current time in the local time zone
 
 ```python
 from datetime import datetime
@@ -42,7 +43,7 @@ datetime.now().astimezone()
 datetime.datetime(2025, 1, 28, 16, 6, 8, 979640, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=61200), 'MST'))
 ```
 
-## Get the current time in some other timezone
+## Get the current time in some other time zone
 
 ```python
 from datetime import datetime
@@ -73,7 +74,9 @@ utc_time = some_datetime.astimezone(UTC)
 
 ## ZoneInfo keys
 
-Valid `ZoneInfo` keys come from the system, and are POSIX paths from some root directory. For example, on my Ubuntu machine this is /usr/share/zoneinfo.
+Valid `ZoneInfo` keys (defined by [IANA](https://www.iana.org/time-zones)) come
+from the system, and are POSIX paths from some root directory. For example, on
+my Ubuntu machine this is /usr/share/zoneinfo.
 
 ```
 $ ls /usr/share/zoneinfo/
@@ -86,3 +89,12 @@ Atlantic    EET      GB       HST        Kwajalein          MST7MDT    posixrule
 Australia   Egypt    GB-Eire  Iceland    leapseconds        Navajo     PRC         UCT        zone.tab
 Brazil      Eire     GMT      Indian     leap-seconds.list  NZ         PST8PDT     Universal  Zulu
 ```
+
+Windows, however, doesn't have an IANA time zone database.
+
+```
+zoneinfo._common.ZoneInfoNotFoundError: 'No time zone found with key America/Denver'
+```
+
+The solution is to install the [tzdata](https://pypi.org/project/tzdata/)
+package that published by the Python developers.
