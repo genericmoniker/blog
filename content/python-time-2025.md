@@ -1,6 +1,6 @@
 Title: Python Time 2025
 Date: 2025-05-11 20:20
-Modified: 2025-10-05 11:59
+Modified: 2026-01-04 10:11
 Author: Eric
 Category: How It Works
 Slug: python-time-2025
@@ -97,4 +97,4 @@ zoneinfo._common.ZoneInfoNotFoundError: 'No time zone found with key America/Den
 ```
 
 The solution is to install the [tzdata](https://pypi.org/project/tzdata/)
-package that published by the Python developers.
+package that is published by the Python developers.
