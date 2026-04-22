@@ -1,5 +1,6 @@
 Title: The Log-and-Raise Anti-Pattern
 Date: 2026-02-20 21:50
+Modified: 2026-04-21 21:20
 Author: Eric
 Category: Opinion
 Slug: log-and-raise
@@ -36,6 +37,17 @@ exception, which might be:
 2. let it pass up to a higher level
 3. suppress it as unimportant
 4. etc.
+
+For example, a `FileNotFoundError` could be an expected situation so it is good
+that the standard library doesn't log.
+
+```python
+def process_csv() -> None:
+    with contextlib.suppress(FileNotFoundError):
+        with open("/tmp/incoming-csv/data.csv") as f:
+            reader = csv.reader(f)
+            ingest_data(reader)
+```
 
 ## It leads to spurious log entries
 
