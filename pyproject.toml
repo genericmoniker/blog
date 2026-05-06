@@ -2,7 +2,7 @@
 name = "esmithy-blog"
 version = "0.1.0"
 description = "Pelican blog for esmithy.net"
-requires-python = ">=3.10"
+requires-python = ">=3.14"
 dependencies = [
     "invoke",
     "markdown",
@@ -19,4 +19,4 @@ dev = [
 ]
 
 [tool.ruff]
-target-version = "py310"
+target-version = "py314"

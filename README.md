@@ -4,7 +4,7 @@ This is the project for the [esmithy.net blog](https://esmithy.net).
 
 ## Setup
 
-1. Install Python 3.10+
+1. Install Python 3.14+
 2. Install uv
 3. From the repo root, run `uv sync`
 4. Run `uv run inv -l` to see what you can do from there
