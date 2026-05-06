@@ -4,11 +4,11 @@ This is the project for the [esmithy.net blog](https://esmithy.net).
 
 ## Setup
 
-1. Install Python 3.8+
-2. Make and activate a virtualenv
-3. pip install -r requirements.txt
-4. inv -l to see what you can do from there
-5. Install pre-commit, then the pre-commit hook with `pre-commit install`
+1. Install Python 3.10+
+2. Install uv
+3. From the repo root, run `uv sync`
+4. Run `uv run inv -l` to see what you can do from there
+5. Install the pre-commit hook with `uv run pre-commit install`
 
 ### Search
 
