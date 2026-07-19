@@ -14,10 +14,10 @@ currently, but that can be a good thing.
 
 ![OneNote Screenshot]({static}/images/notable-onenote.png)
 
-I've used Microsoft OneNote [for a long time](evernote-vs-onenote.md). There
-are a lot of things I like about it, though I've sometimes wished for more
-programmer-centric features, like code syntax highlighting and structure that
-is more semantic rather than just formatting.
+I've used Microsoft OneNote [for a long time]({filename}evernote-vs-onenote.md).
+There are a lot of things I like about it, though I've sometimes wished for more
+programmer-centric features, like code syntax highlighting and structure that is
+more semantic rather than just formatting.
 
 I had a work-specific notebook that synchronized with my work Microsoft
 account, and a more general programming notebook that synchronized with my
@@ -25,10 +25,11 @@ personal Microsoft account. A few months ago, this synchronization split
 stopped working, and after hours of trying to get it to work again, I gave up.
 
 Finally, if you want to use OneNote on Linux, you'll need to use the web
-version, and search is fairly worthless there because it isn't currently 
+version, and search is fairly worthless there because it isn't currently
 possible to search an entire notebook.
 
-With these issues, it seemed like a good time to survey the current note taking landscape.
+With these issues, it seemed like a good time to survey the current note taking
+landscape.
 
 ## Boostnote
 
@@ -47,7 +48,7 @@ good, gives me more a sense of chaos after using the application for a while.
 Releases seem to break major functionality as often as not. For example,
 recently the auto-updater broke, and the display of images within notes stopped
 working. Those seem like things that you'd hopefully notice before pushing an
-update. 
+update.
 
 Also, while there used to be an Android app, I believe its development was
 halted in order to do a more maintainable version at some point. Since the
