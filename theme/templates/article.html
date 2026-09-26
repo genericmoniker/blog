@@ -22,9 +22,9 @@
 {% endblock %}
 
 {% block content %}
-<article>
+<article data-pagefind-body>
     <header>
-        <h2>{{ article.title|striptags }}</h2>
+        <h1>{{ article.title|striptags }}</h1>
         By {% for author in article.authors %}
         <a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
         {% endfor %}

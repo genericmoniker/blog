@@ -8,8 +8,7 @@ Status: published
 
 ![xkcd Python](https://imgs.xkcd.com/comics/python.png)
 
-But...
-------
+## But...
 
 **Python is slow**
 
@@ -19,7 +18,7 @@ But...
 * Is Python fast enough for the project?
 * It is an often used strategy to write performance critical code in C or
   Cython -- and no, that's not cheating, it's how the language is meant to be
-  used. 
+  used.
 * Maybe PyPy?
 * [It really doesn't matter](https://hackernoon.com/yes-python-is-slow-and-i-dont-care-13763980b5a1)
 
@@ -70,13 +69,13 @@ program anyway, and it worked." -- [Eric Raymond](http://www.linuxjournal.com/ar
 **Python has errors at runtime that other languages detect at compile time**
 
 * Yes
-* You'll need good test coverage 
+* You'll need good test coverage
 * You could look into type annotations if you want (but duck typing is pretty
   cool)
 * If you want to know about problems as soon as possible… In some situations it
   can take less time to run a comprehensive Python unit test suite than it
   would to *compile* equivalent code in a different language
-	
+
 **Python code reveals its implementation**
 
 * All executable code reveals its implementation (by definition), it is just a
@@ -92,7 +91,7 @@ program anyway, and it worked." -- [Eric Raymond](http://www.linuxjournal.com/ar
 * Python is #4 on the TIOBE index, up from #8 in 2015
   ([TIOBE](http://www.tiobe.com/tiobe_index))
 * Python is the most popular introductory language at top U.S. Universities ([ACM, 2014](http://cacm.acm.org/blogs/blog-cacm/176450-python-is-now-the-most-popular-introductory-teaching-language-at-top-us-universities/fulltext))
-	
+
 **There isn't much user-installed software using Python**
 
 * This is true, probably for deployment reasons, but there are some notable
@@ -119,8 +118,7 @@ program anyway, and it worked." -- [Eric Raymond](http://www.linuxjournal.com/ar
 
 ![xkcd Real Programmers](https://imgs.xkcd.com/comics/real_programmers.png)
 
-Counter
-=======
+## Counter
 
 Every programming language has its strengths and weaknesses. You need to
 consider the characteristics of the alternatives, not just pretend like there
@@ -171,8 +169,8 @@ different.)
 * All the downsides for C++ above are in relation to Python, so that is a
   starting point
 * Rapid development
-* Good testing capabilities 
-* Good multi-paradigm support - OO, imperative, functional 
+* Good testing capabilities
+* Good multi-paradigm support - OO, imperative, functional
 * Community - and w/o the pollution you get for things like JavaScript and PHP,
   where there are so many non-programmers that there is garbage all over the
   internet
@@ -182,7 +180,7 @@ different.)
 * Readability and beauty
 * Interactive prompt
 * Batteries included
-* High-level protocols - iterator, wsgi, dbapi, 
+* High-level protocols - iterator, wsgi, dbapi,
 * Whitespace - formatting matches the logic, it cannot lie
 * List comprehensions (and set, dict, genexps)
 * Generators with send(), throw() and close()
@@ -225,8 +223,7 @@ general-purpose language I'd ever used that reversed this process.
 * The GIL
 * Overly complex internal string representation in Python 3?
 
-Other Resources
-===============
+## Other Resources
 
 **Execution speed**
 
