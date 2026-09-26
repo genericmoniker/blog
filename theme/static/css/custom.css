@@ -269,6 +269,18 @@ blockquote>p {
     filter: var(--color-filter);
 }
 
+/* Pagefind */
+
 pagefind-modal-trigger {
     width: 100%;
+}
+
+/* This allows the excerpt text in the search results to wrap: */
+:is(*, #\#):is(*, #\#):is(*, #\#) .pf-result-excerpt,
+:is(*, #\#):is(*, #\#):is(*, #\#) .pf-heading-excerpt,
+:is(*, #\#):is(*, #\#):is(*, #\#) .pf-searchbox-result-excerpt {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    overflow-wrap: anywhere;
 }
