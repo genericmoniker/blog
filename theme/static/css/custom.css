@@ -1,11 +1,66 @@
 /* Global CSS variables */
 :root {
     --font-family: Merriweather, Georgia, Cambria, "Times New Roman", Times, serif;
+    --font-family-sans: "Merriweather Sans", sans-serif;
     --font-size: 16px;
     --font-weight: 200;
     --border-radius: 0;
     --code-block-color: #FFFFFFff;
     --code-block-background-color: rgb(53, 55, 60);
+
+    /* Site (shared dark palette tokens) */
+    --theme-dark-color: #FEFDF3ff;
+    --theme-dark-color-filter: invert(93%) sepia(2%) saturate(1024%) hue-rotate(5deg) brightness(107%) contrast(99%);
+    --theme-dark-code-color: #FFFFFFff;
+    --theme-dark-code-background-color: rgb(53, 55, 60);
+    --theme-dark-primary: #EFBC66ff;
+    --theme-dark-primary-hover: #FEFDF3ff;
+    --theme-dark-primary-focus: rgba(244, 81, 30, 0.25);
+    --theme-dark-primary-inverse: #FEFDF3ff;
+    --theme-dark-background-color: #444C4Eff;
+    --theme-dark-card-sectionning-background-color: #2A221Dff;
+    --theme-dark-card-background-color: #111317ff;
+    --theme-dark-blockquote-border-color: #2A221Dff;
+
+    /* Pagefind (shared) */
+    --pf-font: var(--font-family);
+    --pf-text: var(--color);
+    --pf-border-focus: var(--primary);
+    --pf-mark: var(--primary);
+    --pf-outline-focus: var(--primary);
+    --pf-outline-width: 2px;
+    --pf-outline-offset: 2px;
+    --pf-input-height: 40px;
+    --pf-input-font-size: 16px;
+    --pf-summary-font-size: 12px;
+    --pf-result-title-font-size: 16px;
+    --pf-result-excerpt-font-size: 14px;
+    --pf-border-radius: var(--border-radius);
+    --pf-results-gap: 10px;
+    --pf-modal-max-width: 720px;
+    --pf-modal-max-height: min(80dvh, 900px);
+    --pf-modal-top: 8dvh;
+    --pf-searchbox-max-width: 560px;
+    --pf-searchbox-dropdown-max-height: 360px;
+    --pf-dropdown-max-height: 300px;
+
+    /* Pagefind (dark palette tokens) */
+    --pf-dark-text-secondary: #D7D2C5;
+    --pf-dark-text-muted: #B8B1A0;
+    --pf-dark-background: #111317;
+    --pf-dark-border: #3F474A;
+    --pf-dark-skeleton: #2A3135;
+    --pf-dark-skeleton-shine: #364045;
+    --pf-dark-hover: #20262A;
+    --pf-dark-scroll-shadow: rgba(254, 253, 243, 0.16);
+    --pf-dark-shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.35);
+    --pf-dark-shadow-md: 0 6px 18px rgba(0, 0, 0, 0.5);
+    --pf-dark-shadow-lg: 0 20px 56px rgba(0, 0, 0, 0.7);
+    --pf-dark-error-bg: #3A2020;
+    --pf-dark-error-border: #744040;
+    --pf-dark-error-text: #FF9080;
+    --pf-dark-error-text-secondary: #F07060;
+    --pf-dark-modal-backdrop: rgba(0, 0, 0, 0.6);
 }
 
 /* (Default) */
@@ -24,42 +79,96 @@
     --card-sectionning-background-color: #FFD186ff;
     --card-background-color: #FEFDF3ff;
     --blockquote-border-color: #EFBC66ff;
+
+    /* Pagefind (light) */
+    --pf-text-secondary: #5A4D44;
+    --pf-text-muted: #7A6A5F;
+    --pf-background: var(--background-color);
+    --pf-border: #D8CCB4;
+    --pf-skeleton: #F1E8D7;
+    --pf-skeleton-shine: #F8F3E8;
+    --pf-hover: #F6EEDC;
+    --pf-scroll-shadow: rgba(42, 34, 29, 0.12);
+    --pf-shadow-sm: 0 2px 8px rgba(42, 34, 29, 0.08);
+    --pf-shadow-md: 0 6px 18px rgba(42, 34, 29, 0.15);
+    --pf-shadow-lg: 0 20px 56px rgba(42, 34, 29, 0.25);
+    --pf-error-bg: #FDEDE8;
+    --pf-error-border: #F2B6A0;
+    --pf-error-text: #8E2F11;
+    --pf-error-text-secondary: #6B230D;
+    --pf-modal-backdrop: rgba(42, 34, 29, 0.45);
 }
 
 /* (Auto) */
 /* Automatically enabled if user has Dark mode enabled */
 @media only screen and (prefers-color-scheme: dark) {
     :root:not([data-theme]) {
-        --color: #FEFDF3ff;
-        --color-filter: invert(93%) sepia(2%) saturate(1024%) hue-rotate(5deg) brightness(107%) contrast(99%);
-        --code-color: #FFFFFFff;
-        --code-background-color: rgb(53, 55, 60);
-        --primary: #EFBC66ff;
-        --primary-hover: #FEFDF3ff;
-        --primary-focus: rgba(244, 81, 30, 0.25);
-        --primary-inverse: #FEFDF3ff;
-        --background-color: #444C4Eff;
-        --card-sectionning-background-color: #2A221Dff;
-        --card-background-color: #111317ff;
-        --blockquote-border-color: #2A221Dff;
+        --color: var(--theme-dark-color);
+        --color-filter: var(--theme-dark-color-filter);
+        --code-color: var(--theme-dark-code-color);
+        --code-background-color: var(--theme-dark-code-background-color);
+        --primary: var(--theme-dark-primary);
+        --primary-hover: var(--theme-dark-primary-hover);
+        --primary-focus: var(--theme-dark-primary-focus);
+        --primary-inverse: var(--theme-dark-primary-inverse);
+        --background-color: var(--theme-dark-background-color);
+        --card-sectionning-background-color: var(--theme-dark-card-sectionning-background-color);
+        --card-background-color: var(--theme-dark-card-background-color);
+        --blockquote-border-color: var(--theme-dark-blockquote-border-color);
+
+        /* Pagefind (auto dark) */
+        --pf-text-secondary: var(--pf-dark-text-secondary);
+        --pf-text-muted: var(--pf-dark-text-muted);
+        --pf-background: var(--pf-dark-background);
+        --pf-border: var(--pf-dark-border);
+        --pf-skeleton: var(--pf-dark-skeleton);
+        --pf-skeleton-shine: var(--pf-dark-skeleton-shine);
+        --pf-hover: var(--pf-dark-hover);
+        --pf-scroll-shadow: var(--pf-dark-scroll-shadow);
+        --pf-shadow-sm: var(--pf-dark-shadow-sm);
+        --pf-shadow-md: var(--pf-dark-shadow-md);
+        --pf-shadow-lg: var(--pf-dark-shadow-lg);
+        --pf-error-bg: var(--pf-dark-error-bg);
+        --pf-error-border: var(--pf-dark-error-border);
+        --pf-error-text: var(--pf-dark-error-text);
+        --pf-error-text-secondary: var(--pf-dark-error-text-secondary);
+        --pf-modal-backdrop: var(--pf-dark-modal-backdrop);
     }
 }
 
 /* (Forced) */
 /* Enabled if forced with data-theme="dark" */
 [data-theme="dark"] {
-    --color: #FEFDF3ff;
-    --color-filter: invert(93%) sepia(2%) saturate(1024%) hue-rotate(5deg) brightness(107%) contrast(99%);
-    --code-color: #FFFFFFff;
-    --code-background-color: rgb(53, 55, 60);
-    --primary: #EFBC66ff;
-    --primary-hover: #FEFDF3ff;
-    --primary-focus: rgba(244, 81, 30, 0.25);
-    --primary-inverse: #FEFDF3ff;
-    --background-color: #444C4Eff;
-    --card-sectionning-background-color: #2A221Dff;
-    --card-background-color: #111317ff;
-    --blockquote-border-color: #2A221Dff;
+    --color: var(--theme-dark-color);
+    --color-filter: var(--theme-dark-color-filter);
+    --code-color: var(--theme-dark-code-color);
+    --code-background-color: var(--theme-dark-code-background-color);
+    --primary: var(--theme-dark-primary);
+    --primary-hover: var(--theme-dark-primary-hover);
+    --primary-focus: var(--theme-dark-primary-focus);
+    --primary-inverse: var(--theme-dark-primary-inverse);
+    --background-color: var(--theme-dark-background-color);
+    --card-sectionning-background-color: var(--theme-dark-card-sectionning-background-color);
+    --card-background-color: var(--theme-dark-card-background-color);
+    --blockquote-border-color: var(--theme-dark-blockquote-border-color);
+
+    /* Pagefind (forced dark) */
+    --pf-text-secondary: var(--pf-dark-text-secondary);
+    --pf-text-muted: var(--pf-dark-text-muted);
+    --pf-background: var(--pf-dark-background);
+    --pf-border: var(--pf-dark-border);
+    --pf-skeleton: var(--pf-dark-skeleton);
+    --pf-skeleton-shine: var(--pf-dark-skeleton-shine);
+    --pf-hover: var(--pf-dark-hover);
+    --pf-scroll-shadow: var(--pf-dark-scroll-shadow);
+    --pf-shadow-sm: var(--pf-dark-shadow-sm);
+    --pf-shadow-md: var(--pf-dark-shadow-md);
+    --pf-shadow-lg: var(--pf-dark-shadow-lg);
+    --pf-error-bg: var(--pf-dark-error-bg);
+    --pf-error-border: var(--pf-dark-error-border);
+    --pf-error-text: var(--pf-dark-error-text);
+    --pf-error-text-secondary: var(--pf-dark-error-text-secondary);
+    --pf-modal-backdrop: var(--pf-dark-modal-backdrop);
 }
 
 
@@ -71,7 +180,7 @@ body>main {
 h2,
 h3,
 hgroup> :last-child {
-    font-family: "Merriweather Sans", sans-serif;
+    font-family: var(--font-family-sans);
     font-weight: 100;
     color: var(--color);
 }
@@ -89,7 +198,7 @@ small {
     background-position: center;
     background-size: cover;
     min-height: 250px;
-    font-family: "Merriweather Sans", sans-serif;
+    font-family: var(--font-family-sans);
 }
 
 #logo {
@@ -157,4 +266,8 @@ blockquote>p {
 
 .author-link-icon {
     filter: var(--color-filter);
+}
+
+pagefind-modal-trigger {
+    width: 100%;
 }
