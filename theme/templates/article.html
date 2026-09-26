@@ -22,7 +22,7 @@
 {% endblock %}
 
 {% block content %}
-<article data-pagefind-body>
+<article{% if article.status not in ['draft', 'hidden', 'skip'] %} data-pagefind-body{% endif %}>
     <header>
         <h1>{{ article.title|striptags }}</h1>
         By {% for author in article.authors %}
