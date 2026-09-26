@@ -22,7 +22,7 @@ DEPLOY_PATH = "/var/www/html/main/"
 def build(ctx):
     """Build the site."""
     ctx.run(
-        f'{BIN_DIR / "pelican"} --fatal warnings ' f'-s {ROOT_DIR / "pelicanconf.py"}',
+        f"{BIN_DIR / 'pelican'} --fatal warnings -s {ROOT_DIR / 'pelicanconf.py'}",
         pty=True,  # Hangs w/o this with the search plugin.
     )
 
@@ -39,23 +39,27 @@ def clean(_ctx):
 def serve(ctx):
     """Start a web server to serve up the site (blocks)."""
     print("Serving on http://localhost:", SERVE_PORT, sep="")
-    ctx.run(f'{BIN_DIR / "pelican"} --listen --port {SERVE_PORT}')
+    ctx.run(f"{BIN_DIR / 'pelican'} --listen --port {SERVE_PORT}")
 
 
 @task
 def watch(ctx):
     """Serve the site and rebuild when changes are detected (blocks)."""
     ctx.run(
-        f'{BIN_DIR / "pelican"} '
-        f'-s {ROOT_DIR / "pelicanconf.py"} --autoreload '
-        f'--listen --port {SERVE_PORT}',
+        f"{BIN_DIR / 'pelican'} "
+        f"-s {ROOT_DIR / 'pelicanconf.py'} --autoreload "
+        f"--listen --port {SERVE_PORT}",
         pty=True,
     )
 
 
 @task
 def deploy(ctx):
-    """Deploy latest build to production."""
+    """Deploy latest build to production.
+
+    This task is normally called by a Github action rather than by hand. See
+    .github/workflows/deploy.yaml.
+    """
     print("Copying files...")
     source = str(OUTPUT_DIR) + "/*"
     if WINDOWS:

@@ -6,9 +6,9 @@ requires-python = ">=3.14"
 dependencies = [
     "invoke",
     "markdown",
+    "pagefind[extended]>=1.5.2",
     "pelican",
     "pelican-readtime",
-    "pelican-search",
     "pelican-sitemap",
 ]
 

@@ -10,12 +10,15 @@ This is the project for the [esmithy.net blog](https://esmithy.net).
 4. Run `uv run inv -l` to see what you can do from there
 5. Install the pre-commit hook with `uv run pre-commit install`
 
+## Publishing
+
+Publishing happens by committing and pushing to the remote, where a Github
+action builds and deploys the site. See .github/workflows/deploy.yaml.
+
 ### Search
 
-Search uses the [search](https://github.com/pelican-plugins/search) plugin, which
-requires a separate install of [stork-search](https://stork-search.net/docs/install). I
-used the `cargo` install method in WSL, which required also installing some other
-packages, like openssl (the cargo errors will guide you).
+Search uses [Pagefind](https://pagefind.app), with a small custom Pelican plugin
+to build the search index any time Pelican generates the site.
 
 ## MarkDown Authoring Tips
 

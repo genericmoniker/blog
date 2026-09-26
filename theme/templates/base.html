@@ -14,6 +14,7 @@
    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
    <link href='https://fonts.googleapis.com/css?family=Merriweather Sans' rel='stylesheet'>
    <link rel="stylesheet" href="/theme/css/pygment.css" />
+   <link href="/pagefind/pagefind-component-ui.css" rel="stylesheet">
    {% if STYLESHEET_URL %}
    <link rel="stylesheet" type="text/css" href="{{ STYLESHEET_URL }}" />
    {% endif %}
@@ -109,11 +110,9 @@
    </div>
    {# /Hero #}
 
-   <div class="stork-wrapper">
-      <img src="/theme/img/search.svg" alt="" aria-hidden="true" class="stork-search-icon" />
-      <input placeholder="Search" data-stork="sitesearch" class="stork-input" />
-      <div data-stork="sitesearch-output" class="stork-output"></div>
-   </div>
+   <!-- pagefind search -->
+   <pagefind-modal-trigger></pagefind-modal-trigger>
+   <pagefind-modal></pagefind-modal>
 
    <main>
       {% block content %}
@@ -126,11 +125,8 @@
             href="https://www.python.org/">Python</a>.
       </small>
    </footer>
-   <script src="https://files.stork-search.net/releases/v1.5.0/stork.js"></script>
-   <script>
-      stork.register("sitesearch", "{{ SITEURL }}/search-index.st");
-   </script>
    <script src="/theme/js/minimal-theme-switcher.js"></script>
+   <script src="/pagefind/pagefind-component-ui.js" type="module"></script>
 </body>
 
 </html>
